@@ -1,0 +1,5 @@
+const filters=[...document.querySelectorAll('[data-platform]')];
+function apply(platform){if(!filters.some(b=>b.dataset.platform===platform))platform='全部';filters.forEach(b=>{const active=b.dataset.platform===platform;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});let count=0;document.querySelectorAll('[data-systems]').forEach(el=>{el.hidden=platform!=='全部'&&!el.dataset.systems.includes(platform);if(!el.hidden)count++;});const label=document.querySelector('#filter-count');if(label)label.textContent=`${count} 个下载入口`;}
+filters.forEach(b=>b.addEventListener('click',()=>{apply(b.dataset.platform);const url=new URL(location.href);if(b.dataset.platform==='全部')url.searchParams.delete('platform');else url.searchParams.set('platform',b.dataset.platform);history.replaceState(null,'',url);}));if(filters.length)apply(new URLSearchParams(location.search).get('platform')||'全部');
+
+if(['localhost','127.0.0.1'].includes(location.hostname)){document.querySelectorAll('[data-preview-port]').forEach(el=>{const a=document.createElement('a');a.href='http://127.0.0.1:'+el.dataset.previewPort+'/';a.textContent='打开本地预览 →';el.append(a);});}

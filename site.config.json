@@ -1,0 +1,96 @@
+{
+  "n": 3,
+  "domain": "flyclash.com.cn",
+  "name": "FlyClash 中文指南",
+  "subject": "FlyClash",
+  "theme": "fly",
+  "color": "#14677d",
+  "monogram": "F",
+  "wordmark": "FlyClash",
+  "title": "FlyClash 下载与订阅配置教程",
+  "kicker": "FLYCLASH / DOWNLOAD & LEARN",
+  "hero": [
+    "轻装出发，",
+    "读懂每一次连接。"
+  ],
+  "description": "FlyClash 中文指南整理桌面版与 Android 项目下载入口，说明安装包架构、正式版与预发布通道，提供订阅导入、配置激活、代理连接检查、更新回退与问题反馈教程。",
+  "panelCaption": "桌面与移动端，先认清各自的发布渠道。",
+  "scope": "桌面与移动端指南",
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux",
+    "Android"
+  ],
+  "downloadCta": "查看 FlyClash 下载",
+  "downloadHeading": "桌面与 Android，各有入口",
+  "downloadIntro": "桌面项目与 Android 项目分开发布，系统支持以对应发行说明为准。",
+  "guideHeading": "沿着步骤，让配置落地",
+  "noteTitle": "安装之后，还有三个关键动作。",
+  "noteText": "导入配置、选择策略、确认流量接管。把每一步分开检查，比反复重装更容易定位问题。",
+  "serviceHeading": "看懂服务，再开始订阅",
+  "sourceNote": "所有下载按钮指向 GtxFury 的原始项目。正式版与测试版请在发行页核对。",
+  "repository": "GtxFury/FlyClash",
+  "topline": "FlyClash · 独立中文下载与配置指南",
+  "footerText": "工具从源头下载，配置从理解开始。",
+  "categories": [
+    [
+      "recommend",
+      "机场推荐",
+      "从客户端适配与实际需求出发，了解订阅服务。"
+    ],
+    [
+      "ranking",
+      "机场榜单",
+      "先理解测试条件，再比较服务表现。"
+    ],
+    [
+      "downloads",
+      "FlyClash 下载",
+      "核对平台与架构，从原始项目下载。"
+    ],
+    [
+      "tutorials",
+      "FlyClash 教程",
+      "从安装到排错，按步骤理解客户端。"
+    ],
+    [
+      "reviews",
+      "机场测评",
+      "公开方法与样本，才有可参考的结果。"
+    ],
+    [
+      "coupons",
+      "机场优惠码",
+      "确认来源、期限与套餐限制后再使用。"
+    ]
+  ],
+  "previewPort": 4175,
+  "steps": [
+    [
+      "找到下载入口",
+      "核对系统、架构与项目来源"
+    ],
+    [
+      "导入并选择配置",
+      "理解订阅与代理策略"
+    ],
+    [
+      "检查实际连接",
+      "从日志和目标应用开始"
+    ]
+  ],
+  "featuredGuides": [
+    "release-channels",
+    "import-subscription"
+  ],
+  "relatedSites": [
+    {
+      "domain": "v2rayng-zh.com.cn",
+      "name": "v2rayNG 配置手册",
+      "reason": "了解 Android 订阅更新与日志排错",
+      "port": 4180,
+      "published": false
+    }
+  ]
+}

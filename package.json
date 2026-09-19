@@ -1,0 +1,23 @@
+{
+  "name": "flyclash",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test scripts/content.test.mjs",
+    "audit": "node scripts/audit.mjs"
+  },
+  "devDependencies": {
+    "lighthouse": "^13.4.1"
+  },
+  "dependencies": {
+    "marked": "^18.0.13",
+    "sanitize-html": "^2.17.7",
+    "yaml": "^2.9.1"
+  },
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=24"
+  }
+}

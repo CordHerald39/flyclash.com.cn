@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "flyclash-desktop",
+    "title": "FlyClash Desktop",
+    "icon": "F",
+    "platform": "Windows · macOS · Linux",
+    "repository": "GtxFury/FlyClash",
+    "description": "桌面端原始项目，整理客户端安装、订阅和控制面板相关功能。",
+    "guidance": "各发行通道的平台产物可能不同，尤其注意 Pre-release 标记。",
+    "tag": "桌面项目"
+  },
+  {
+    "slug": "flyclash-android",
+    "title": "FlyClash Android",
+    "icon": "A",
+    "platform": "Android",
+    "repository": "GtxFury/FlyClash-Android",
+    "description": "Android 使用独立项目和发行渠道。",
+    "guidance": "不要用桌面版源代码或安装包替代 Android APK，核对当前包的架构要求。",
+    "tag": "Android 项目"
+  }
+]
