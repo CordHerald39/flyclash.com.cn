@@ -7,13 +7,13 @@
   "color": "#14677d",
   "monogram": "F",
   "wordmark": "FlyClash",
-  "title": "FlyClash 下载与订阅配置教程",
+  "title": "FlyClash 下载：桌面版与安卓版选择安装及使用教程",
   "kicker": "FLYCLASH / DOWNLOAD & LEARN",
   "hero": [
     "轻装出发，",
     "读懂每一次连接。"
   ],
-  "description": "FlyClash 中文指南整理桌面版与 Android 项目下载入口，说明安装包架构、正式版与预发布通道，提供订阅导入、配置激活、代理连接检查、更新回退与问题反馈教程。",
+  "description": "FlyClash 中文指南整理桌面版与 Android 项目下载入口，说明安装包架构、正式版与预发布通道，提供订阅导入、配置激活、代理连接检查、更新回退与问题反馈教程，方便用户选择平台并上手使用。",
   "panelCaption": "桌面与移动端，先认清各自的发布渠道。",
   "scope": "桌面与移动端指南",
   "platforms": [
