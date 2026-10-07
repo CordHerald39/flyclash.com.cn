@@ -18,5 +18,55 @@
     "description": "Android 使用独立项目和发行渠道。",
     "guidance": "不要用桌面版源代码或安装包替代 Android APK，核对当前包的架构要求。",
     "tag": "Android 项目"
+  },
+  {
+    "slug": "v2rayn-windows",
+    "title": "v2rayN",
+    "icon": "V",
+    "platform": "Windows",
+    "repository": "2dust/v2rayN",
+    "description": "Windows 代理客户端项目，配置与发行入口以原始仓库为准。",
+    "guidance": "先阅读 README 和 Releases，再导入配置；升级前保留当前配置和可回退版本。",
+    "tag": "Windows 项目"
+  },
+  {
+    "slug": "clash-meta-android",
+    "title": "Clash Meta for Android",
+    "icon": "M",
+    "platform": "Android",
+    "repository": "MetaCubeX/ClashMetaForAndroid",
+    "description": "Android 客户端项目，按原始仓库核对安装包和配置支持。",
+    "guidance": "区分客户端安装包、内核能力与订阅配置，先完成 VPN 授权再测试目标应用。",
+    "tag": "Android 项目"
+  },
+  {
+    "slug": "sing-box-windows",
+    "title": "sing-box",
+    "icon": "S",
+    "platform": "Windows · 多平台",
+    "repository": "SagerNet/sing-box",
+    "description": "跨平台代理核心项目，下载时需确认构建类型和配置版本。",
+    "guidance": "官方文档与 Releases 是版本、平台和配置边界的来源，不把核心压缩包当成完整 GUI 客户端。",
+    "tag": "跨平台项目"
+  },
+  {
+    "slug": "openclash",
+    "title": "OpenClash",
+    "icon": "O",
+    "platform": "OpenWrt",
+    "repository": "vernesong/OpenClash",
+    "description": "OpenWrt 平台的代理客户端项目，安装和配置以原始仓库说明为准。",
+    "guidance": "先确认路由器平台、OpenWrt 版本与依赖，再按项目文档安装；不要把桌面客户端教程直接套用到路由器。",
+    "tag": "路由器项目"
+  },
+  {
+    "slug": "clash-verge-rev",
+    "title": "Clash Verge Rev",
+    "icon": "C",
+    "platform": "Windows · macOS · Linux",
+    "repository": "clash-verge-rev/clash-verge-rev",
+    "description": "桌面代理客户端项目，发行资产和更新通道以官方仓库为准。",
+    "guidance": "核对平台、架构和是否为预发布版本，升级前保留配置并记录回退点。",
+    "tag": "桌面项目"
   }
 ]

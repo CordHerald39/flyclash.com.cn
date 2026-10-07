@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-07",
+  "site": "flyclash.com.cn",
+  "commit": {
+    "status": "created",
+    "hash": "6eb7739"
+  },
+  "articlesAdded": 5,
+  "totalArticles": 26,
+  "localPages": 43,
+  "allocationReason": "主品牌下载/安装/配置主题已覆盖，转入其他代理软件独立下载、安装、配置和更新意图。",
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "sitemapUrls": 43,
+    "articleCount": 26
+  },
+  "audit": {
+    "command": "pnpm audit",
+    "status": "warning",
+    "detail": "source-map-js <1.2.2 high severity advisory remains in existing dependency tree; no dependency upgrade attempted."
+  },
+  "push": {
+    "status": "blocked",
+    "detail": "fatal: unable to access remote https://github.com/CordHerald39/flyclash.com.cn.git/: Failed to connect to github.com port 443 after 2037 ms"
+  },
+  "githubApi": {
+    "readStatus": "200",
+    "authenticatedUser": "hongchayun",
+    "repositoryPermissions": "pull only; push false",
+    "writeStatus": "blocked: Git Data API POST git/blobs returned 404 due missing push permission",
+    "writeAttempt": "API direct push attempted after user request"
+  },
+  "liveVerification": {
+    "home": "200",
+    "robots": "200",
+    "sitemap": "200",
+    "articleSample": "old live content; new article returned 404",
+    "css": "not rechecked after local-only build",
+    "liveHomepageArticleLinkOccurrences": 16,
+    "liveSitemapUrlOccurrences": 33
+  },
+  "nextTodo": [
+    "在网络可访问且具备 GitHub 写权限时推送 6eb7739 及本日志提交",
+    "等待 Actions/Pages 成功后复核首页、CSS、5 篇新文章、canonical、robots、sitemap 与文章数"
+  ]
+}
