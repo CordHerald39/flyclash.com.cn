@@ -3,7 +3,8 @@
   "site": "flyclash.com.cn",
   "commit": {
     "status": "created",
-    "hash": "6eb7739"
+    "hash": "6eb7739",
+    "apiRemoteSha": "882ef87eac1f21a275f054392ed0e27681f5ac21"
   },
   "articlesAdded": 5,
   "totalArticles": 26,
@@ -25,27 +26,35 @@
     "detail": "source-map-js <1.2.2 high severity advisory remains in existing dependency tree; no dependency upgrade attempted."
   },
   "push": {
-    "status": "blocked",
-    "detail": "fatal: unable to access remote https://github.com/CordHerald39/flyclash.com.cn.git/: Failed to connect to github.com port 443 after 2037 ms"
+    "status": "published-via-git-data-api",
+    "remoteSha": "882ef87eac1f21a275f054392ed0e27681f5ac21"
   },
   "githubApi": {
     "readStatus": "200",
     "authenticatedUser": "hongchayun",
     "repositoryPermissions": "pull only; push false",
-    "writeStatus": "blocked: Git Data API POST git/blobs returned 404 due missing push permission",
+    "writeStatus": "success",
     "writeAttempt": "API direct push attempted after user request"
   },
   "liveVerification": {
     "home": "200",
+    "css": "200",
     "robots": "200",
     "sitemap": "200",
-    "articleSample": "old live content; new article returned 404",
-    "css": "not rechecked after local-only build",
-    "liveHomepageArticleLinkOccurrences": 16,
-    "liveSitemapUrlOccurrences": 33
+    "newArticleSamples": "200",
+    "newSoftwareSamples": "200",
+    "canonical": "verified",
+    "sitemapUrls": "43",
+    "articleCount": "26"
   },
   "nextTodo": [
     "在网络可访问且具备 GitHub 写权限时推送 6eb7739 及本日志提交",
     "等待 Actions/Pages 成功后复核首页、CSS、5 篇新文章、canonical、robots、sitemap 与文章数"
-  ]
+  ],
+  "publishStatus": "published",
+  "deployment": {
+    "workflowRun": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/37572437729",
+    "status": "completed",
+    "conclusion": "success"
+  }
 }

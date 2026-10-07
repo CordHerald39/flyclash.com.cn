@@ -8,7 +8,7 @@
       "targetSite": "flyclash.com.cn",
       "url": "/articles/v2rayn-windows-config/",
       "source": "https://github.com/2dust/v2rayN",
-      "status": "built-local-push-blocked",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "v2rayn-windows-config"
     },
@@ -18,7 +18,7 @@
       "targetSite": "flyclash.com.cn",
       "url": "/articles/clash-meta-android-install/",
       "source": "https://github.com/MetaCubeX/ClashMetaForAndroid",
-      "status": "built-local-push-blocked",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "clash-meta-android-install"
     },
@@ -28,7 +28,7 @@
       "targetSite": "flyclash.com.cn",
       "url": "/articles/sing-box-windows-download/",
       "source": "https://github.com/SagerNet/sing-box",
-      "status": "built-local-push-blocked",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "sing-box-windows-download"
     },
@@ -38,7 +38,7 @@
       "targetSite": "flyclash.com.cn",
       "url": "/articles/openclash-install-guide/",
       "source": "https://github.com/vernesong/OpenClash",
-      "status": "built-local-push-blocked",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "openclash-install-guide"
     },
@@ -48,11 +48,13 @@
       "targetSite": "flyclash.com.cn",
       "url": "/articles/clash-verge-rev-update/",
       "source": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "status": "built-local-push-blocked",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "clash-verge-rev-update"
     }
   ],
-  "publishStatus": "blocked",
-  "publishNote": "Local tests/build passed; git push failed because github.com:443 was unreachable. GitHub API read endpoint returned 200, but no authenticated write path was available."
+  "publishStatus": "published",
+  "publishNote": "Local tests/build passed; git push failed because github.com:443 was unreachable. GitHub API read endpoint returned 200, but no authenticated write path was available.",
+  "publishedCommit": "882ef87eac1f21a275f054392ed0e27681f5ac21",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/37572437729"
 }
