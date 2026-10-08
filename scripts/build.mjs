@@ -3,7 +3,7 @@ import {loadFaq,enhancePage,writeNotFound} from './enrichment.mjs';
 import {readFile,writeFile,mkdir,mkdtemp,copyFile,rm,rename} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
-import {loadArticles} from './content.mjs';
+import {loadAirports,loadArticles} from './content.mjs';
 import {validateSite} from './validate.mjs';
 import {createTemplates} from './site-template.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));process.chdir(root);
@@ -14,7 +14,8 @@ const faq=await loadFaq();
 const articles=await loadArticles('content/articles',config.categories.map(c=>c[0]));
 for(const a of articles){if(a.label===a.category)a.label=config.categories.find(c=>c[0]===a.category)[1];if(a.author==='Clash 大全编辑部')a.author=config.name+'编辑部';}
 const apps=JSON.parse(await readFile('content/software.json','utf8'));
-const templates=createTemplates(config,articles,apps);
+const airports=await loadAirports();
+const templates=createTemplates(config,articles,apps,airports);
 const output=await mkdtemp(path.join(root,'.build-'));
 const pages=[];
 async function page(route,title,description,body,extra={}){const folder=path.join(output,route);await mkdir(folder,{recursive:true});await writeFile(path.join(folder,'index.html'),enhancePage(templates.shell(title,description,route,body,extra),{route,config,articles,faq}));pages.push(route);}
@@ -36,5 +37,5 @@ await page('/about/','关于本站与编辑政策',config.name+'的来源核验�
  await validateSite(output,origin);
  const dist=path.resolve(root,'dist');if(path.dirname(dist)!==path.resolve(root))throw Error('Unsafe output');
  await rm(dist,{recursive:true,force:true});await rename(output,dist);
- console.log(`Built ${config.domain}: ${pages.length} pages, ${articles.length} articles; links and sitemap verified.`);
+ console.log(`Built ${config.domain}: ${pages.length} pages, ${articles.length} articles, ${airports.length} airport cards; links and sitemap verified.`);
 }catch(error){if(path.dirname(output)===path.resolve(root)&&path.basename(output).startsWith('.build-'))await rm(output,{recursive:true,force:true});throw error;}

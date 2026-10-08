@@ -7,6 +7,26 @@ import sanitizeHtml from 'sanitize-html';
 export const escapeHtml=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const validDate=value=>typeof value==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(value)&&Number.isFinite(Date.parse(value))&&new Date(value).toISOString().slice(0,10)===value;
 
+export async function loadAirports(file='content/airports.json'){
+ const entries=JSON.parse(await readFile(file,'utf8'));
+ if(!Array.isArray(entries)||!entries.length)throw new Error(`${file}: 必须包含至少一个机场条目`);
+ const seen=new Set();
+ const allowed=new Set(['slug','name','badge','price','summary','features','updated','updateLog','sourceLabel','sourceUrl','registrationUrl']);
+ const urlValue=value=>{if(value===undefined)return;if(typeof value!=='string'||!/^https:\/\//.test(value))throw new Error('URL 必须使用 HTTPS');};
+ return entries.map((airport,index)=>{
+  const fail=message=>{throw new Error(`${file}[${index}]: ${message}`)};
+  if(!airport||typeof airport!=='object'||Array.isArray(airport))fail('必须是对象');
+  for(const key of Object.keys(airport))if(!allowed.has(key))fail(`不支持的字段 ${key}`);
+  for(const key of ['slug','name','badge','price','summary','updated','updateLog','sourceLabel'])if(typeof airport[key]!=='string'||!airport[key].trim())fail(`缺少或无效字段 ${key}`);
+  if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(airport.slug))fail('slug 只能使用小写英文、数字和短横线');
+  if(seen.has(airport.slug))fail(`slug 重复：${airport.slug}`);seen.add(airport.slug);
+  if(!Array.isArray(airport.features)||airport.features.length<2||airport.features.some(item=>typeof item!=='string'||!item.trim()))fail('features 必须包含至少两条非空文本');
+  if(!validDate(airport.updated))fail('updated 必须为有效的 YYYY-MM-DD 日期');
+  urlValue(airport.sourceUrl);urlValue(airport.registrationUrl);
+  return {...airport,features:airport.features.map(String)};
+ });
+}
+
 export async function loadArticles(directory,categories){
  const articles=[];const seen=new Set();
  for(const entry of (await readdir(directory,{withFileTypes:true})).sort((a,b)=>a.name.localeCompare(b.name))){
