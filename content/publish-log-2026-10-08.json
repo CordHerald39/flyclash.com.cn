@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-08",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articleSlugs": [
+    "v2rayn-windows-dns-troubleshooting",
+    "clash-verge-rev-linux-proxy-mode",
+    "openclash-subscription-update-failed",
+    "sing-box-windows-config-check",
+    "flclash-android-install"
+  ],
+  "allocationReason": "FlyClash 已覆盖上一轮下载/安装主词，本轮补充 Windows DNS、Linux 代理模式、OpenClash 订阅故障、sing-box 配置检查和 FlClash Android 下载安装意图。",
+  "sourceChecks": [
+    {"url":"https://github.com/2dust/v2rayN","status":200},
+    {"url":"https://github.com/clash-verge-rev/clash-verge-rev","status":200},
+    {"url":"https://github.com/vernesong/OpenClash","status":200},
+    {"url":"https://github.com/SagerNet/sing-box","status":200},
+    {"url":"https://github.com/chen08209/FlClash","status":200}
+  ],
+  "tests": {"command":"pnpm test","status":"passed"},
+  "audit": {"command":"pnpm run audit","status":"passed","note":"Lighthouse reports generated for home, downloads and article routes."},
+  "build": {"command":"pnpm build","status":"passed","sitemapUrls":48,"articleCount":31},
+  "publish": {"status":"pending","reason":"待检查远端 ancestry、凭据和 GitHub API 写权限。"},
+  "liveVerification": {"status":"pending","reason":"尚未发布。"},
+  "nextTodo": ["检查 origin/main 与本地新增文件的 ancestry", "通过 GitHub Data API 或安全 Git 入口提交", "等待 Actions/Pages 成功后核对 5 个新 URL、sitemap、canonical、robots 和 CSS"]
+}

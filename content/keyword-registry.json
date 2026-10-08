@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -51,10 +51,60 @@
       "status": "published",
       "publishedDate": "2026-10-07",
       "article": "clash-verge-rev-update"
+    },
+    {
+      "url": "/articles/v2rayn-windows-dns-troubleshooting/",
+      "status": "pending",
+      "keyword": "v2rayN Windows DNS 排错",
+      "article": "v2rayn-windows-dns-troubleshooting",
+      "targetSite": "flyclash.com.cn",
+      "intent": "DNS 故障",
+      "source": "https://github.com/2dust/v2rayN",
+      "publishedDate": "2026-10-08"
+    },
+    {
+      "url": "/articles/clash-verge-rev-linux-proxy-mode/",
+      "status": "pending",
+      "keyword": "Clash Verge Rev Linux 代理模式",
+      "article": "clash-verge-rev-linux-proxy-mode",
+      "targetSite": "flyclash.com.cn",
+      "intent": "配置与连接故障",
+      "source": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "publishedDate": "2026-10-08"
+    },
+    {
+      "url": "/articles/openclash-subscription-update-failed/",
+      "status": "pending",
+      "keyword": "OpenClash 订阅更新失败",
+      "article": "openclash-subscription-update-failed",
+      "targetSite": "flyclash.com.cn",
+      "intent": "订阅故障",
+      "source": "https://github.com/vernesong/OpenClash",
+      "publishedDate": "2026-10-08"
+    },
+    {
+      "url": "/articles/sing-box-windows-config-check/",
+      "status": "pending",
+      "keyword": "sing-box Windows 配置检查",
+      "article": "sing-box-windows-config-check",
+      "targetSite": "flyclash.com.cn",
+      "intent": "配置",
+      "source": "https://github.com/SagerNet/sing-box",
+      "publishedDate": "2026-10-08"
+    },
+    {
+      "url": "/articles/flclash-android-install/",
+      "status": "pending",
+      "keyword": "FlClash Android 下载与安装",
+      "article": "flclash-android-install",
+      "targetSite": "flyclash.com.cn",
+      "intent": "下载与安装",
+      "source": "https://github.com/chen08209/FlClash",
+      "publishedDate": "2026-10-08"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Local tests/build passed; git push failed because github.com:443 was unreachable. GitHub API read endpoint returned 200, but no authenticated write path was available.",
+  "publishStatus": "pending",
+  "publishNote": "本轮内容已生成并待部署核验。",
   "publishedCommit": "882ef87eac1f21a275f054392ed0e27681f5ac21",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/37572437729"
 }
