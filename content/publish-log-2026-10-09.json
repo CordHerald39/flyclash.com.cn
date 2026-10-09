@@ -12,9 +12,9 @@
       "sources": [
         "https://www.clashverge.dev/install.html"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "clash-verge-rev-macos-install",
       "sourceVerifiedDate": "2026-10-09"
     },
@@ -28,9 +28,9 @@
         "https://raw.githubusercontent.com/2dust/v2rayN/master/README.md",
         "https://github.com/2dust/v2rayN/wiki/Release-files-introduction"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "v2rayn-linux-download",
       "sourceVerifiedDate": "2026-10-09"
     },
@@ -44,9 +44,9 @@
         "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
         "https://github.com/chen08209/FlClash/releases"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "flclash-windows-download",
       "sourceVerifiedDate": "2026-10-09"
     },
@@ -59,9 +59,9 @@
       "sources": [
         "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "flclash-backup-restore",
       "sourceVerifiedDate": "2026-10-09"
     },
@@ -75,9 +75,9 @@
         "https://raw.githubusercontent.com/GtxFury/FlyClash/main/README.md",
         "https://learn.microsoft.com/en-us/powershell/module/nettcpip/get-nettcpconnection?view=windowsserver2025-ps"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "flyclash-port-conflict",
       "sourceVerifiedDate": "2026-10-09"
     }
@@ -249,10 +249,86 @@
     "existingArticleBodiesUnchanged": true
   },
   "publish": {
-    "status": "pending",
-    "base": "b764c9d81503e86dd4758ef3f05e4c168f51ad74"
+    "status": "published-via-git-data-api",
+    "remoteSha": "c87b531d5632c9a4ed6bcda418d2223dc9fd1c12",
+    "workflowRuns": [
+      {
+        "id": 37868637057,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/37868637057",
+        "head_sha": "c87b531d5632c9a4ed6bcda418d2223dc9fd1c12"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "flyclash.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-09T01:14:53.709667+00:00",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/clash-verge-rev-macos-install/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/v2rayn-linux-download/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/flclash-windows-download/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/flclash-backup-restore/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/flyclash-port-conflict/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/software/flclash/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 54,
+    "articleCount": 36,
+    "status": "passed"
+  }
 }

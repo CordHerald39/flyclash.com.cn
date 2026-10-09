@@ -111,9 +111,9 @@
       "sources": [
         "https://www.clashverge.dev/install.html"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "clash-verge-rev-macos-install",
       "sourceVerifiedDate": "2026-10-09"
     },
@@ -127,9 +127,9 @@
         "https://raw.githubusercontent.com/2dust/v2rayN/master/README.md",
         "https://github.com/2dust/v2rayN/wiki/Release-files-introduction"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "v2rayn-linux-download",
       "sourceVerifiedDate": "2026-10-09"
     },
@@ -143,9 +143,9 @@
         "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
         "https://github.com/chen08209/FlClash/releases"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "flclash-windows-download",
       "sourceVerifiedDate": "2026-10-09"
     },
@@ -158,9 +158,9 @@
       "sources": [
         "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "flclash-backup-restore",
       "sourceVerifiedDate": "2026-10-09"
     },
@@ -174,15 +174,15 @@
         "https://raw.githubusercontent.com/GtxFury/FlyClash/main/README.md",
         "https://learn.microsoft.com/en-us/powershell/module/nettcpip/get-nettcpconnection?view=windowsserver2025-ps"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-09",
-      "publishedDate": null,
+      "publishedDate": "2026-10-09",
       "article": "flyclash-port-conflict",
       "sourceVerifiedDate": "2026-10-09"
     }
   ],
-  "publishStatus": "pending",
-  "publishNote": "2026-10-09 内容待测试、API 提交与线上验证；此前已发布记录保留。",
-  "publishedCommit": "953106fbcb7b89308daa6db651cdd0b7fb4dcdb0",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/37711839594"
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，10 篇及独立软件入口已验证。",
+  "publishedCommit": "c87b531d5632c9a4ed6bcda418d2223dc9fd1c12",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/37868637057"
 }
