@@ -68,5 +68,15 @@
     "description": "桌面代理客户端项目，发行资产和更新通道以官方仓库为准。",
     "guidance": "核对平台、架构和是否为预发布版本，升级前保留配置并记录回退点。",
     "tag": "桌面项目"
+  },
+  {
+    "slug": "flclash",
+    "title": "FlClash",
+    "icon": "F",
+    "platform": "Windows · macOS · Linux · Android",
+    "repository": "chen08209/FlClash",
+    "description": "FlClash 多平台客户端的原始仓库与官方下载入口。",
+    "guidance": "按设备架构和系统版本核对发行资产，先备份再升级；与 GtxFury/FlyClash 分开识别。",
+    "tag": "跨平台客户端"
   }
 ]

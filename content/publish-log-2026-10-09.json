@@ -1,0 +1,258 @@
+{
+  "date": "2026-10-09",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "Clash Verge Rev macOS 安装",
+      "intent": "macOS 下载与安装",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-macos-install/",
+      "source": "https://www.clashverge.dev/install.html",
+      "sources": [
+        "https://www.clashverge.dev/install.html"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-09",
+      "publishedDate": null,
+      "article": "clash-verge-rev-macos-install",
+      "sourceVerifiedDate": "2026-10-09"
+    },
+    {
+      "keyword": "v2rayN Linux 下载",
+      "intent": "Linux 下载与首次启动",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/v2rayn-linux-download/",
+      "source": "https://raw.githubusercontent.com/2dust/v2rayN/master/README.md",
+      "sources": [
+        "https://raw.githubusercontent.com/2dust/v2rayN/master/README.md",
+        "https://github.com/2dust/v2rayN/wiki/Release-files-introduction"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-09",
+      "publishedDate": null,
+      "article": "v2rayn-linux-download",
+      "sourceVerifiedDate": "2026-10-09"
+    },
+    {
+      "keyword": "FlClash Windows 下载",
+      "intent": "Windows 下载与架构选择",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-windows-download/",
+      "source": "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+      "sources": [
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+        "https://github.com/chen08209/FlClash/releases"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-09",
+      "publishedDate": null,
+      "article": "flclash-windows-download",
+      "sourceVerifiedDate": "2026-10-09"
+    },
+    {
+      "keyword": "FlClash 备份与恢复",
+      "intent": "迁移与备份",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-backup-restore/",
+      "source": "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+      "sources": [
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-09",
+      "publishedDate": null,
+      "article": "flclash-backup-restore",
+      "sourceVerifiedDate": "2026-10-09"
+    },
+    {
+      "keyword": "FlyClash 7890 端口被占用",
+      "intent": "Windows 内核启动故障",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flyclash-port-conflict/",
+      "source": "https://raw.githubusercontent.com/GtxFury/FlyClash/main/README.md",
+      "sources": [
+        "https://raw.githubusercontent.com/GtxFury/FlyClash/main/README.md",
+        "https://learn.microsoft.com/en-us/powershell/module/nettcpip/get-nettcpconnection?view=windowsserver2025-ps"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-09",
+      "publishedDate": null,
+      "article": "flyclash-port-conflict",
+      "sourceVerifiedDate": "2026-10-09"
+    }
+  ],
+  "allocationReason": "默认各 5 篇；依据现有专题缺口补充桌面平台安装、备份恢复与可操作的端口定位。",
+  "sourceChecks": [
+    {
+      "key": "flclash-readme",
+      "url": "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+      "finalUrl": "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+      "status": 200,
+      "sha256": "d6bc885185fdaa3d8126bdd0cdda21d60674e7e47e420f63987e097140beab51"
+    },
+    {
+      "key": "flclash-releases",
+      "url": "https://github.com/chen08209/FlClash/releases",
+      "finalUrl": "https://github.com/chen08209/FlClash/releases",
+      "status": 200,
+      "sha256": "46f7a529aaaf0c2b0cd78fc7828957216a3a818e9709ab621725070615656e2b"
+    },
+    {
+      "key": "flyclash-readme",
+      "url": "https://raw.githubusercontent.com/GtxFury/FlyClash/main/README.md",
+      "finalUrl": "https://raw.githubusercontent.com/GtxFury/FlyClash/main/README.md",
+      "status": 200,
+      "sha256": "769876fe24cd916e72cc3d074c69f1a40c03ccc81230ed4e828b5f33efcb69c1"
+    },
+    {
+      "key": "nettcpconnection",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/nettcpip/get-nettcpconnection?view=windowsserver2025-ps",
+      "finalUrl": "https://learn.microsoft.com/en-us/powershell/module/nettcpip/get-nettcpconnection?view=windowsserver2025-ps",
+      "status": 200,
+      "sha256": "c883faaec31828c7b575a50419b49184cf31698a6b67d8ef35073370900c625c"
+    },
+    {
+      "key": "v2rayn-readme",
+      "url": "https://raw.githubusercontent.com/2dust/v2rayN/master/README.md",
+      "finalUrl": "https://raw.githubusercontent.com/2dust/v2rayN/master/README.md",
+      "status": 200,
+      "sha256": "2376917589f395da4282a134b1139b0082646c82cb4ef40eaa8b2a6034d5180d"
+    },
+    {
+      "key": "v2rayn-release-files",
+      "url": "https://github.com/2dust/v2rayN/wiki/Release-files-introduction",
+      "finalUrl": "https://github.com/2dust/v2rayN/wiki/Release-files-introduction",
+      "status": 200,
+      "sha256": "3995673412bddd3a26f1f5e52491b671d526e19aaeea83588afde119a54efa65"
+    },
+    {
+      "key": "verge-install",
+      "url": "https://www.clashverge.dev/install.html",
+      "finalUrl": "https://www.clashverge.dev/install.html",
+      "status": 200,
+      "sha256": "66dea309439d57c3ec6c5113ef2c15e4f074c1c6d66a49f9b4604cdaebd6a67d"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 36
+  },
+  "localVerification": {
+    "site": "flyclash.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-09T01:12:08.667722+00:00",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/clash-verge-rev-macos-install/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/v2rayn-linux-download/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/flclash-windows-download/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/flclash-backup-restore/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/flyclash-port-conflict/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/software/flclash/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 54,
+    "articleCount": 36,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 53,
+    "substantiveChanges": [
+      "content/keyword-registry.json",
+      "content/software.json"
+    ],
+    "archiveLineEndingNormalization": 39,
+    "existingArticleBodiesUnchanged": true
+  },
+  "publish": {
+    "status": "pending",
+    "base": "b764c9d81503e86dd4758ef3f05e4c168f51ad74"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}

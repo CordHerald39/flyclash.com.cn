@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -101,10 +101,88 @@
       "intent": "下载与安装",
       "source": "https://github.com/chen08209/FlClash",
       "publishedDate": "2026-10-08"
+    },
+    {
+      "keyword": "Clash Verge Rev macOS 安装",
+      "intent": "macOS 下载与安装",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-macos-install/",
+      "source": "https://www.clashverge.dev/install.html",
+      "sources": [
+        "https://www.clashverge.dev/install.html"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-09",
+      "publishedDate": null,
+      "article": "clash-verge-rev-macos-install",
+      "sourceVerifiedDate": "2026-10-09"
+    },
+    {
+      "keyword": "v2rayN Linux 下载",
+      "intent": "Linux 下载与首次启动",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/v2rayn-linux-download/",
+      "source": "https://raw.githubusercontent.com/2dust/v2rayN/master/README.md",
+      "sources": [
+        "https://raw.githubusercontent.com/2dust/v2rayN/master/README.md",
+        "https://github.com/2dust/v2rayN/wiki/Release-files-introduction"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-09",
+      "publishedDate": null,
+      "article": "v2rayn-linux-download",
+      "sourceVerifiedDate": "2026-10-09"
+    },
+    {
+      "keyword": "FlClash Windows 下载",
+      "intent": "Windows 下载与架构选择",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-windows-download/",
+      "source": "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+      "sources": [
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+        "https://github.com/chen08209/FlClash/releases"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-09",
+      "publishedDate": null,
+      "article": "flclash-windows-download",
+      "sourceVerifiedDate": "2026-10-09"
+    },
+    {
+      "keyword": "FlClash 备份与恢复",
+      "intent": "迁移与备份",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-backup-restore/",
+      "source": "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+      "sources": [
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-09",
+      "publishedDate": null,
+      "article": "flclash-backup-restore",
+      "sourceVerifiedDate": "2026-10-09"
+    },
+    {
+      "keyword": "FlyClash 7890 端口被占用",
+      "intent": "Windows 内核启动故障",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flyclash-port-conflict/",
+      "source": "https://raw.githubusercontent.com/GtxFury/FlyClash/main/README.md",
+      "sources": [
+        "https://raw.githubusercontent.com/GtxFury/FlyClash/main/README.md",
+        "https://learn.microsoft.com/en-us/powershell/module/nettcpip/get-nettcpconnection?view=windowsserver2025-ps"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-09",
+      "publishedDate": null,
+      "article": "flyclash-port-conflict",
+      "sourceVerifiedDate": "2026-10-09"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 已提交，Actions/Pages 成功，线上页面已核验。",
+  "publishStatus": "pending",
+  "publishNote": "2026-10-09 内容待测试、API 提交与线上验证；此前已发布记录保留。",
   "publishedCommit": "953106fbcb7b89308daa6db651cdd0b7fb4dcdb0",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/37711839594"
 }
