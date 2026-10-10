@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -179,10 +179,84 @@
       "publishedDate": "2026-10-09",
       "article": "flyclash-port-conflict",
       "sourceVerifiedDate": "2026-10-09"
+    },
+    {
+      "keyword": "v2rayN Windows 订阅导入",
+      "intent": "订阅导入",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/v2rayn-windows-subscription-import/",
+      "source": "https://github.com/2dust/v2rayN",
+      "sources": [
+        "https://github.com/2dust/v2rayN",
+        "https://github.com/2dust/v2rayN/wiki"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-10",
+      "article": "v2rayn-windows-subscription-import",
+      "sourceVerifiedDate": "2026-10-10"
+    },
+    {
+      "keyword": "Clash Verge Rev Windows 系统代理",
+      "intent": "系统代理配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-windows-system-proxy/",
+      "source": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "sources": [
+        "https://github.com/clash-verge-rev/clash-verge-rev"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-10",
+      "article": "clash-verge-rev-windows-system-proxy",
+      "sourceVerifiedDate": "2026-10-10"
+    },
+    {
+      "keyword": "OpenClash Fake-IP 与 DNS",
+      "intent": "DNS 与 Fake-IP 配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/openclash-fake-ip-dns/",
+      "source": "https://raw.githubusercontent.com/vernesong/OpenClash/master/README.md",
+      "sources": [
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/README.md",
+        "https://wiki.metacubex.one/config/dns/"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-10",
+      "article": "openclash-fake-ip-dns",
+      "sourceVerifiedDate": "2026-10-10"
+    },
+    {
+      "keyword": "FlClash Linux 下载",
+      "intent": "Linux 下载与安装",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-linux-download/",
+      "source": "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+      "sources": [
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+        "https://github.com/chen08209/FlClash/releases/latest"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-10",
+      "article": "flclash-linux-download",
+      "sourceVerifiedDate": "2026-10-10"
+    },
+    {
+      "keyword": "sing-box Linux 安装",
+      "intent": "Linux 下载与安装",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-linux-install/",
+      "source": "https://github.com/SagerNet/sing-box",
+      "sources": [
+        "https://github.com/SagerNet/sing-box",
+        "https://github.com/SagerNet/sing-box/releases"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-10",
+      "article": "sing-box-linux-install",
+      "sourceVerifiedDate": "2026-10-10"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，10 篇及独立软件入口已验证。",
-  "publishedCommit": "c87b531d5632c9a4ed6bcda418d2223dc9fd1c12",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/37868637057"
-}
+  "publishStatus": "pending",
+  "publishNote": "本轮内容已生成，待 Git Data API、Actions/Pages 与正式页面核验。",
+  "publishedCommit": null,
+  "deploymentUrl": null
+}`n
