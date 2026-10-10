@@ -4,23 +4,129 @@
   "articlesAdded": 5,
   "allocationReason": "默认各 5 篇；本轮补充 Windows 订阅、系统代理、OpenClash DNS、FlClash Linux 与 sing-box Linux 缺口。",
   "articles": [
-    {"keyword":"v2rayN Windows 订阅导入","intent":"订阅导入","targetSite":"flyclash.com.cn","url":"/articles/v2rayn-windows-subscription-import/","source":"https://github.com/2dust/v2rayN","status":"pending","plannedDate":"2026-10-10","article":"v2rayn-windows-subscription-import","sourceVerifiedDate":"2026-10-10"},
-    {"keyword":"Clash Verge Rev Windows 系统代理","intent":"系统代理配置","targetSite":"flyclash.com.cn","url":"/articles/clash-verge-rev-windows-system-proxy/","source":"https://github.com/clash-verge-rev/clash-verge-rev","status":"pending","plannedDate":"2026-10-10","article":"clash-verge-rev-windows-system-proxy","sourceVerifiedDate":"2026-10-10"},
-    {"keyword":"OpenClash Fake-IP 与 DNS","intent":"DNS 与 Fake-IP 配置","targetSite":"flyclash.com.cn","url":"/articles/openclash-fake-ip-dns/","source":"https://raw.githubusercontent.com/vernesong/OpenClash/master/README.md","status":"pending","plannedDate":"2026-10-10","article":"openclash-fake-ip-dns","sourceVerifiedDate":"2026-10-10"},
-    {"keyword":"FlClash Linux 下载","intent":"Linux 下载与安装","targetSite":"flyclash.com.cn","url":"/articles/flclash-linux-download/","source":"https://raw.githubusercontent.com/chen08209/FlClash/main/README.md","status":"pending","plannedDate":"2026-10-10","article":"flclash-linux-download","sourceVerifiedDate":"2026-10-10"},
-    {"keyword":"sing-box Linux 安装","intent":"Linux 下载与安装","targetSite":"flyclash.com.cn","url":"/articles/sing-box-linux-install/","source":"https://github.com/SagerNet/sing-box","status":"pending","plannedDate":"2026-10-10","article":"sing-box-linux-install","sourceVerifiedDate":"2026-10-10"}
+    {
+      "keyword": "v2rayN Windows 订阅导入",
+      "intent": "订阅导入",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/v2rayn-windows-subscription-import/",
+      "source": "https://github.com/2dust/v2rayN",
+      "status": "pending",
+      "plannedDate": "2026-10-10",
+      "article": "v2rayn-windows-subscription-import",
+      "sourceVerifiedDate": "2026-10-10"
+    },
+    {
+      "keyword": "Clash Verge Rev Windows 系统代理",
+      "intent": "系统代理配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-windows-system-proxy/",
+      "source": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "status": "pending",
+      "plannedDate": "2026-10-10",
+      "article": "clash-verge-rev-windows-system-proxy",
+      "sourceVerifiedDate": "2026-10-10"
+    },
+    {
+      "keyword": "OpenClash Fake-IP 与 DNS",
+      "intent": "DNS 与 Fake-IP 配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/openclash-fake-ip-dns/",
+      "source": "https://raw.githubusercontent.com/vernesong/OpenClash/master/README.md",
+      "status": "pending",
+      "plannedDate": "2026-10-10",
+      "article": "openclash-fake-ip-dns",
+      "sourceVerifiedDate": "2026-10-10"
+    },
+    {
+      "keyword": "FlClash Linux 下载",
+      "intent": "Linux 下载与安装",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-linux-download/",
+      "source": "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+      "status": "pending",
+      "plannedDate": "2026-10-10",
+      "article": "flclash-linux-download",
+      "sourceVerifiedDate": "2026-10-10"
+    },
+    {
+      "keyword": "sing-box Linux 安装",
+      "intent": "Linux 下载与安装",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-linux-install/",
+      "source": "https://github.com/SagerNet/sing-box",
+      "status": "pending",
+      "plannedDate": "2026-10-10",
+      "article": "sing-box-linux-install",
+      "sourceVerifiedDate": "2026-10-10"
+    }
   ],
   "sourceChecks": [
-    {"url":"https://github.com/2dust/v2rayN","status":200},
-    {"url":"https://github.com/clash-verge-rev/clash-verge-rev","status":200},
-    {"url":"https://raw.githubusercontent.com/vernesong/OpenClash/master/README.md","status":200},
-    {"url":"https://raw.githubusercontent.com/chen08209/FlClash/main/README.md","status":200},
-    {"url":"https://github.com/SagerNet/sing-box/releases","status":200}
+    {
+      "url": "https://github.com/2dust/v2rayN",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vernesong/OpenClash/master/README.md",
+      "status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/SagerNet/sing-box/releases",
+      "status": 200
+    }
   ],
-  "tests":{"command":"pnpm test","status":"passed"},
-  "audit":{"command":"pnpm run audit","status":"passed","scores":{"home-mobile":100,"home-desktop":100,"downloads-mobile":100,"article-mobile":100}},
-  "build":{"command":"pnpm build","status":"passed","articleCount":41,"sitemapUrls":59},
-  "publishStatus":"pending",
-  "publishNote":"内容与登记已生成，待 Git Data API 提交、Actions/Pages 和正式页面核验。",
-  "nextTodo":["以 origin/main 为父提交发布本轮新增文件与登记。","部署成功后回写 published 状态并核对 5 个新文章 URL。"]
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "home-mobile": 100,
+      "home-desktop": 100,
+      "downloads-mobile": 100,
+      "article-mobile": 100
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 41,
+    "sitemapUrls": 59
+  },
+  "publishStatus": "published-via-git-data-api",
+  "publishNote": "Git Data API 内容提交、Actions/Pages 成功，正式页面已验证。",
+  "nextTodo": [
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续覆盖尚未成文的代理软件平台与迁移故障意图。"
+  ],
+  "publishedCommit": "7dc3a9214c075768eb589aad1602c9ef26cceaea",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38012909397",
+  "liveVerification": {
+    "status": "passed",
+    "checkedAt": "2026-10-10T01:28:10.6543074Z",
+    "home": 200,
+    "css": 200,
+    "robots": 200,
+    "sitemap": 200,
+    "sitemapUrls": 59,
+    "articleCount": 41,
+    "newArticles": 5,
+    "canonical": "passed",
+    "articleJsonLd": "passed",
+    "pages": [
+      "/",
+      "/style.css",
+      "/robots.txt",
+      "/sitemap.xml"
+    ]
+  }
 }
