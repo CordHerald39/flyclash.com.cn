@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -258,10 +258,93 @@
       "article": "sing-box-linux-install",
       "sourceVerifiedDate": "2026-10-10",
       "publishedDate": "2026-10-10"
+    },
+    {
+      "keyword": "v2rayN macOS 下载",
+      "intent": "macOS 下载与首次启动",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/v2rayn-macos-download/",
+      "source": "https://github.com/2dust/v2rayN/wiki/Release-files-introduction",
+      "sources": [
+        "https://github.com/2dust/v2rayN/wiki/Release-files-introduction",
+        "https://github.com/2dust/v2rayN/releases/latest",
+        "https://support.apple.com/zh-cn/102445"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null,
+      "article": "v2rayn-macos-download",
+      "sourceVerifiedDate": "2026-10-11"
+    },
+    {
+      "keyword": "FlClash macOS 安装",
+      "intent": "macOS 下载与安装",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-macos-install/",
+      "source": "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+      "sources": [
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+        "https://github.com/chen08209/FlClash/releases/latest",
+        "https://support.apple.com/zh-cn/102445"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null,
+      "article": "flclash-macos-install",
+      "sourceVerifiedDate": "2026-10-11"
+    },
+    {
+      "keyword": "Clash Verge Rev 自定义规则不生效",
+      "intent": "规则配置与故障",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-custom-rules/",
+      "source": "https://www.clashverge.dev/guide/extend.html",
+      "sources": [
+        "https://www.clashverge.dev/guide/extend.html",
+        "https://wiki.metacubex.one/config/rules/"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null,
+      "article": "clash-verge-rev-custom-rules",
+      "sourceVerifiedDate": "2026-10-11"
+    },
+    {
+      "keyword": "Clash Meta for Android 按应用代理",
+      "intent": "Android 按应用配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-meta-android-app-routing/",
+      "source": "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/design/src/main/java/com/github/kr328/clash/design/NetworkSettingsDesign.kt",
+      "sources": [
+        "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/design/src/main/java/com/github/kr328/clash/design/NetworkSettingsDesign.kt",
+        "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/service/src/main/java/com/github/kr328/clash/service/TunService.kt",
+        "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/app/src/main/java/com/github/kr328/clash/AccessControlActivity.kt"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null,
+      "article": "clash-meta-android-app-routing",
+      "sourceVerifiedDate": "2026-10-11"
+    },
+    {
+      "keyword": "OpenClash 配置备份与恢复",
+      "intent": "迁移与配置备份",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/openclash-config-backup-restore/",
+      "source": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/controller/openclash.lua",
+      "sources": [
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/controller/openclash.lua",
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/config.lua"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null,
+      "article": "openclash-config-backup-restore",
+      "sourceVerifiedDate": "2026-10-11"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 内容提交、Actions/Pages 成功，5 篇新文章及正式页面已验证。",
+  "publishStatus": "pending",
+  "publishNote": "2026-10-11 新增 5 篇已登记草稿；等待测试、API 提交、Actions/Pages 和正式页面验收。旧登记状态保留。",
   "publishedCommit": "7dc3a9214c075768eb589aad1602c9ef26cceaea",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38012909397"
 }

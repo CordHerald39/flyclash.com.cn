@@ -1,0 +1,296 @@
+{
+  "date": "2026-10-11",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "v2rayN macOS 下载",
+      "intent": "macOS 下载与首次启动",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/v2rayn-macos-download/",
+      "source": "https://github.com/2dust/v2rayN/wiki/Release-files-introduction",
+      "sources": [
+        "https://github.com/2dust/v2rayN/wiki/Release-files-introduction",
+        "https://github.com/2dust/v2rayN/releases/latest",
+        "https://support.apple.com/zh-cn/102445"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null,
+      "article": "v2rayn-macos-download",
+      "sourceVerifiedDate": "2026-10-11"
+    },
+    {
+      "keyword": "FlClash macOS 安装",
+      "intent": "macOS 下载与安装",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-macos-install/",
+      "source": "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+      "sources": [
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+        "https://github.com/chen08209/FlClash/releases/latest",
+        "https://support.apple.com/zh-cn/102445"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null,
+      "article": "flclash-macos-install",
+      "sourceVerifiedDate": "2026-10-11"
+    },
+    {
+      "keyword": "Clash Verge Rev 自定义规则不生效",
+      "intent": "规则配置与故障",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-custom-rules/",
+      "source": "https://www.clashverge.dev/guide/extend.html",
+      "sources": [
+        "https://www.clashverge.dev/guide/extend.html",
+        "https://wiki.metacubex.one/config/rules/"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null,
+      "article": "clash-verge-rev-custom-rules",
+      "sourceVerifiedDate": "2026-10-11"
+    },
+    {
+      "keyword": "Clash Meta for Android 按应用代理",
+      "intent": "Android 按应用配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-meta-android-app-routing/",
+      "source": "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/design/src/main/java/com/github/kr328/clash/design/NetworkSettingsDesign.kt",
+      "sources": [
+        "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/design/src/main/java/com/github/kr328/clash/design/NetworkSettingsDesign.kt",
+        "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/service/src/main/java/com/github/kr328/clash/service/TunService.kt",
+        "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/app/src/main/java/com/github/kr328/clash/AccessControlActivity.kt"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null,
+      "article": "clash-meta-android-app-routing",
+      "sourceVerifiedDate": "2026-10-11"
+    },
+    {
+      "keyword": "OpenClash 配置备份与恢复",
+      "intent": "迁移与配置备份",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/openclash-config-backup-restore/",
+      "source": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/controller/openclash.lua",
+      "sources": [
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/controller/openclash.lua",
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/config.lua"
+      ],
+      "status": "pending",
+      "plannedDate": "2026-10-11",
+      "publishedDate": null,
+      "article": "openclash-config-backup-restore",
+      "sourceVerifiedDate": "2026-10-11"
+    }
+  ],
+  "allocationReason": "默认本站 5 篇；主软件基本安装、订阅、规则和故障已覆盖，补已有独立软件专题的 macOS、规则、按应用代理和迁移备份缺口，不新增软件。",
+  "sourceChecks": [
+    {
+      "key": "fly-v2rayn-files",
+      "url": "https://github.com/2dust/v2rayN/wiki/Release-files-introduction",
+      "finalUrl": "https://github.com/2dust/v2rayN/wiki/Release-files-introduction",
+      "status": 200,
+      "sha256": "4921203ec845ffae0810a421d08069e144fd56a02b60c6dfb7925f0140c0ba9a"
+    },
+    {
+      "key": "fly-v2rayn-release",
+      "url": "https://github.com/2dust/v2rayN/releases/latest",
+      "finalUrl": "https://github.com/2dust/v2rayN/releases/tag/7.25.4",
+      "status": 200,
+      "sha256": "2a90ca6c7f557bae19b460908fdeddef51065d7e3262e67ab30eb3bcf416ad5c"
+    },
+    {
+      "key": "fly-flclash-readme",
+      "url": "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+      "finalUrl": "https://raw.githubusercontent.com/chen08209/FlClash/main/README.md",
+      "status": 200,
+      "sha256": "d6bc885185fdaa3d8126bdd0cdda21d60674e7e47e420f63987e097140beab51"
+    },
+    {
+      "key": "fly-flclash-release",
+      "url": "https://github.com/chen08209/FlClash/releases/latest",
+      "finalUrl": "https://github.com/chen08209/FlClash/releases/tag/v0.8.99",
+      "status": 200,
+      "sha256": "b52de2b70e58efc807b7d0ba1ed76de1a3323042bdae8b1591d834f76aa802fb"
+    },
+    {
+      "key": "fly-apple-open-app",
+      "url": "https://support.apple.com/zh-cn/102445",
+      "finalUrl": "https://support.apple.com/zh-cn/102445",
+      "status": 200,
+      "sha256": "e49df34dd2949e76386d7621c043b87a1be038afa0c74ea6e6fc51c4c9de6310"
+    },
+    {
+      "key": "fly-verge-extend",
+      "url": "https://www.clashverge.dev/guide/extend.html",
+      "finalUrl": "https://www.clashverge.dev/guide/extend.html",
+      "status": 200,
+      "sha256": "909b9a56fa9c93c00e8b6f4584f8da8fa7d52e90b21b636ff43864f05d3db222"
+    },
+    {
+      "key": "fly-verge-rules",
+      "url": "https://wiki.metacubex.one/config/rules/",
+      "finalUrl": "https://wiki.metacubex.one/config/rules/",
+      "status": 200,
+      "sha256": "f6b835012ca9ddbf06149ea69ab52575226e07da3ac7ac35ea101d549b97e1b7"
+    },
+    {
+      "key": "fly-cma-access",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/app/src/main/java/com/github/kr328/clash/AccessControlActivity.kt",
+      "finalUrl": "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/app/src/main/java/com/github/kr328/clash/AccessControlActivity.kt",
+      "status": 200,
+      "sha256": "c9a143a82fc22c9709dd8f2b51be7b4dc321d60f43969730a11a0c1fecf707dd"
+    },
+    {
+      "key": "fly-cma-network",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/design/src/main/java/com/github/kr328/clash/design/NetworkSettingsDesign.kt",
+      "finalUrl": "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/design/src/main/java/com/github/kr328/clash/design/NetworkSettingsDesign.kt",
+      "status": 200,
+      "sha256": "4cc2f256b9b504106c624064e15960affb4dbf78b7c3c6a2d8c6befa5a56bd4f"
+    },
+    {
+      "key": "fly-cma-vpn",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/service/src/main/java/com/github/kr328/clash/service/TunService.kt",
+      "finalUrl": "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/service/src/main/java/com/github/kr328/clash/service/TunService.kt",
+      "status": 200,
+      "sha256": "e8851d918a8c09a089c696de28f1f5ff5e0846ef82f9b22eef93652e3a65edd2"
+    },
+    {
+      "key": "fly-openclash-config",
+      "url": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/config.lua",
+      "finalUrl": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/config.lua",
+      "status": 200,
+      "sha256": "ab39e01aabece57ee768f48a3d48ae24bf613d4bec33658ebff949165bac5b74"
+    },
+    {
+      "key": "fly-openclash-controller",
+      "url": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/controller/openclash.lua",
+      "finalUrl": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/controller/openclash.lua",
+      "status": 200,
+      "sha256": "2d8fe8d916f24a22dc08acd7e97f46a69b70eb2e21b0b8e56fb5307884f86161"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 46
+  },
+  "localVerification": {
+    "site": "flyclash.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-11T01:15:11.683045+00:00",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/v2rayn-macos-download/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/flclash-macos-install/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/clash-verge-rev-custom-rules/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/clash-meta-android-app-routing/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/openclash-config-backup-restore/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 64,
+    "articleCount": 46,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 65,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "activeActions": [],
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "1ab33aebf5c24d49d3737c9eb2e9fa6727895584"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}
