@@ -270,9 +270,9 @@
         "https://github.com/2dust/v2rayN/releases/latest",
         "https://support.apple.com/zh-cn/102445"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null,
+      "publishedDate": "2026-10-11",
       "article": "v2rayn-macos-download",
       "sourceVerifiedDate": "2026-10-11"
     },
@@ -287,9 +287,9 @@
         "https://github.com/chen08209/FlClash/releases/latest",
         "https://support.apple.com/zh-cn/102445"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null,
+      "publishedDate": "2026-10-11",
       "article": "flclash-macos-install",
       "sourceVerifiedDate": "2026-10-11"
     },
@@ -303,9 +303,9 @@
         "https://www.clashverge.dev/guide/extend.html",
         "https://wiki.metacubex.one/config/rules/"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null,
+      "publishedDate": "2026-10-11",
       "article": "clash-verge-rev-custom-rules",
       "sourceVerifiedDate": "2026-10-11"
     },
@@ -320,9 +320,9 @@
         "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/service/src/main/java/com/github/kr328/clash/service/TunService.kt",
         "https://raw.githubusercontent.com/MetaCubeX/ClashMetaForAndroid/main/app/src/main/java/com/github/kr328/clash/AccessControlActivity.kt"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null,
+      "publishedDate": "2026-10-11",
       "article": "clash-meta-android-app-routing",
       "sourceVerifiedDate": "2026-10-11"
     },
@@ -336,15 +336,15 @@
         "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/controller/openclash.lua",
         "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/config.lua"
       ],
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-11",
-      "publishedDate": null,
+      "publishedDate": "2026-10-11",
       "article": "openclash-config-backup-restore",
       "sourceVerifiedDate": "2026-10-11"
     }
   ],
-  "publishStatus": "pending",
-  "publishNote": "2026-10-11 新增 5 篇已登记草稿；等待测试、API 提交、Actions/Pages 和正式页面验收。旧登记状态保留。",
-  "publishedCommit": "7dc3a9214c075768eb589aad1602c9ef26cceaea",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38012909397"
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishedCommit": "30e8367f697281ddd30fbb6c5140774983766230",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38101221652"
 }
