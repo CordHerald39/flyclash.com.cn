@@ -353,9 +353,9 @@
         "https://www.clashverge.dev/guide/term.html",
         "https://www.clashverge.dev/guide/log.html"
       ],
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-12",
-      "publishedDate": null,
+      "publishedDate": "2026-10-12",
       "article": "clash-verge-rev-windows-tun-start-failed",
       "sourceVerifiedDate": "2026-10-12"
     },
@@ -371,9 +371,9 @@
         "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/etc/init.d/openclash",
         "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash.sh"
       ],
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-12",
-      "publishedDate": null,
+      "publishedDate": "2026-10-12",
       "article": "openclash-subscription-auto-update",
       "sourceVerifiedDate": "2026-10-12"
     },
@@ -387,9 +387,9 @@
         "https://github.com/2dust/v2rayN/wiki/Description-of-system-proxy-routing",
         "https://support.microsoft.com/zh-cn/windows/experience/connectivity-networking/use-a-proxy-server-in-windows"
       ],
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-12",
-      "publishedDate": null,
+      "publishedDate": "2026-10-12",
       "article": "v2rayn-windows-proxy-reset-after-exit",
       "sourceVerifiedDate": "2026-10-12"
     },
@@ -406,9 +406,9 @@
         "https://raw.githubusercontent.com/chen08209/FlClash/main/core/hub.go",
         "https://raw.githubusercontent.com/chen08209/FlClash/main/core/common.go"
       ],
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-12",
-      "publishedDate": null,
+      "publishedDate": "2026-10-12",
       "article": "flclash-node-delay-test-timeout",
       "sourceVerifiedDate": "2026-10-12"
     },
@@ -427,15 +427,15 @@
         "https://curl.se/docs/manpage.html",
         "https://github.com/SagerNet/sing-box/blob/testing/cmd/sing-box/cmd_run.go"
       ],
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-12",
-      "publishedDate": null,
+      "publishedDate": "2026-10-12",
       "article": "sing-box-http-inbound-config",
       "sourceVerifiedDate": "2026-10-12"
     }
   ],
-  "publishStatus": "draft",
-  "publishNote": "本轮5篇已完成来源核验与内容去重，等待人工复核、测试构建与API发布；旧25条已发布登记保留。",
-  "publishedCommit": "30e8367f697281ddd30fbb6c5140774983766230",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38101221652"
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishedCommit": "1bc3d2d369d5a3ccd17a3aac6b88ea7aebe607b5",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38192133840"
 }

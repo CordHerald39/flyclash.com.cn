@@ -14,9 +14,9 @@
         "https://www.clashverge.dev/guide/term.html",
         "https://www.clashverge.dev/guide/log.html"
       ],
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-12",
-      "publishedDate": null,
+      "publishedDate": "2026-10-12",
       "article": "clash-verge-rev-windows-tun-start-failed",
       "sourceVerifiedDate": "2026-10-12"
     },
@@ -32,9 +32,9 @@
         "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/etc/init.d/openclash",
         "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash.sh"
       ],
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-12",
-      "publishedDate": null,
+      "publishedDate": "2026-10-12",
       "article": "openclash-subscription-auto-update",
       "sourceVerifiedDate": "2026-10-12"
     },
@@ -48,9 +48,9 @@
         "https://github.com/2dust/v2rayN/wiki/Description-of-system-proxy-routing",
         "https://support.microsoft.com/zh-cn/windows/experience/connectivity-networking/use-a-proxy-server-in-windows"
       ],
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-12",
-      "publishedDate": null,
+      "publishedDate": "2026-10-12",
       "article": "v2rayn-windows-proxy-reset-after-exit",
       "sourceVerifiedDate": "2026-10-12"
     },
@@ -67,9 +67,9 @@
         "https://raw.githubusercontent.com/chen08209/FlClash/main/core/hub.go",
         "https://raw.githubusercontent.com/chen08209/FlClash/main/core/common.go"
       ],
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-12",
-      "publishedDate": null,
+      "publishedDate": "2026-10-12",
       "article": "flclash-node-delay-test-timeout",
       "sourceVerifiedDate": "2026-10-12"
     },
@@ -88,9 +88,9 @@
         "https://curl.se/docs/manpage.html",
         "https://github.com/SagerNet/sing-box/blob/testing/cmd/sing-box/cmd_run.go"
       ],
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-12",
-      "publishedDate": null,
+      "publishedDate": "2026-10-12",
       "article": "sing-box-http-inbound-config",
       "sourceVerifiedDate": "2026-10-12"
     }
@@ -415,10 +415,81 @@
     "remoteBaselineHashCheck": "passed"
   },
   "publish": {
-    "status": "pending",
-    "base": "21a6cd5d1c5d953c623148b9be4587455acdf4b9"
+    "status": "published-via-git-data-api",
+    "remoteSha": "1bc3d2d369d5a3ccd17a3aac6b88ea7aebe607b5",
+    "workflowRuns": [
+      {
+        "id": 38192133840,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38192133840",
+        "head_sha": "1bc3d2d369d5a3ccd17a3aac6b88ea7aebe607b5"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "flyclash.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-12T01:31:31.049175+00:00",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/clash-verge-rev-windows-tun-start-failed/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/openclash-subscription-auto-update/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/v2rayn-windows-proxy-reset-after-exit/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/flclash-node-delay-test-timeout/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-http-inbound-config/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 69,
+    "articleCount": 51,
+    "status": "passed"
+  }
 }
