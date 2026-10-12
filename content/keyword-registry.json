@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -341,10 +341,101 @@
       "publishedDate": "2026-10-11",
       "article": "openclash-config-backup-restore",
       "sourceVerifiedDate": "2026-10-11"
+    },
+    {
+      "keyword": "Clash Verge Rev Windows TUN 启动失败",
+      "intent": "Windows TUN 启动故障",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-windows-tun-start-failed/",
+      "source": "https://www.clashverge.dev/faq/windows.html",
+      "sources": [
+        "https://www.clashverge.dev/faq/windows.html",
+        "https://www.clashverge.dev/guide/term.html",
+        "https://www.clashverge.dev/guide/log.html"
+      ],
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null,
+      "article": "clash-verge-rev-windows-tun-start-failed",
+      "sourceVerifiedDate": "2026-10-12"
+    },
+    {
+      "keyword": "OpenClash 订阅自动更新",
+      "intent": "订阅定时更新配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/openclash-subscription-auto-update/",
+      "source": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/config-subscribe.lua",
+      "sources": [
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/config-subscribe.lua",
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/po/zh-cn/openclash.zh-cn.po",
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/etc/init.d/openclash",
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash.sh"
+      ],
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null,
+      "article": "openclash-subscription-auto-update",
+      "sourceVerifiedDate": "2026-10-12"
+    },
+    {
+      "keyword": "v2rayN 退出后无法上网",
+      "intent": "Windows 退出后连接恢复",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/v2rayn-windows-proxy-reset-after-exit/",
+      "source": "https://github.com/2dust/v2rayN/wiki/Description-of-system-proxy-routing",
+      "sources": [
+        "https://github.com/2dust/v2rayN/wiki/Description-of-system-proxy-routing",
+        "https://support.microsoft.com/zh-cn/windows/experience/connectivity-networking/use-a-proxy-server-in-windows"
+      ],
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null,
+      "article": "v2rayn-windows-proxy-reset-after-exit",
+      "sourceVerifiedDate": "2026-10-12"
+    },
+    {
+      "keyword": "FlClash 节点测速超时",
+      "intent": "节点延迟测试故障",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-node-delay-test-timeout/",
+      "source": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/views/proxies/proxies.dart",
+      "sources": [
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/views/proxies/proxies.dart",
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/l10n/intl/messages_zh_CN.dart",
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/providers/actions/proxies.dart",
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/core/hub.go",
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/core/common.go"
+      ],
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null,
+      "article": "flclash-node-delay-test-timeout",
+      "sourceVerifiedDate": "2026-10-12"
+    },
+    {
+      "keyword": "sing-box HTTP 入站配置",
+      "intent": "本机 HTTP 入站配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-http-inbound-config/",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/http/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/http/",
+        "https://sing-box.sagernet.org/configuration/shared/listen/",
+        "https://sing-box.sagernet.org/configuration/outbound/direct/",
+        "https://sing-box.sagernet.org/configuration/route/",
+        "https://sing-box.sagernet.org/configuration/",
+        "https://curl.se/docs/manpage.html",
+        "https://github.com/SagerNet/sing-box/blob/testing/cmd/sing-box/cmd_run.go"
+      ],
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null,
+      "article": "sing-box-http-inbound-config",
+      "sourceVerifiedDate": "2026-10-12"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishStatus": "draft",
+  "publishNote": "本轮5篇已完成来源核验与内容去重，等待人工复核、测试构建与API发布；旧25条已发布登记保留。",
   "publishedCommit": "30e8367f697281ddd30fbb6c5140774983766230",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38101221652"
 }

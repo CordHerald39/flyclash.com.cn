@@ -1,0 +1,424 @@
+{
+  "date": "2026-10-12",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "Clash Verge Rev Windows TUN 启动失败",
+      "intent": "Windows TUN 启动故障",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-windows-tun-start-failed/",
+      "source": "https://www.clashverge.dev/faq/windows.html",
+      "sources": [
+        "https://www.clashverge.dev/faq/windows.html",
+        "https://www.clashverge.dev/guide/term.html",
+        "https://www.clashverge.dev/guide/log.html"
+      ],
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null,
+      "article": "clash-verge-rev-windows-tun-start-failed",
+      "sourceVerifiedDate": "2026-10-12"
+    },
+    {
+      "keyword": "OpenClash 订阅自动更新",
+      "intent": "订阅定时更新配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/openclash-subscription-auto-update/",
+      "source": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/config-subscribe.lua",
+      "sources": [
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/config-subscribe.lua",
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/po/zh-cn/openclash.zh-cn.po",
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/etc/init.d/openclash",
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash.sh"
+      ],
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null,
+      "article": "openclash-subscription-auto-update",
+      "sourceVerifiedDate": "2026-10-12"
+    },
+    {
+      "keyword": "v2rayN 退出后无法上网",
+      "intent": "Windows 退出后连接恢复",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/v2rayn-windows-proxy-reset-after-exit/",
+      "source": "https://github.com/2dust/v2rayN/wiki/Description-of-system-proxy-routing",
+      "sources": [
+        "https://github.com/2dust/v2rayN/wiki/Description-of-system-proxy-routing",
+        "https://support.microsoft.com/zh-cn/windows/experience/connectivity-networking/use-a-proxy-server-in-windows"
+      ],
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null,
+      "article": "v2rayn-windows-proxy-reset-after-exit",
+      "sourceVerifiedDate": "2026-10-12"
+    },
+    {
+      "keyword": "FlClash 节点测速超时",
+      "intent": "节点延迟测试故障",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-node-delay-test-timeout/",
+      "source": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/views/proxies/proxies.dart",
+      "sources": [
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/views/proxies/proxies.dart",
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/l10n/intl/messages_zh_CN.dart",
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/providers/actions/proxies.dart",
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/core/hub.go",
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/core/common.go"
+      ],
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null,
+      "article": "flclash-node-delay-test-timeout",
+      "sourceVerifiedDate": "2026-10-12"
+    },
+    {
+      "keyword": "sing-box HTTP 入站配置",
+      "intent": "本机 HTTP 入站配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-http-inbound-config/",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/http/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/http/",
+        "https://sing-box.sagernet.org/configuration/shared/listen/",
+        "https://sing-box.sagernet.org/configuration/outbound/direct/",
+        "https://sing-box.sagernet.org/configuration/route/",
+        "https://sing-box.sagernet.org/configuration/",
+        "https://curl.se/docs/manpage.html",
+        "https://github.com/SagerNet/sing-box/blob/testing/cmd/sing-box/cmd_run.go"
+      ],
+      "status": "draft",
+      "plannedDate": "2026-10-12",
+      "publishedDate": null,
+      "article": "sing-box-http-inbound-config",
+      "sourceVerifiedDate": "2026-10-12"
+    }
+  ],
+  "allocationReason": "默认本站5篇；原FlyClash安装、订阅、规则与基础故障已覆盖，补现有独立软件目录的Windows TUN启动、OpenClash定时订阅、v2rayN退出后恢复、FlClash延迟测试和sing-box HTTP入站缺口；不新增软件、不重复旧主题。",
+  "sourceChecks": [
+    {
+      "key": "fly-verge-windows",
+      "url": "https://www.clashverge.dev/faq/windows.html",
+      "finalUrl": "https://www.clashverge.dev/faq/windows.html",
+      "status": 200,
+      "sha256": "43a50a078fb56cd08caa42d1805692f4beb6c5dd5aff9e33cdff60af9c34b792",
+      "checkedAt": "2026-10-12T01:08:56.418689+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\verge-windows.html"
+    },
+    {
+      "key": "fly-verge-terms",
+      "url": "https://www.clashverge.dev/guide/term.html",
+      "finalUrl": "https://www.clashverge.dev/guide/term.html",
+      "status": 200,
+      "sha256": "65379b23d01d1a2de8b9fbc40e24189fcd5b5eb8717f047e0310c1e40de82d83",
+      "checkedAt": "2026-10-12T01:08:56.960591+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\verge-terms.html"
+    },
+    {
+      "key": "fly-verge-log",
+      "url": "https://www.clashverge.dev/guide/log.html",
+      "finalUrl": "https://www.clashverge.dev/guide/log.html",
+      "status": 200,
+      "sha256": "4d6b05323269ba2c4415572b4923714782782e5cef393fed16650cdd380424b3",
+      "checkedAt": "2026-10-12T01:08:56.379112+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\verge-log.html"
+    },
+    {
+      "key": "fly-openclash-schedule",
+      "url": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/config-subscribe.lua",
+      "finalUrl": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/config-subscribe.lua",
+      "status": 200,
+      "sha256": "d442f8a5f63bb608be72e822d0265a9ffee946fc40358960955559d8f5cf3c71",
+      "checkedAt": "2026-10-12T01:08:56.161243+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\openclash-schedule.txt"
+    },
+    {
+      "key": "fly-openclash-init",
+      "url": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/etc/init.d/openclash",
+      "finalUrl": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/etc/init.d/openclash",
+      "status": 200,
+      "sha256": "315d674bf3e29ea60bf4b15cb313b35c5689fe14596ed9f3e985620223bddff4",
+      "checkedAt": "2026-10-12T01:08:56.515329+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\openclash-init.txt"
+    },
+    {
+      "key": "fly-openclash-update",
+      "url": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash.sh",
+      "finalUrl": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash.sh",
+      "status": 200,
+      "sha256": "0842b924b1eba9324666c414f42476c7b55f68411bd1f9c06c8644c415dfd01d",
+      "checkedAt": "2026-10-12T01:08:56.260946+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\openclash-update.txt"
+    },
+    {
+      "key": "fly-v2rayn-proxy",
+      "url": "https://github.com/2dust/v2rayN/wiki/Description-of-system-proxy-routing",
+      "finalUrl": "https://github.com/2dust/v2rayN/wiki/Description-of-system-proxy-routing",
+      "status": 200,
+      "sha256": "ec2c4e868fc242b682a3c059460b6d1922fffbdd9ae8988f7761e7eefd60b742",
+      "checkedAt": "2026-10-12T01:09:00.172601+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\v2rayn-proxy.html"
+    },
+    {
+      "key": "fly-windows-proxy",
+      "url": "https://support.microsoft.com/zh-cn/windows/experience/connectivity-networking/use-a-proxy-server-in-windows",
+      "finalUrl": "https://support.microsoft.com/zh-cn/windows/experience/connectivity-networking/use-a-proxy-server-in-windows",
+      "status": 200,
+      "sha256": "03093c783cb27ca285b4b98e560cbcd4db8656d65a777d65e9a4ea9925ed0cf7",
+      "checkedAt": "2026-10-12T01:08:59.247423+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\windows-proxy.html"
+    },
+    {
+      "key": "fly-flclash-delay",
+      "url": "https://raw.githubusercontent.com/chen08209/FlClash/main/core/hub.go",
+      "finalUrl": "https://raw.githubusercontent.com/chen08209/FlClash/main/core/hub.go",
+      "status": 200,
+      "sha256": "20d022a57b833a2fa780f0e6250281081ba52bf1b7737b1a7b71ae6ac4e607e6",
+      "checkedAt": "2026-10-12T01:08:57.781463+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\flclash-delay.txt"
+    },
+    {
+      "key": "fly-flclash-common",
+      "url": "https://raw.githubusercontent.com/chen08209/FlClash/main/core/common.go",
+      "finalUrl": "https://raw.githubusercontent.com/chen08209/FlClash/main/core/common.go",
+      "status": 200,
+      "sha256": "9fe86e800dfac7e9136920398954d27f3dbec9ace06f1d3195952017767c74c3",
+      "checkedAt": "2026-10-12T01:08:57.601457+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\flclash-common.txt"
+    },
+    {
+      "key": "fly-flclash-delay-tests",
+      "url": "https://raw.githubusercontent.com/chen08209/FlClash/main/core/config_test.go",
+      "finalUrl": "https://raw.githubusercontent.com/chen08209/FlClash/main/core/config_test.go",
+      "status": 200,
+      "sha256": "6805320ffc30bf332891442ad966e0c2e640fcefd5d9c936d582a003151e07c9",
+      "checkedAt": "2026-10-12T01:08:58.048611+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\flclash-delay-tests.txt"
+    },
+    {
+      "key": "fly-curl-proxy",
+      "url": "https://curl.se/docs/manpage.html",
+      "finalUrl": "https://curl.se/docs/manpage.html",
+      "status": 200,
+      "sha256": "0ef77bad12997946fd2663bb2222b4201ab5cf3b2d724595cb099ca2ef58283d",
+      "checkedAt": "2026-10-12T01:09:02.454399+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\curl-proxy.html"
+    },
+    {
+      "key": "fly-flclash-proxies-ui",
+      "url": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/views/proxies/proxies.dart",
+      "finalUrl": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/views/proxies/proxies.dart",
+      "status": 200,
+      "sha256": "3a777bf4a3aba8dc6760e93aaf9507c6bdd378de184bf278b83261e9426624c7",
+      "checkedAt": "2026-10-12T01:09:03.898782+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\flclash-proxies-ui.txt"
+    },
+    {
+      "key": "fly-flclash-proxies-actions",
+      "url": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/providers/actions/proxies.dart",
+      "finalUrl": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/providers/actions/proxies.dart",
+      "status": 200,
+      "sha256": "342ef75a2d789455919380c0e0fea05395fef53d5361b2ed914c85304a264f77",
+      "checkedAt": "2026-10-12T01:09:05.597325+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\flclash-proxies-actions.txt"
+    },
+    {
+      "key": "fly-flclash-translations",
+      "url": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/l10n/intl/messages_zh_CN.dart",
+      "finalUrl": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/l10n/intl/messages_zh_CN.dart",
+      "status": 200,
+      "sha256": "3e0daa9b1c45c445cbd89eb036200a873f771beae8364e8e18fc1e30a0ee2cbc",
+      "checkedAt": "2026-10-12T01:09:07.268203+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\flclash-translations.txt"
+    },
+    {
+      "key": "fly-openclash-translations",
+      "url": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/po/zh-cn/openclash.zh-cn.po",
+      "finalUrl": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/po/zh-cn/openclash.zh-cn.po",
+      "status": 200,
+      "sha256": "014dfe91fec3cd88cdfa804750a0770d00e7a9b0305d4008c99e335853c8a0b5",
+      "checkedAt": "2026-10-12T01:09:07.782509+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\openclash-translations.txt"
+    },
+    {
+      "key": "fly-singbox-http-in",
+      "url": "https://sing-box.sagernet.org/configuration/inbound/http/",
+      "finalUrl": "https://sing-box.sagernet.org/configuration/inbound/http/",
+      "status": 200,
+      "sha256": "62e5f81df869ca04c1b4496c8f9a935ba3696c6d170abbc6e4a9935cb08396c0",
+      "checkedAt": "2026-10-12T01:10:04.858864+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\singbox-http-in.html"
+    },
+    {
+      "key": "fly-singbox-listen",
+      "url": "https://sing-box.sagernet.org/configuration/shared/listen/",
+      "finalUrl": "https://sing-box.sagernet.org/configuration/shared/listen/",
+      "status": 200,
+      "sha256": "ee7046199d456c5360249e9f23c73b10b0d2220130acdf0f40f7e5368c3d527e",
+      "checkedAt": "2026-10-12T01:10:04.840309+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\singbox-listen.html"
+    },
+    {
+      "key": "fly-singbox-direct",
+      "url": "https://sing-box.sagernet.org/configuration/outbound/direct/",
+      "finalUrl": "https://sing-box.sagernet.org/configuration/outbound/direct/",
+      "status": 200,
+      "sha256": "424f9f509a6fcb9de7acc9e1492ba36084ccacba6c75f3b5a6b98619b9fe0aa2",
+      "checkedAt": "2026-10-12T01:10:04.545108+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\singbox-direct.html"
+    },
+    {
+      "key": "fly-singbox-route",
+      "url": "https://sing-box.sagernet.org/configuration/route/",
+      "finalUrl": "https://sing-box.sagernet.org/configuration/route/",
+      "status": 200,
+      "sha256": "d8aa317b6651519e36b2778d6ecfd3e4a6457a6df2afc4701bc207876b40b1e5",
+      "checkedAt": "2026-10-12T01:10:04.423951+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\singbox-route.html"
+    },
+    {
+      "key": "fly-singbox-cli",
+      "url": "https://sing-box.sagernet.org/configuration/",
+      "finalUrl": "https://sing-box.sagernet.org/configuration/",
+      "status": 200,
+      "sha256": "4e9aaadb1961e883b378e2e4123cbf1f3bdd98fa88350ec57354860c544950d5",
+      "checkedAt": "2026-10-12T01:10:06.509018+00:00",
+      "savedPath": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\singbox-cli.html"
+    },
+    {
+      "url": "https://github.com/SagerNet/sing-box/blob/testing/cmd/sing-box/cmd_run.go",
+      "status": 200,
+      "finalUrl": "https://github.com/SagerNet/sing-box/blob/testing/cmd/sing-box/cmd_run.go",
+      "checkedAt": "2026-10-12T01:28:09.363070+00:00",
+      "sha256": "63593f6082ce5ee6cf06c7da4920d419c0575a52a680645062344ff056d28fbd",
+      "evidenceFile": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-12\\sources\\fly\\sing-box-cmd-run.html",
+      "sourceCodeVerification": {
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-box/testing/cmd/sing-box/cmd_run.go",
+        "status": 200,
+        "finalUrl": "https://raw.githubusercontent.com/SagerNet/sing-box/testing/cmd/sing-box/cmd_run.go",
+        "sha256": "f693f3714319acccf37bc5c1917308e69496259610271c508f007397ead4c6a5",
+        "assertion": "Use: \"run\" confirmed"
+      }
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 51
+  },
+  "localVerification": {
+    "site": "flyclash.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-12T01:29:55.935621+00:00",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/clash-verge-rev-windows-tun-start-failed/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/openclash-subscription-auto-update/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/v2rayn-windows-proxy-reset-after-exit/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/flclash-node-delay-test-timeout/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-http-inbound-config/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 69,
+    "articleCount": 51,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 71,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "activeActions": [],
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "21a6cd5d1c5d953c623148b9be4587455acdf4b9"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}
