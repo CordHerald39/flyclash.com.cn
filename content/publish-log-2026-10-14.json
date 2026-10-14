@@ -1,0 +1,359 @@
+{
+  "date": "2026-10-14",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "sing-box mixed 入站配置",
+      "intent": "HTTP 与 SOCKS 同端口接入验收",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-mixed-inbound-config/",
+      "article": "sing-box-mixed-inbound-config",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/mixed/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/mixed/",
+        "https://sing-box.sagernet.org/configuration/shared/listen/",
+        "https://sing-box.sagernet.org/configuration/outbound/direct/",
+        "https://sing-box.sagernet.org/configuration/route/",
+        "https://sing-box.sagernet.org/configuration/",
+        "https://github.com/SagerNet/sing-box/blob/testing/cmd/sing-box/cmd_run.go",
+        "https://curl.se/docs/manpage.html"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Clash Verge Rev DNS 扩展配置合并",
+      "intent": "DNS 多层扩展合并与覆盖排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-dns-merge/",
+      "article": "clash-verge-rev-dns-merge",
+      "source": "https://www.clashverge.dev/guide/extend.html",
+      "sources": [
+        "https://www.clashverge.dev/guide/extend.html",
+        "https://www.clashverge.dev/"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "FlClash 订阅更新失败",
+      "intent": "订阅下载、校验与当前配置加载排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-subscription-update-failed/",
+      "article": "flclash-subscription-update-failed",
+      "source": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/models/profile.dart",
+      "sources": [
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/models/profile.dart",
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/providers/actions/profiles.dart"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "OpenClash 核心更新失败",
+      "intent": "核心版本查询、下载、校验与替换故障",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/openclash-core-update-failed/",
+      "article": "openclash-core-update-failed",
+      "source": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash_core.sh",
+      "sources": [
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash_core.sh",
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash_version.lua"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box cache_file 缓存配置",
+      "intent": "selector 选择持久化与重启恢复",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-cache-file-config/",
+      "article": "sing-box-cache-file-config",
+      "source": "https://sing-box.sagernet.org/configuration/experimental/cache-file/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/experimental/cache-file/",
+        "https://sing-box.sagernet.org/configuration/experimental/clash-api/",
+        "https://sing-box.sagernet.org/configuration/outbound/selector/"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    }
+  ],
+  "allocationReason": "默认各5篇；承接10月13日已审核但未提交的10篇草稿，远端和正式站均确认尚无这些URL，刷新来源和日期后计入10月14日批次，不叠加补发。",
+  "sourceChecks": [
+    {
+      "url": "https://curl.se/docs/manpage.html",
+      "status": 200,
+      "finalUrl": "https://curl.se/docs/manpage.html",
+      "checkedAt": "2026-10-14T05:06:15.727457+00:00",
+      "sha256": "0ef77bad12997946fd2663bb2222b4201ab5cf3b2d724595cb099ca2ef58283d",
+      "bytes": 465220,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\01.txt"
+    },
+    {
+      "url": "https://github.com/SagerNet/sing-box/blob/testing/cmd/sing-box/cmd_run.go",
+      "status": 200,
+      "finalUrl": "https://github.com/SagerNet/sing-box/blob/testing/cmd/sing-box/cmd_run.go",
+      "checkedAt": "2026-10-14T05:06:16.891160+00:00",
+      "sha256": "bd6ac77740b678f4a3853fe020ab9a01b1d2fa4a42445db4964435614822795c",
+      "bytes": 352744,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\02.txt"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/models/profile.dart",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/models/profile.dart",
+      "checkedAt": "2026-10-14T05:06:17.609732+00:00",
+      "sha256": "d0c30024c1927499d0b19c53d3b386846e01c8a1feb1cfa7522ba0f746e01267",
+      "bytes": 6085,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\03.txt"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/providers/actions/profiles.dart",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/providers/actions/profiles.dart",
+      "checkedAt": "2026-10-14T05:06:18.277871+00:00",
+      "sha256": "a17c74138f13e5b3583abef3062bb1b6a55ada069f4005beea2fa43e036868b9",
+      "bytes": 16058,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\04.txt"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash_core.sh",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash_core.sh",
+      "checkedAt": "2026-10-14T05:06:18.860462+00:00",
+      "sha256": "66d7130b23947a23d255ed2d57f2da0bb3feabbae1fd88af4f81d3de746e6189",
+      "bytes": 9315,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\05.txt"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash_version.lua",
+      "status": 200,
+      "finalUrl": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash_version.lua",
+      "checkedAt": "2026-10-14T05:06:19.639826+00:00",
+      "sha256": "c7da7f4978ea144609b279e54ebb2b5b230c6e895fab3a1ca6e04e5d3e98a738",
+      "bytes": 17470,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\06.txt"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/",
+      "checkedAt": "2026-10-14T05:06:20.466039+00:00",
+      "sha256": "4e9aaadb1961e883b378e2e4123cbf1f3bdd98fa88350ec57354860c544950d5",
+      "bytes": 127810,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\07.txt"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/experimental/cache-file/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/experimental/cache-file/",
+      "checkedAt": "2026-10-14T05:06:21.279203+00:00",
+      "sha256": "b59c43d30f271ef5459681e87606660aa6c66b633607d530e7e9efb383924a7c",
+      "bytes": 133446,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\08.txt"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/experimental/clash-api/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/experimental/clash-api/",
+      "checkedAt": "2026-10-14T05:06:22.064694+00:00",
+      "sha256": "10cdd367caf43eb4a370b2332e90ed957ea83970fdf7226ec384640aa5928939",
+      "bytes": 141641,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\09.txt"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/inbound/mixed/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/inbound/mixed/",
+      "checkedAt": "2026-10-14T05:06:22.836569+00:00",
+      "sha256": "b59edd9520d20b9d9d8bb254cb50cce544e42f066ebbf56f21db728c936d38f3",
+      "bytes": 127786,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\10.txt"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/outbound/direct/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/outbound/direct/",
+      "checkedAt": "2026-10-14T05:06:24.477280+00:00",
+      "sha256": "424f9f509a6fcb9de7acc9e1492ba36084ccacba6c75f3b5a6b98619b9fe0aa2",
+      "bytes": 128455,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\12.txt"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/outbound/selector/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/outbound/selector/",
+      "checkedAt": "2026-10-14T05:06:25.221427+00:00",
+      "sha256": "6ebf3bba35449df6cd4f8aa0df292e9f985cb8ea8dff3a95f763f09161fedea1",
+      "bytes": 127469,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\13.txt"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/route/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/route/",
+      "checkedAt": "2026-10-14T05:06:26.754554+00:00",
+      "sha256": "d8aa317b6651519e36b2778d6ecfd3e4a6457a6df2afc4701bc207876b40b1e5",
+      "bytes": 138917,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\15.txt"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/shared/listen/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/shared/listen/",
+      "checkedAt": "2026-10-14T05:06:28.329976+00:00",
+      "sha256": "ee7046199d456c5360249e9f23c73b10b0d2220130acdf0f40f7e5368c3d527e",
+      "bytes": 144958,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\17.txt"
+    },
+    {
+      "url": "https://www.clashverge.dev/",
+      "status": 200,
+      "finalUrl": "https://www.clashverge.dev/",
+      "checkedAt": "2026-10-14T05:06:31.703463+00:00",
+      "sha256": "3918f54d8e8ac6e73e35a76f1bc35e4abae23dccf15173df4b2fef93396ce146",
+      "bytes": 39551,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\22.txt"
+    },
+    {
+      "url": "https://www.clashverge.dev/guide/extend.html",
+      "status": 200,
+      "finalUrl": "https://www.clashverge.dev/guide/extend.html",
+      "checkedAt": "2026-10-14T05:06:32.446022+00:00",
+      "sha256": "909b9a56fa9c93c00e8b6f4584f8da8fa7d52e90b21b636ff43864f05d3db222",
+      "bytes": 48920,
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-14\\sources\\23.txt"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 56
+  },
+  "localVerification": {
+    "site": "flyclash.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-14T05:10:46.444400+00:00",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-mixed-inbound-config/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/clash-verge-rev-dns-merge/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/flclash-subscription-update-failed/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/openclash-core-update-failed/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-cache-file-config/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 74,
+    "articleCount": 56,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 77,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "activeActions": [],
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "92ac8b26cb30e621f530610d5cda16355573a3ff"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-14",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -432,10 +432,96 @@
       "publishedDate": "2026-10-12",
       "article": "sing-box-http-inbound-config",
       "sourceVerifiedDate": "2026-10-12"
+    },
+    {
+      "keyword": "sing-box mixed 入站配置",
+      "intent": "HTTP 与 SOCKS 同端口接入验收",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-mixed-inbound-config/",
+      "article": "sing-box-mixed-inbound-config",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/mixed/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/mixed/",
+        "https://sing-box.sagernet.org/configuration/shared/listen/",
+        "https://sing-box.sagernet.org/configuration/outbound/direct/",
+        "https://sing-box.sagernet.org/configuration/route/",
+        "https://sing-box.sagernet.org/configuration/",
+        "https://github.com/SagerNet/sing-box/blob/testing/cmd/sing-box/cmd_run.go",
+        "https://curl.se/docs/manpage.html"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Clash Verge Rev DNS 扩展配置合并",
+      "intent": "DNS 多层扩展合并与覆盖排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-dns-merge/",
+      "article": "clash-verge-rev-dns-merge",
+      "source": "https://www.clashverge.dev/guide/extend.html",
+      "sources": [
+        "https://www.clashverge.dev/guide/extend.html",
+        "https://www.clashverge.dev/"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "FlClash 订阅更新失败",
+      "intent": "订阅下载、校验与当前配置加载排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-subscription-update-failed/",
+      "article": "flclash-subscription-update-failed",
+      "source": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/models/profile.dart",
+      "sources": [
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/models/profile.dart",
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/providers/actions/profiles.dart"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "OpenClash 核心更新失败",
+      "intent": "核心版本查询、下载、校验与替换故障",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/openclash-core-update-failed/",
+      "article": "openclash-core-update-failed",
+      "source": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash_core.sh",
+      "sources": [
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash_core.sh",
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash_version.lua"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box cache_file 缓存配置",
+      "intent": "selector 选择持久化与重启恢复",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-cache-file-config/",
+      "article": "sing-box-cache-file-config",
+      "source": "https://sing-box.sagernet.org/configuration/experimental/cache-file/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/experimental/cache-file/",
+        "https://sing-box.sagernet.org/configuration/experimental/clash-api/",
+        "https://sing-box.sagernet.org/configuration/outbound/selector/"
+      ],
+      "sourceVerifiedDate": "2026-10-14",
+      "status": "pending",
+      "plannedDate": "2026-10-14",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishStatus": "pending",
+  "publishNote": "来源与草稿已刷新，待本轮质量门和正式部署。",
   "publishedCommit": "1bc3d2d369d5a3ccd17a3aac6b88ea7aebe607b5",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38192133840"
 }
