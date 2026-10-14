@@ -1,0 +1,291 @@
+{
+  "date": "2026-10-15",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "mihomo select 手动选择",
+      "intent": "建立手动代理组与默认成员、运行选择验收",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/mihomo-select-proxy-group/",
+      "article": "mihomo-select-proxy-group",
+      "source": "https://wiki.metacubex.one/config/proxy-groups/select/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-groups/select/",
+        "https://wiki.metacubex.one/config/proxy-groups/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box direct 出站配置",
+      "intent": "直连出站标签与路由选择的可验证配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-direct-outbound-route/",
+      "article": "sing-box-direct-outbound-route",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/direct/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/direct/",
+        "https://sing-box.sagernet.org/configuration/route/",
+        "https://sing-box.sagernet.org/configuration/route/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box selector 手动切换",
+      "intent": "出站选择器、Clash API和连接切换验收",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-selector-manual-switch/",
+      "article": "sing-box-selector-manual-switch",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/selector/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/selector/",
+        "https://sing-box.sagernet.org/configuration/experimental/clash-api/",
+        "https://sing-box.sagernet.org/configuration/route/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box NTP 时间同步",
+      "intent": "协议时间偏差诊断与内置NTP配置验收",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-ntp-time-sync/",
+      "article": "sing-box-ntp-time-sync",
+      "source": "https://sing-box.sagernet.org/configuration/ntp/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/ntp/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box reject 规则动作",
+      "intent": "限定目标拒绝连接及default/drop差异验收",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-reject-rule-action/",
+      "article": "sing-box-reject-rule-action",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule_action/",
+        "https://sing-box.sagernet.org/configuration/route/rule/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    }
+  ],
+  "allocationReason": "默认每站 5 篇；根据已发布关键词与 URL 补充原软件配置和故障需求。",
+  "sourceChecks": [
+    {
+      "url": "https://sing-box.sagernet.org/configuration/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/",
+      "checkedAt": "2026-10-14T20:19:13.315122+00:00",
+      "sha256": "f70f5896c9ace5d65d68b171681576b590c4673e2ebdb8ba27bd61125ee36fc9",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-24.html"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/experimental/clash-api/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/experimental/clash-api/",
+      "checkedAt": "2026-10-14T20:18:15.698302+00:00",
+      "sha256": "806d58595ba8eeb1231c9d2dff1892107727705b4efe111146f46f907c16586d",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-11.html"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/ntp/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/ntp/",
+      "checkedAt": "2026-10-14T20:18:15.740485+00:00",
+      "sha256": "2210643e74490f67001acc49059314ef3f91a83a7bdebbc40fb86e73a9cacd40",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-12.html"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/outbound/direct/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/outbound/direct/",
+      "checkedAt": "2026-10-14T20:18:15.332209+00:00",
+      "sha256": "93881ee2335d88948c2854305e5b7899405a44a94ee575a1bf63fa8ccdeac930",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-09.html"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/outbound/selector/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/outbound/selector/",
+      "checkedAt": "2026-10-14T20:18:15.510709+00:00",
+      "sha256": "d03c3c6affddcc6eb80b2134c34af96b0ff764afcd43a1498f4cd006647ff030",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-10.html"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/route/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/route/",
+      "checkedAt": "2026-10-14T20:19:12.694975+00:00",
+      "sha256": "becfe80b632e5bc60214b4f5e2652877a78872d309e41f00810702743b558d26",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-23.html"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "checkedAt": "2026-10-14T20:19:11.925188+00:00",
+      "sha256": "05be287d943b18823ee98494ec4e52164d4f94553a39a7d6b67aa6fef75264af",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-22.html"
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/route/rule_action/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/route/rule_action/",
+      "checkedAt": "2026-10-14T20:18:16.124625+00:00",
+      "sha256": "7dc8f0c97215da2e9a7c1d4902c44e704d335a4fbcd52e93e41e7fce6ef1bc6b",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-13.html"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/proxy-groups/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/proxy-groups/",
+      "checkedAt": "2026-10-14T20:18:14.270068+00:00",
+      "sha256": "3b20f776631e52ebe289d62cd4249ae1a00369b06e77cd32cfc3c5e66e431299",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-03.html"
+    },
+    {
+      "url": "https://wiki.metacubex.one/config/proxy-groups/select/",
+      "status": 200,
+      "finalUrl": "https://wiki.metacubex.one/config/proxy-groups/select/",
+      "checkedAt": "2026-10-14T20:18:13.817476+00:00",
+      "sha256": "b477db92876b01a8f079956dc53d1a63e01ca9e1fe4b368f6fc88cc9afd5ce3c",
+      "evidence": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-15\\sources\\official-02.html"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 61
+  },
+  "localVerification": {
+    "site": "flyclash.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-14T20:28:43.242458+00:00",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/mihomo-select-proxy-group/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-direct-outbound-route/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-selector-manual-switch/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-ntp-time-sync/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-reject-rule-action/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 79,
+    "articleCount": 61,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 83,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "activeActions": [],
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "f032b766df6aadb087c003ea8c33d8b1f5719ec8"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}

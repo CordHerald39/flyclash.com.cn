@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -518,9 +518,91 @@
       "status": "published",
       "plannedDate": "2026-10-14",
       "publishedDate": "2026-10-14"
+    },
+    {
+      "keyword": "mihomo select 手动选择",
+      "intent": "建立手动代理组与默认成员、运行选择验收",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/mihomo-select-proxy-group/",
+      "article": "mihomo-select-proxy-group",
+      "source": "https://wiki.metacubex.one/config/proxy-groups/select/",
+      "sources": [
+        "https://wiki.metacubex.one/config/proxy-groups/select/",
+        "https://wiki.metacubex.one/config/proxy-groups/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box direct 出站配置",
+      "intent": "直连出站标签与路由选择的可验证配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-direct-outbound-route/",
+      "article": "sing-box-direct-outbound-route",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/direct/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/direct/",
+        "https://sing-box.sagernet.org/configuration/route/",
+        "https://sing-box.sagernet.org/configuration/route/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box selector 手动切换",
+      "intent": "出站选择器、Clash API和连接切换验收",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-selector-manual-switch/",
+      "article": "sing-box-selector-manual-switch",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/selector/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/selector/",
+        "https://sing-box.sagernet.org/configuration/experimental/clash-api/",
+        "https://sing-box.sagernet.org/configuration/route/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box NTP 时间同步",
+      "intent": "协议时间偏差诊断与内置NTP配置验收",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-ntp-time-sync/",
+      "article": "sing-box-ntp-time-sync",
+      "source": "https://sing-box.sagernet.org/configuration/ntp/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/ntp/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box reject 规则动作",
+      "intent": "限定目标拒绝连接及default/drop差异验收",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-reject-rule-action/",
+      "article": "sing-box-reject-rule-action",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule_action/",
+        "https://sing-box.sagernet.org/configuration/route/rule/"
+      ],
+      "sourceVerifiedDate": "2026-10-15",
+      "status": "pending",
+      "plannedDate": "2026-10-15",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
+  "publishStatus": "pending",
   "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
   "publishedCommit": "b9a5a87eeedc503a0b0245c716cb790edb16f03b",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38515261337"
