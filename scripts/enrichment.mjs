@@ -28,6 +28,10 @@ export function enhancePage(html,{route,config,articles,faq}){
   html=html.replace('<main id="main">',`<main id="main"><nav class="wrap article-path" aria-label="文章路径"><a href="/">首页</a><span aria-hidden="true">/</span><a href="/${category[0]}/">${e(category[1])}</a><span aria-hidden="true">/</span><span>正文</span></nav>`);
   addition=`<section class="wrap section related-section"><h2>继续阅读</h2>${related.length?`<div class="knowledge-grid">${related.map(a=>`<a href="/articles/${a.slug}/"><h3>${e(a.title)}</h3><p>${e(a.description)}</p></a>`).join('')}</div>`:''}<a class="back-category" href="/${category[0]}/">返回${e(category[1])} →</a></section>`;
  }
+ if(route==='/'){
+  const latest=articles.slice(0,5);
+  addition='<section class="wrap section latest-section"><div class="section-heading"><div><span class="eyebrow">LATEST GUIDES</span><h2>最新文章</h2><p>按发布日期更新，查看最近新增的配置与排障指南。</p></div><a href="/tutorials/">浏览全部教程 →</a></div><div class="knowledge-grid">'+latest.map(a=>'<a href="/articles/'+e(a.slug)+'/\"><span>'+e(a.label)+'</span><h3>'+e(a.title)+'</h3><p>'+e(a.description)+'</p><small class="article-date">发布日期：'+e(a.date)+' · 更新：'+e(a.updated)+'</small></a>').join('')+'</div></section>'+addition;
+ }
  return html.replace('</main>',addition+'</main>');
 }
 
