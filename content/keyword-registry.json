@@ -450,9 +450,9 @@
         "https://curl.se/docs/manpage.html"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     },
     {
       "keyword": "Clash Verge Rev DNS 扩展配置合并",
@@ -466,9 +466,9 @@
         "https://www.clashverge.dev/"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     },
     {
       "keyword": "FlClash 订阅更新失败",
@@ -482,9 +482,9 @@
         "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/providers/actions/profiles.dart"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     },
     {
       "keyword": "OpenClash 核心更新失败",
@@ -498,9 +498,9 @@
         "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash_version.lua"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     },
     {
       "keyword": "sing-box cache_file 缓存配置",
@@ -515,13 +515,13 @@
         "https://sing-box.sagernet.org/configuration/outbound/selector/"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     }
   ],
-  "publishStatus": "pending",
-  "publishNote": "来源与草稿已刷新，待本轮质量门和正式部署。",
-  "publishedCommit": "1bc3d2d369d5a3ccd17a3aac6b88ea7aebe607b5",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38192133840"
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishedCommit": "b9a5a87eeedc503a0b0245c716cb790edb16f03b",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38515261337"
 }

@@ -20,9 +20,9 @@
         "https://curl.se/docs/manpage.html"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     },
     {
       "keyword": "Clash Verge Rev DNS 扩展配置合并",
@@ -36,9 +36,9 @@
         "https://www.clashverge.dev/"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     },
     {
       "keyword": "FlClash 订阅更新失败",
@@ -52,9 +52,9 @@
         "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/providers/actions/profiles.dart"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     },
     {
       "keyword": "OpenClash 核心更新失败",
@@ -68,9 +68,9 @@
         "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/root/usr/share/openclash/openclash_version.lua"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     },
     {
       "keyword": "sing-box cache_file 缓存配置",
@@ -85,9 +85,9 @@
         "https://sing-box.sagernet.org/configuration/outbound/selector/"
       ],
       "sourceVerifiedDate": "2026-10-14",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-14",
-      "publishedDate": null
+      "publishedDate": "2026-10-14"
     }
   ],
   "allocationReason": "默认各5篇；承接10月13日已审核但未提交的10篇草稿，远端和正式站均确认尚无这些URL，刷新来源和日期后计入10月14日批次，不叠加补发。",
@@ -350,10 +350,81 @@
     "remoteBaselineHashCheck": "passed"
   },
   "publish": {
-    "status": "pending",
-    "base": "92ac8b26cb30e621f530610d5cda16355573a3ff"
+    "status": "published-via-git-data-api",
+    "remoteSha": "b9a5a87eeedc503a0b0245c716cb790edb16f03b",
+    "workflowRuns": [
+      {
+        "id": 38515261337,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38515261337",
+        "head_sha": "b9a5a87eeedc503a0b0245c716cb790edb16f03b"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "flyclash.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-14T05:12:09.939612+00:00",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-mixed-inbound-config/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/clash-verge-rev-dns-merge/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/flclash-subscription-update-failed/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/openclash-core-update-failed/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-cache-file-config/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 74,
+    "articleCount": 56,
+    "status": "passed"
+  }
 }
