@@ -531,9 +531,9 @@
         "https://wiki.metacubex.one/config/proxy-groups/"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     },
     {
       "keyword": "sing-box direct 出站配置",
@@ -548,9 +548,9 @@
         "https://sing-box.sagernet.org/configuration/route/rule_action/"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     },
     {
       "keyword": "sing-box selector 手动切换",
@@ -565,9 +565,9 @@
         "https://sing-box.sagernet.org/configuration/route/"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     },
     {
       "keyword": "sing-box NTP 时间同步",
@@ -581,9 +581,9 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     },
     {
       "keyword": "sing-box reject 规则动作",
@@ -597,13 +597,13 @@
         "https://sing-box.sagernet.org/configuration/route/rule/"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     }
   ],
-  "publishStatus": "pending",
+  "publishStatus": "published",
   "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
-  "publishedCommit": "b9a5a87eeedc503a0b0245c716cb790edb16f03b",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38515261337"
+  "publishedCommit": "b1edbae5523c5a404bbf70494308267e3a7cfb73",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38632425226"
 }

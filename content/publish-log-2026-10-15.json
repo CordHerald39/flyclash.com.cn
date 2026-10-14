@@ -15,9 +15,9 @@
         "https://wiki.metacubex.one/config/proxy-groups/"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     },
     {
       "keyword": "sing-box direct 出站配置",
@@ -32,9 +32,9 @@
         "https://sing-box.sagernet.org/configuration/route/rule_action/"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     },
     {
       "keyword": "sing-box selector 手动切换",
@@ -49,9 +49,9 @@
         "https://sing-box.sagernet.org/configuration/route/"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     },
     {
       "keyword": "sing-box NTP 时间同步",
@@ -65,9 +65,9 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     },
     {
       "keyword": "sing-box reject 规则动作",
@@ -81,9 +81,9 @@
         "https://sing-box.sagernet.org/configuration/route/rule/"
       ],
       "sourceVerifiedDate": "2026-10-15",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-15",
-      "publishedDate": null
+      "publishedDate": "2026-10-15"
     }
   ],
   "allocationReason": "默认每站 5 篇；根据已发布关键词与 URL 补充原软件配置和故障需求。",
@@ -282,10 +282,81 @@
     "remoteBaselineHashCheck": "passed"
   },
   "publish": {
-    "status": "pending",
-    "base": "f032b766df6aadb087c003ea8c33d8b1f5719ec8"
+    "status": "published-via-git-data-api",
+    "remoteSha": "b1edbae5523c5a404bbf70494308267e3a7cfb73",
+    "workflowRuns": [
+      {
+        "id": 38632425226,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38632425226",
+        "head_sha": "b1edbae5523c5a404bbf70494308267e3a7cfb73"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "flyclash.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-14T20:30:38.841402+00:00",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/mihomo-select-proxy-group/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-direct-outbound-route/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-selector-manual-switch/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-ntp-time-sync/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-reject-rule-action/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 79,
+    "articleCount": 61,
+    "status": "passed"
+  }
 }
