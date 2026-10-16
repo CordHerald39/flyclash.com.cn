@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -600,9 +600,85 @@
       "status": "published",
       "plannedDate": "2026-10-15",
       "publishedDate": "2026-10-15"
+    },
+    {
+      "keyword": "sing-box DNS address_resolver",
+      "intent": "配置 DNS 服务器地址解析器",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-address-resolver-check/",
+      "article": "sing-box-dns-address-resolver-check",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box TUN auto_route",
+      "intent": "配置 TUN 自动路由与 DNS 接管",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tun-auto-route-check/",
+      "article": "sing-box-tun-auto-route-check",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/tun/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/tun/"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box route domain_resolver",
+      "intent": "为路由域名匹配指定解析器",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-domain-resolver-check/",
+      "article": "sing-box-route-domain-resolver-check",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule/",
+        "https://sing-box.sagernet.org/configuration/dns/server/"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box route ip_version",
+      "intent": "按 IP 版本限制路由",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-ip-version-check/",
+      "article": "sing-box-route-ip-version-check",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule/"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box TUN stack",
+      "intent": "比较 TUN stack 与 TCP/UDP 转发",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tun-stack-check/",
+      "article": "sing-box-tun-stack-check",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/tun/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/tun/"
+      ],
+      "sourceVerifiedDate": "2026-10-16",
+      "status": "pending",
+      "plannedDate": "2026-10-16",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
+  "publishStatus": "pending",
   "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
   "publishedCommit": "b1edbae5523c5a404bbf70494308267e3a7cfb73",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38632425226"
