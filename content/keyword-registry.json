@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-18",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -429,7 +429,7 @@
       ],
       "status": "published",
       "plannedDate": "2026-10-12",
-      "publishedDate": "2026-10-12",
+      "publishedDate": "2026-10-18",
       "article": "sing-box-http-inbound-config",
       "sourceVerifiedDate": "2026-10-12"
     },
@@ -684,11 +684,13 @@
       "url": "/articles/sing-box-http-inbound-config/",
       "article": "sing-box-http-inbound-config",
       "source": "https://sing-box.sagernet.org/configuration/inbound/http/",
-      "sources": ["https://sing-box.sagernet.org/configuration/inbound/http/"],
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/http/"
+      ],
       "sourceVerifiedDate": "2026-10-18",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-18",
-      "publishedDate": null
+      "publishedDate": "2026-10-18"
     },
     {
       "keyword": "sing-box DNS reverse_mapping",
@@ -697,11 +699,13 @@
       "url": "/articles/sing-box-dns-reverse-mapping/",
       "article": "sing-box-dns-reverse-mapping",
       "source": "https://sing-box.sagernet.org/configuration/dns/",
-      "sources": ["https://sing-box.sagernet.org/configuration/dns/"],
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/"
+      ],
       "sourceVerifiedDate": "2026-10-18",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-18",
-      "publishedDate": null
+      "publishedDate": "2026-10-18"
     },
     {
       "keyword": "Clash Verge Rev 启动后系统代理未生效",
@@ -710,11 +714,13 @@
       "url": "/articles/clash-verge-rev-startup-proxy-check/",
       "article": "clash-verge-rev-startup-proxy-check",
       "source": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "sources": ["https://github.com/clash-verge-rev/clash-verge-rev"],
+      "sources": [
+        "https://github.com/clash-verge-rev/clash-verge-rev"
+      ],
       "sourceVerifiedDate": "2026-10-18",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-18",
-      "publishedDate": null
+      "publishedDate": "2026-10-18"
     },
     {
       "keyword": "OpenClash 防火墙重定向",
@@ -723,11 +729,13 @@
       "url": "/articles/openclash-firewall-redirect-check/",
       "article": "openclash-firewall-redirect-check",
       "source": "https://github.com/vernesong/OpenClash",
-      "sources": ["https://github.com/vernesong/OpenClash"],
+      "sources": [
+        "https://github.com/vernesong/OpenClash"
+      ],
       "sourceVerifiedDate": "2026-10-18",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-18",
-      "publishedDate": null
+      "publishedDate": "2026-10-18"
     },
     {
       "keyword": "FlClash 配置合并",
@@ -736,15 +744,17 @@
       "url": "/articles/flclash-profile-merge-check/",
       "article": "flclash-profile-merge-check",
       "source": "https://github.com/chen08209/FlClash",
-      "sources": ["https://github.com/chen08209/FlClash"],
+      "sources": [
+        "https://github.com/chen08209/FlClash"
+      ],
       "sourceVerifiedDate": "2026-10-18",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-18",
-      "publishedDate": null
+      "publishedDate": "2026-10-18"
     }
   ],
   "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
-  "publishedCommit": "03138c08891272ef811de248c6b95f55b8b00963",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/38837233647"
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，正式页面已核验。",
+  "publishedCommit": "41abd1460b4d6d2350693333becbfb3e1ab84630",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/39085537194"
 }

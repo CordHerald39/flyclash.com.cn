@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-18",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "sing-box HTTP 入站配置",
+      "intent": "本机 HTTP 入站配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-http-inbound-config/",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/http/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/http/",
+        "https://sing-box.sagernet.org/configuration/shared/listen/",
+        "https://sing-box.sagernet.org/configuration/outbound/direct/",
+        "https://sing-box.sagernet.org/configuration/route/",
+        "https://sing-box.sagernet.org/configuration/",
+        "https://curl.se/docs/manpage.html",
+        "https://github.com/SagerNet/sing-box/blob/testing/cmd/sing-box/cmd_run.go"
+      ],
+      "status": "published",
+      "plannedDate": "2026-10-12",
+      "publishedDate": "2026-10-18",
+      "article": "sing-box-http-inbound-config",
+      "sourceVerifiedDate": "2026-10-12"
+    },
+    {
+      "keyword": "sing-box HTTP 入站配置",
+      "intent": "HTTP 端口认证与请求验证",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-http-inbound-config/",
+      "article": "sing-box-http-inbound-config",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/http/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/http/"
+      ],
+      "sourceVerifiedDate": "2026-10-18",
+      "status": "published",
+      "plannedDate": "2026-10-18",
+      "publishedDate": "2026-10-18"
+    },
+    {
+      "keyword": "sing-box DNS reverse_mapping",
+      "intent": "反向映射与域名恢复检查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-reverse-mapping/",
+      "article": "sing-box-dns-reverse-mapping",
+      "source": "https://sing-box.sagernet.org/configuration/dns/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-18",
+      "status": "published",
+      "plannedDate": "2026-10-18",
+      "publishedDate": "2026-10-18"
+    },
+    {
+      "keyword": "Clash Verge Rev 启动后系统代理未生效",
+      "intent": "系统代理、端口与权限排错",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-startup-proxy-check/",
+      "article": "clash-verge-rev-startup-proxy-check",
+      "source": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "sources": [
+        "https://github.com/clash-verge-rev/clash-verge-rev"
+      ],
+      "sourceVerifiedDate": "2026-10-18",
+      "status": "published",
+      "plannedDate": "2026-10-18",
+      "publishedDate": "2026-10-18"
+    },
+    {
+      "keyword": "OpenClash 防火墙重定向",
+      "intent": "透明代理不生效排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/openclash-firewall-redirect-check/",
+      "article": "openclash-firewall-redirect-check",
+      "source": "https://github.com/vernesong/OpenClash",
+      "sources": [
+        "https://github.com/vernesong/OpenClash"
+      ],
+      "sourceVerifiedDate": "2026-10-18",
+      "status": "published",
+      "plannedDate": "2026-10-18",
+      "publishedDate": "2026-10-18"
+    },
+    {
+      "keyword": "FlClash 配置合并",
+      "intent": "订阅更新后的覆盖关系检查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-profile-merge-check/",
+      "article": "flclash-profile-merge-check",
+      "source": "https://github.com/chen08209/FlClash",
+      "sources": [
+        "https://github.com/chen08209/FlClash"
+      ],
+      "sourceVerifiedDate": "2026-10-18",
+      "status": "published",
+      "plannedDate": "2026-10-18",
+      "publishedDate": "2026-10-18"
+    }
+  ],
+  "allocationReason": "默认每站5篇；按远端已覆盖关键词与真实配置缺口分配。",
+  "sourceChecks": [
+    {
+      "url": "https://sing-box.sagernet.org/configuration/inbound/http/",
+      "status": 200
+    },
+    {
+      "url": "https://sing-box.sagernet.org/configuration/dns/",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/vernesong/OpenClash",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/chen08209/FlClash",
+      "status": 200
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 70
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed"
+  },
+  "publish": {
+    "status": "published-via-git-data-api",
+    "remoteSha": "41abd1460b4d6d2350693333becbfb3e1ab84630",
+    "workflowRuns": [
+      {
+        "id": 39085537194,
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "nextTodo": [
+    "下一轮先读取远端登记，跳过本轮10个关键词与URL。",
+    "继续覆盖原软件真实配置、规则、DNS、连接和迁移缺口。"
+  ],
+  "liveVerification": {
+    "status": "passed",
+    "pages": "HTTPS 200 for homepage, assets, robots, sitemap and all five new articles"
+  }
+}
