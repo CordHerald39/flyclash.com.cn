@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-19",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {"keyword":"sing-box urltest 出站","intent":"自动选路与延迟测试验收","targetSite":"flyclash.com.cn","url":"/articles/sing-box-urltest-outbound-check/","article":"sing-box-urltest-outbound-check","source":"https://sing-box.sagernet.org/configuration/outbound/urltest/","sourceVerifiedDate":"2026-10-19","status":"draft","plannedDate":"2026-10-19"},
+    {"keyword":"OpenClash 配置重载失败","intent":"配置生成与核心启动故障","targetSite":"flyclash.com.cn","url":"/articles/openclash-config-reload-failed/","article":"openclash-config-reload-failed","source":"https://github.com/vernesong/OpenClash","sourceVerifiedDate":"2026-10-19","status":"draft","plannedDate":"2026-10-19"},
+    {"keyword":"FlClash Android VPN 权限","intent":"Android VPN 授权与流量接管故障","targetSite":"flyclash.com.cn","url":"/articles/flclash-android-vpn-permission-check/","article":"flclash-android-vpn-permission-check","source":"https://github.com/chen08209/FlClash","sourceVerifiedDate":"2026-10-19","status":"draft","plannedDate":"2026-10-19"},
+    {"keyword":"v2rayN Windows 核心更新失败","intent":"核心更新与版本回退故障","targetSite":"flyclash.com.cn","url":"/articles/v2rayn-windows-core-update-failed/","article":"v2rayn-windows-core-update-failed","source":"https://github.com/2dust/v2rayN","sourceVerifiedDate":"2026-10-19","status":"draft","plannedDate":"2026-10-19"},
+    {"keyword":"Clash Verge Rev Linux 系统代理","intent":"Linux 系统代理与端口排查","targetSite":"flyclash.com.cn","url":"/articles/clash-verge-rev-linux-system-proxy-check/","article":"clash-verge-rev-linux-system-proxy-check","source":"https://github.com/clash-verge-rev/clash-verge-rev","sourceVerifiedDate":"2026-10-19","status":"draft","plannedDate":"2026-10-19"}
+  ],
+  "allocationReason":"默认每站5篇；按已覆盖关键词和原软件配置缺口分配。",
+  "sourceChecks":[
+    {"url":"https://sing-box.sagernet.org/configuration/outbound/urltest/","status":200},
+    {"url":"https://github.com/vernesong/OpenClash","status":200},
+    {"url":"https://github.com/chen08209/FlClash","status":200},
+    {"url":"https://github.com/2dust/v2rayN","status":200},
+    {"url":"https://github.com/clash-verge-rev/clash-verge-rev","status":200}
+  ],
+  "tests":{"command":"pnpm test","status":"passed"},
+  "build":{"command":"pnpm build","status":"passed","articleCount":75},
+  "audit":{"command":"pnpm run audit","status":"passed","scores":{"homeMobile":100,"homeDesktop":100,"downloadsMobile":100,"articleMobile":100}},
+  "publish":{"status":"pending"},
+  "nextTodo":["提交后等待 Actions/Pages 完成，再核验正式页面并回写 published。"]
+}
