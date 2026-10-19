@@ -759,11 +759,13 @@
       "url": "/articles/sing-box-urltest-outbound-check/",
       "article": "sing-box-urltest-outbound-check",
       "source": "https://sing-box.sagernet.org/configuration/outbound/urltest/",
-      "sources": ["https://sing-box.sagernet.org/configuration/outbound/urltest/"],
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/urltest/"
+      ],
       "sourceVerifiedDate": "2026-10-19",
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-19",
-      "publishedDate": null
+      "publishedDate": "2026-10-19"
     },
     {
       "keyword": "OpenClash 配置重载失败",
@@ -772,11 +774,13 @@
       "url": "/articles/openclash-config-reload-failed/",
       "article": "openclash-config-reload-failed",
       "source": "https://github.com/vernesong/OpenClash",
-      "sources": ["https://github.com/vernesong/OpenClash"],
+      "sources": [
+        "https://github.com/vernesong/OpenClash"
+      ],
       "sourceVerifiedDate": "2026-10-19",
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-19",
-      "publishedDate": null
+      "publishedDate": "2026-10-19"
     },
     {
       "keyword": "FlClash Android VPN 权限",
@@ -785,11 +789,13 @@
       "url": "/articles/flclash-android-vpn-permission-check/",
       "article": "flclash-android-vpn-permission-check",
       "source": "https://github.com/chen08209/FlClash",
-      "sources": ["https://github.com/chen08209/FlClash"],
+      "sources": [
+        "https://github.com/chen08209/FlClash"
+      ],
       "sourceVerifiedDate": "2026-10-19",
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-19",
-      "publishedDate": null
+      "publishedDate": "2026-10-19"
     },
     {
       "keyword": "v2rayN Windows 核心更新失败",
@@ -798,11 +804,13 @@
       "url": "/articles/v2rayn-windows-core-update-failed/",
       "article": "v2rayn-windows-core-update-failed",
       "source": "https://github.com/2dust/v2rayN",
-      "sources": ["https://github.com/2dust/v2rayN"],
+      "sources": [
+        "https://github.com/2dust/v2rayN"
+      ],
       "sourceVerifiedDate": "2026-10-19",
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-19",
-      "publishedDate": null
+      "publishedDate": "2026-10-19"
     },
     {
       "keyword": "Clash Verge Rev Linux 系统代理",
@@ -811,15 +819,17 @@
       "url": "/articles/clash-verge-rev-linux-system-proxy-check/",
       "article": "clash-verge-rev-linux-system-proxy-check",
       "source": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "sources": ["https://github.com/clash-verge-rev/clash-verge-rev"],
+      "sources": [
+        "https://github.com/clash-verge-rev/clash-verge-rev"
+      ],
       "sourceVerifiedDate": "2026-10-19",
-      "status": "draft",
+      "status": "published",
       "plannedDate": "2026-10-19",
-      "publishedDate": null
+      "publishedDate": "2026-10-19"
     }
   ],
-  "publishStatus": "draft",
-  "publishNote": "2026-10-19 新增5篇内容已完成来源核验、测试、构建和审计，等待 Git Data API 发布。",
-  "publishedCommit": null,
-  "deploymentUrl": null
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，正式页面已核验。",
+  "publishedCommit": "3dbb8273f6c1af48817a730a33b767240f5dac81",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/39184067424"
 }
