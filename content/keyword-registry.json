@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -826,10 +826,85 @@
       "status": "published",
       "plannedDate": "2026-10-19",
       "publishedDate": "2026-10-19"
+    },
+    {
+      "keyword": "sing-box network 规则",
+      "intent": "TCP UDP 路由条件与规则命中",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-network-tcp-udp/",
+      "article": "sing-box-route-network-tcp-udp",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box process_name 规则",
+      "intent": "桌面进程分流不命中排错",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-process-name-path/",
+      "article": "sing-box-route-process-name-path",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box HTTPS DNS 配置",
+      "intent": "新式 DoH 地址字段与连接故障",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-https-server-path/",
+      "article": "sing-box-dns-https-server-path",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/https/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/https/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box direct 入站端口转发",
+      "intent": "固定目标地址与端口转发验收",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-direct-inbound-override/",
+      "article": "sing-box-direct-inbound-override",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/direct/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/direct/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box disable_cache",
+      "intent": "DNS 缓存对照与旧解析结果排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-disable-cache-check/",
+      "article": "sing-box-dns-disable-cache-check",
+      "source": "https://sing-box.sagernet.org/configuration/dns/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，正式页面已核验。",
+  "publishStatus": "pending",
+  "publishNote": "本轮待测试、构建、审核与正式发布验证。",
   "publishedCommit": "3dbb8273f6c1af48817a730a33b767240f5dac81",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/39184067424"
 }

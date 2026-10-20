@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-20",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "sing-box network 规则",
+      "intent": "TCP UDP 路由条件与规则命中",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-network-tcp-udp/",
+      "article": "sing-box-route-network-tcp-udp",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box process_name 规则",
+      "intent": "桌面进程分流不命中排错",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-process-name-path/",
+      "article": "sing-box-route-process-name-path",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box HTTPS DNS 配置",
+      "intent": "新式 DoH 地址字段与连接故障",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-https-server-path/",
+      "article": "sing-box-dns-https-server-path",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/https/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/https/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box direct 入站端口转发",
+      "intent": "固定目标地址与端口转发验收",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-direct-inbound-override/",
+      "article": "sing-box-direct-inbound-override",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/direct/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/direct/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box disable_cache",
+      "intent": "DNS 缓存对照与旧解析结果排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-disable-cache-check/",
+      "article": "sing-box-dns-disable-cache-check",
+      "source": "https://sing-box.sagernet.org/configuration/dns/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/"
+      ],
+      "sourceVerifiedDate": "2026-10-20",
+      "status": "pending",
+      "plannedDate": "2026-10-20",
+      "publishedDate": null
+    }
+  ],
+  "allocationReason": "两站默认各5篇，按现有主题缺口分配；NekoBox补充mihomo、sing-box与Xray配置，FlyClash补充桌面sing-box路由、DNS与入站故障。",
+  "sourceChecks": [
+    {
+      "id": "sing-route-rule",
+      "url": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "finalUrl": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "status": 200,
+      "checkedAt": "2026-10-20T11:20:36.612276+00:00",
+      "sha256": "b0043147354be0c89c190efe6d3ca71cde9e396a7f2a97b0b9383967acc1f32c"
+    },
+    {
+      "id": "sing-dns-https",
+      "url": "https://sing-box.sagernet.org/configuration/dns/server/https/",
+      "finalUrl": "https://sing-box.sagernet.org/configuration/dns/server/https/",
+      "status": 200,
+      "checkedAt": "2026-10-20T11:20:36.660781+00:00",
+      "sha256": "b49ac2aaa25d71ed4a21bf0caf09d89b4c76f9f560f93128343748d50f74572c"
+    },
+    {
+      "id": "sing-direct-inbound",
+      "url": "https://sing-box.sagernet.org/configuration/inbound/direct/",
+      "finalUrl": "https://sing-box.sagernet.org/configuration/inbound/direct/",
+      "status": 200,
+      "checkedAt": "2026-10-20T11:20:36.818477+00:00",
+      "sha256": "db3652f43347896653c7469f58fda3c90233de81226735f6191ab633b28c6254"
+    },
+    {
+      "id": "sing-dns",
+      "url": "https://sing-box.sagernet.org/configuration/dns/",
+      "status": 200,
+      "finalUrl": "https://sing-box.sagernet.org/configuration/dns/",
+      "checkedAt": "2026-10-20T11:23:27.071239+00:00",
+      "sha256": "7095ded4e5e14bb95c5772fd6da2e3b0ac88f863d318b43f4559f8a4a9a08f7e"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 80
+  },
+  "localVerification": {
+    "site": "flyclash.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-20T11:30:09.270986+00:00",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-route-network-tcp-udp/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-route-process-name-path/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-dns-https-server-path/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-direct-inbound-override/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-dns-disable-cache-check/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 98,
+    "articleCount": 80,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 106,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "activeActions": [],
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "27fd02d01cab4a14bc1987517e1d4c9755eba015"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}
