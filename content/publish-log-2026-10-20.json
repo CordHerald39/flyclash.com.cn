@@ -14,9 +14,9 @@
         "https://sing-box.sagernet.org/configuration/route/rule/"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     },
     {
       "keyword": "sing-box process_name 规则",
@@ -29,9 +29,9 @@
         "https://sing-box.sagernet.org/configuration/route/rule/"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     },
     {
       "keyword": "sing-box HTTPS DNS 配置",
@@ -44,9 +44,9 @@
         "https://sing-box.sagernet.org/configuration/dns/server/https/"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     },
     {
       "keyword": "sing-box direct 入站端口转发",
@@ -59,9 +59,9 @@
         "https://sing-box.sagernet.org/configuration/inbound/direct/"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     },
     {
       "keyword": "sing-box disable_cache",
@@ -74,9 +74,9 @@
         "https://sing-box.sagernet.org/configuration/dns/"
       ],
       "sourceVerifiedDate": "2026-10-20",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-20",
-      "publishedDate": null
+      "publishedDate": "2026-10-20"
     }
   ],
   "allocationReason": "两站默认各5篇，按现有主题缺口分配；NekoBox补充mihomo、sing-box与Xray配置，FlyClash补充桌面sing-box路由、DNS与入站故障。",
@@ -227,10 +227,81 @@
     "remoteBaselineHashCheck": "passed"
   },
   "publish": {
-    "status": "pending",
-    "base": "27fd02d01cab4a14bc1987517e1d4c9755eba015"
+    "status": "published-via-git-data-api",
+    "remoteSha": "b8f8d9523dcf025e54e232f11b042fa333d50a8b",
+    "workflowRuns": [
+      {
+        "id": 39415424848,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/39415424848",
+        "head_sha": "b8f8d9523dcf025e54e232f11b042fa333d50a8b"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "flyclash.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-20T11:32:22.113926+00:00",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-route-network-tcp-udp/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-route-process-name-path/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-dns-https-server-path/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-direct-inbound-override/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-dns-disable-cache-check/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 98,
+    "articleCount": 80,
+    "status": "passed"
+  }
 }
