@@ -14,9 +14,9 @@
         "https://www.clashverge.dev/guide/log.html"
       ],
       "sourceVerifiedDate": "2026-10-21",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-21",
-      "publishedDate": null
+      "publishedDate": "2026-10-21"
     },
     {
       "keyword": "Clash Verge Rev 本地配置导入",
@@ -29,9 +29,9 @@
         "https://www.clashverge.dev/guide/profile.html"
       ],
       "sourceVerifiedDate": "2026-10-21",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-21",
-      "publishedDate": null
+      "publishedDate": "2026-10-21"
     },
     {
       "keyword": "v2rayN 自定义路由 JSON",
@@ -46,9 +46,9 @@
         "https://xtls.github.io/config/routing.html"
       ],
       "sourceVerifiedDate": "2026-10-21",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-21",
-      "publishedDate": null
+      "publishedDate": "2026-10-21"
     },
     {
       "keyword": "FlClash 一键导入链接",
@@ -62,9 +62,9 @@
         "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/common/link.dart"
       ],
       "sourceVerifiedDate": "2026-10-21",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-21",
-      "publishedDate": null
+      "publishedDate": "2026-10-21"
     },
     {
       "keyword": "OpenClash 局域网访问控制",
@@ -77,9 +77,9 @@
         "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/settings.lua"
       ],
       "sourceVerifiedDate": "2026-10-21",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-21",
-      "publishedDate": null
+      "publishedDate": "2026-10-21"
     }
   ],
   "allocationReason": "默认各5篇；根据双站历史覆盖缺口补充核心配置与客户端故障，未声称实时搜索量或排名。",
@@ -270,10 +270,81 @@
     "remoteBaselineHashCheck": "passed"
   },
   "publish": {
-    "status": "pending",
-    "base": "f9f48cceb0cb4b81b856241b1debbd8391c3b321"
+    "status": "published-via-git-data-api",
+    "remoteSha": "cc1f658aa37f64ce394fe6dfbaea07494e1b00c4",
+    "workflowRuns": [
+      {
+        "id": 39526187346,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/39526187346",
+        "head_sha": "cc1f658aa37f64ce394fe6dfbaea07494e1b00c4"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "flyclash.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-21T01:16:35.229301+00:00",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/clash-verge-rev-export-logs/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/clash-verge-rev-local-profile-import/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/v2rayn-custom-routing-json-import/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/flclash-install-config-url-scheme/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/openclash-lan-access-control/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 103,
+    "articleCount": 85,
+    "status": "passed"
+  }
 }

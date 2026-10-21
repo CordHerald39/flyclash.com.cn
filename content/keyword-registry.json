@@ -913,9 +913,9 @@
         "https://www.clashverge.dev/guide/log.html"
       ],
       "sourceVerifiedDate": "2026-10-21",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-21",
-      "publishedDate": null
+      "publishedDate": "2026-10-21"
     },
     {
       "keyword": "Clash Verge Rev 本地配置导入",
@@ -928,9 +928,9 @@
         "https://www.clashverge.dev/guide/profile.html"
       ],
       "sourceVerifiedDate": "2026-10-21",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-21",
-      "publishedDate": null
+      "publishedDate": "2026-10-21"
     },
     {
       "keyword": "v2rayN 自定义路由 JSON",
@@ -945,9 +945,9 @@
         "https://xtls.github.io/config/routing.html"
       ],
       "sourceVerifiedDate": "2026-10-21",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-21",
-      "publishedDate": null
+      "publishedDate": "2026-10-21"
     },
     {
       "keyword": "FlClash 一键导入链接",
@@ -961,9 +961,9 @@
         "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/common/link.dart"
       ],
       "sourceVerifiedDate": "2026-10-21",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-21",
-      "publishedDate": null
+      "publishedDate": "2026-10-21"
     },
     {
       "keyword": "OpenClash 局域网访问控制",
@@ -976,13 +976,13 @@
         "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/settings.lua"
       ],
       "sourceVerifiedDate": "2026-10-21",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-21",
-      "publishedDate": null
+      "publishedDate": "2026-10-21"
     }
   ],
-  "publishStatus": "pending",
-  "publishNote": "待测试、构建、独立编辑审核与正式发布验证。",
-  "publishedCommit": "b8f8d9523dcf025e54e232f11b042fa333d50a8b",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/39415424848"
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishedCommit": "cc1f658aa37f64ce394fe6dfbaea07494e1b00c4",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/39526187346"
 }
