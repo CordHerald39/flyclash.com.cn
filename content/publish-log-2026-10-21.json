@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-21",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "Clash Verge Rev 日志导出",
+      "intent": "故障排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-export-logs/",
+      "article": "clash-verge-rev-export-logs",
+      "source": "https://www.clashverge.dev/guide/log.html",
+      "sources": [
+        "https://www.clashverge.dev/guide/log.html"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Clash Verge Rev 本地配置导入",
+      "intent": "配置导入",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-local-profile-import/",
+      "article": "clash-verge-rev-local-profile-import",
+      "source": "https://www.clashverge.dev/guide/profile.html",
+      "sources": [
+        "https://www.clashverge.dev/guide/profile.html"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
+    },
+    {
+      "keyword": "v2rayN 自定义路由 JSON",
+      "intent": "规则配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/v2rayn-custom-routing-json-import/",
+      "article": "v2rayn-custom-routing-json-import",
+      "source": "https://raw.githubusercontent.com/wiki/2dust/v2rayN/Description-of-custom-routing-rules.md",
+      "sources": [
+        "https://raw.githubusercontent.com/wiki/2dust/v2rayN/Description-of-custom-routing-rules.md",
+        "https://raw.githubusercontent.com/wiki/2dust/v2rayN/Description-of-system-proxy-routing.md",
+        "https://xtls.github.io/config/routing.html"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
+    },
+    {
+      "keyword": "FlClash 一键导入链接",
+      "intent": "配置导入",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-install-config-url-scheme/",
+      "article": "flclash-install-config-url-scheme",
+      "source": "https://raw.githubusercontent.com/chen08209/FlClash/main/README_zh_CN.md",
+      "sources": [
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/README_zh_CN.md",
+        "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/common/link.dart"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
+    },
+    {
+      "keyword": "OpenClash 局域网访问控制",
+      "intent": "规则配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/openclash-lan-access-control/",
+      "article": "openclash-lan-access-control",
+      "source": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/settings.lua",
+      "sources": [
+        "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/settings.lua"
+      ],
+      "sourceVerifiedDate": "2026-10-21",
+      "status": "pending",
+      "plannedDate": "2026-10-21",
+      "publishedDate": null
+    }
+  ],
+  "allocationReason": "默认各5篇；根据双站历史覆盖缺口补充核心配置与客户端故障，未声称实时搜索量或排名。",
+  "sourceChecks": [
+    {
+      "id": "fly-cvr-profile",
+      "url": "https://www.clashverge.dev/guide/profile.html",
+      "finalUrl": "https://www.clashverge.dev/guide/profile.html",
+      "status": 200,
+      "checkedAt": "2026-10-21T01:07:48.034316+00:00",
+      "sha256": "a89d89b31f6f913828b11572b17539c5d3b0020df58c8c2d2363f1cf3588aa41",
+      "file": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-21\\sources\\fly-cvr-profile.html"
+    },
+    {
+      "id": "fly-cvr-log",
+      "url": "https://www.clashverge.dev/guide/log.html",
+      "finalUrl": "https://www.clashverge.dev/guide/log.html",
+      "status": 200,
+      "checkedAt": "2026-10-21T01:07:47.934348+00:00",
+      "sha256": "4d6b05323269ba2c4415572b4923714782782e5cef393fed16650cdd380424b3",
+      "file": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-21\\sources\\fly-cvr-log.html"
+    },
+    {
+      "id": "fly-flclash-readme",
+      "url": "https://raw.githubusercontent.com/chen08209/FlClash/main/README_zh_CN.md",
+      "finalUrl": "https://raw.githubusercontent.com/chen08209/FlClash/main/README_zh_CN.md",
+      "status": 200,
+      "checkedAt": "2026-10-21T01:07:47.854128+00:00",
+      "sha256": "c5de408d670f3889d92cd4312ae6006634c65ecce0e2efd67b52c819fbcbd8f5",
+      "file": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-21\\sources\\fly-flclash-readme.html"
+    },
+    {
+      "id": "fly-openclash-config",
+      "url": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/settings.lua",
+      "finalUrl": "https://raw.githubusercontent.com/vernesong/OpenClash/master/luci-app-openclash/luasrc/model/cbi/openclash/settings.lua",
+      "status": 200,
+      "checkedAt": "2026-10-21T01:07:48.086697+00:00",
+      "sha256": "eb6dd6823e1d85023168e699fe2c2a702bec62c03243148549baa7ec3ec3cf81",
+      "file": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-21\\sources\\fly-openclash-config.html"
+    },
+    {
+      "id": "fly-v2rayn-routing",
+      "url": "https://raw.githubusercontent.com/wiki/2dust/v2rayN/Description-of-custom-routing-rules.md",
+      "finalUrl": "https://raw.githubusercontent.com/wiki/2dust/v2rayN/Description-of-custom-routing-rules.md",
+      "status": 200,
+      "checkedAt": "2026-10-21T01:07:48.933436+00:00",
+      "sha256": "f4dd214c70a3e8fb4351e7a6c890d4a0bf942697ca24ad92b1fbd8fe4ab33edd",
+      "file": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-21\\sources\\fly-v2rayn-routing.html"
+    },
+    {
+      "id": "fly-v2rayn-system-routing",
+      "url": "https://raw.githubusercontent.com/wiki/2dust/v2rayN/Description-of-system-proxy-routing.md",
+      "finalUrl": "https://raw.githubusercontent.com/wiki/2dust/v2rayN/Description-of-system-proxy-routing.md",
+      "status": 200,
+      "checkedAt": "2026-10-21T01:07:48.883485+00:00",
+      "sha256": "07ea75165d83cbd7a7f27f31eec2904cef12fea4e2913b70cf894a6e41591b33",
+      "file": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-21\\sources\\fly-v2rayn-system-routing.html"
+    },
+    {
+      "id": "fly-flclash-scheme",
+      "url": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/common/link.dart",
+      "finalUrl": "https://raw.githubusercontent.com/chen08209/FlClash/main/lib/common/link.dart",
+      "status": 200,
+      "checkedAt": "2026-10-21T01:07:49.127258+00:00",
+      "sha256": "807f95385e4c696d4d86bab2935386d8e18908512a131a9cf63bc313dc4e41a0",
+      "file": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-21\\sources\\fly-flclash-scheme.html"
+    },
+    {
+      "id": "fly-xray-routing",
+      "url": "https://xtls.github.io/config/routing.html",
+      "finalUrl": "https://xtls.github.io/config/routing.html",
+      "status": 200,
+      "checkedAt": "2026-10-21T01:07:50.065523+00:00",
+      "sha256": "e0fc16026124b8dee15b607cdea1ff1769aea48d11dd1475acd1fcd75fbb43f6",
+      "file": "C:\\Users\\TP\\Desktop\\dailiruanjweb\\reports\\daily-content-2026-10-21\\sources\\fly-xray-routing.html"
+    }
+  ],
+  "tests": {
+    "command": "pnpm test",
+    "status": "passed"
+  },
+  "audit": {
+    "command": "pnpm run audit",
+    "status": "passed",
+    "scores": {
+      "article-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "downloads-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-desktop.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "home-mobile.report.json": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      }
+    }
+  },
+  "build": {
+    "command": "pnpm build",
+    "status": "passed",
+    "articleCount": 85
+  },
+  "localVerification": {
+    "site": "flyclash.com.cn",
+    "mode": "local",
+    "checkedAt": "2026-10-21T01:14:38.493049+00:00",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/clash-verge-rev-export-logs/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/clash-verge-rev-local-profile-import/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/v2rayn-custom-routing-json-import/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/flclash-install-config-url-scheme/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/openclash-lan-access-control/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 103,
+    "articleCount": 85,
+    "status": "passed"
+  },
+  "preservation": {
+    "baselineFiles": 112,
+    "sourceEditsPreserved": true,
+    "snapshot": "remote main archive at base",
+    "sourceTouched": false,
+    "activeActions": [],
+    "existingArticleBodiesUnchanged": true,
+    "substantiveChanges": [
+      "content/keyword-registry.json"
+    ],
+    "remoteBaselineHashCheck": "passed"
+  },
+  "publish": {
+    "status": "pending",
+    "base": "f9f48cceb0cb4b81b856241b1debbd8391c3b321"
+  },
+  "nextTodo": [
+    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
+  ]
+}
