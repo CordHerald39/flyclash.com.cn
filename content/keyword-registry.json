@@ -992,9 +992,9 @@
         "https://sing-box.sagernet.org/configuration/route/rule_action/"
       ],
       "sourceVerifiedDate": "2026-10-22",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-22",
-      "publishedDate": null
+      "publishedDate": "2026-10-22"
     },
     {
       "keyword": "sing-box source_ip_cidr 配置",
@@ -1008,9 +1008,9 @@
         "https://sing-box.sagernet.org/configuration/route/rule_action/"
       ],
       "sourceVerifiedDate": "2026-10-22",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-22",
-      "publishedDate": null
+      "publishedDate": "2026-10-22"
     },
     {
       "keyword": "sing-box server_name 证书域名",
@@ -1023,9 +1023,9 @@
         "https://sing-box.sagernet.org/configuration/shared/tls/"
       ],
       "sourceVerifiedDate": "2026-10-22",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-22",
-      "publishedDate": null
+      "publishedDate": "2026-10-22"
     },
     {
       "keyword": "sing-box query_type 规则",
@@ -1039,9 +1039,9 @@
         "https://sing-box.sagernet.org/configuration/dns/rule_action/"
       ],
       "sourceVerifiedDate": "2026-10-22",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-22",
-      "publishedDate": null
+      "publishedDate": "2026-10-22"
     },
     {
       "keyword": "sing-box connect_timeout 配置",
@@ -1054,13 +1054,13 @@
         "https://sing-box.sagernet.org/configuration/shared/dial/"
       ],
       "sourceVerifiedDate": "2026-10-22",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-22",
-      "publishedDate": null
+      "publishedDate": "2026-10-22"
     }
   ],
-  "publishStatus": "pending",
-  "publishNote": "待测试、构建、独立编辑审核与正式发布验证。",
-  "publishedCommit": "cc1f658aa37f64ce394fe6dfbaea07494e1b00c4",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/39526187346"
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishedCommit": "d4809180b226a5260dfc0daf544abece6c180707",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/39704799054"
 }
