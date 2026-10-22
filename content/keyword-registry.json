@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -979,10 +979,88 @@
       "status": "published",
       "plannedDate": "2026-10-21",
       "publishedDate": "2026-10-21"
+    },
+    {
+      "keyword": "sing-box domain_suffix 规则",
+      "intent": "域名后缀分流配置与规则未命中排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-domain-suffix-check/",
+      "article": "sing-box-route-domain-suffix-check",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule/",
+        "https://sing-box.sagernet.org/configuration/route/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box source_ip_cidr 配置",
+      "intent": "按来源网段分流与设备来源地址识别",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-source-ip-cidr-check/",
+      "article": "sing-box-route-source-ip-cidr-check",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule/",
+        "https://sing-box.sagernet.org/configuration/route/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box server_name 证书域名",
+      "intent": "TLS 主机名不匹配与证书校验故障排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tls-server-name-certificate-check/",
+      "article": "sing-box-tls-server-name-certificate-check",
+      "source": "https://sing-box.sagernet.org/configuration/shared/tls/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/tls/"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box query_type 规则",
+      "intent": "按 DNS 查询类型分流与版本兼容检查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-query-type-rule-check/",
+      "article": "sing-box-dns-query-type-rule-check",
+      "source": "https://sing-box.sagernet.org/configuration/dns/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/rule/",
+        "https://sing-box.sagernet.org/configuration/dns/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box connect_timeout 配置",
+      "intent": "出口拨号连接超时与 detour 字段作用范围排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-connect-timeout-dial-check/",
+      "article": "sing-box-connect-timeout-dial-check",
+      "source": "https://sing-box.sagernet.org/configuration/shared/dial/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/dial/"
+      ],
+      "sourceVerifiedDate": "2026-10-22",
+      "status": "pending",
+      "plannedDate": "2026-10-22",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishStatus": "pending",
+  "publishNote": "待测试、构建、独立编辑审核与正式发布验证。",
   "publishedCommit": "cc1f658aa37f64ce394fe6dfbaea07494e1b00c4",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/39526187346"
 }
