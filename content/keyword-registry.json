@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-24",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -1057,10 +1057,85 @@
       "status": "published",
       "plannedDate": "2026-10-22",
       "publishedDate": "2026-10-22"
+    },
+    {
+      "keyword": "sing-box DNS server detour 配置",
+      "intent": "DNS 服务器出口链路与 detour 作用范围排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-server-detour-check/",
+      "article": "sing-box-dns-server-detour-check",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box route invert 规则",
+      "intent": "反转路由条件与规则顺序排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-invert-rule-check/",
+      "article": "sing-box-route-invert-rule-check",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule/"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box TLS utls 指纹配置",
+      "intent": "TLS uTLS 指纹选择与握手失败排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tls-utls-fingerprint-check/",
+      "article": "sing-box-tls-utls-fingerprint-check",
+      "source": "https://sing-box.sagernet.org/configuration/shared/tls/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/tls/"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
+    },
+    {
+      "keyword": "Clash Verge Rev Linux TUN 模式",
+      "intent": "Linux TUN 启动、权限与路由检查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-linux-tun-check/",
+      "article": "clash-verge-rev-linux-tun-check",
+      "source": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "sources": [
+        "https://github.com/clash-verge-rev/clash-verge-rev"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
+    },
+    {
+      "keyword": "OpenClash DNS 劫持配置",
+      "intent": "DNS 劫持路径与透明代理冲突排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/openclash-dns-hijack-check/",
+      "article": "openclash-dns-hijack-check",
+      "source": "https://github.com/vernesong/OpenClash",
+      "sources": [
+        "https://github.com/vernesong/OpenClash"
+      ],
+      "sourceVerifiedDate": "2026-10-24",
+      "status": "pending",
+      "plannedDate": "2026-10-24",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishStatus": "pending",
+  "publishNote": "待测试、构建、链接校验与正式部署。",
   "publishedCommit": "d4809180b226a5260dfc0daf544abece6c180707",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/39704799054"
 }
