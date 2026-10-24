@@ -1069,9 +1069,9 @@
         "https://sing-box.sagernet.org/configuration/dns/server/"
       ],
       "sourceVerifiedDate": "2026-10-24",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-24",
-      "publishedDate": null
+      "publishedDate": "2026-10-24"
     },
     {
       "keyword": "sing-box route invert 规则",
@@ -1084,9 +1084,9 @@
         "https://sing-box.sagernet.org/configuration/route/rule/"
       ],
       "sourceVerifiedDate": "2026-10-24",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-24",
-      "publishedDate": null
+      "publishedDate": "2026-10-24"
     },
     {
       "keyword": "sing-box TLS utls 指纹配置",
@@ -1099,9 +1099,9 @@
         "https://sing-box.sagernet.org/configuration/shared/tls/"
       ],
       "sourceVerifiedDate": "2026-10-24",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-24",
-      "publishedDate": null
+      "publishedDate": "2026-10-24"
     },
     {
       "keyword": "Clash Verge Rev Linux TUN 模式",
@@ -1114,9 +1114,9 @@
         "https://github.com/clash-verge-rev/clash-verge-rev"
       ],
       "sourceVerifiedDate": "2026-10-24",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-24",
-      "publishedDate": null
+      "publishedDate": "2026-10-24"
     },
     {
       "keyword": "OpenClash DNS 劫持配置",
@@ -1129,13 +1129,13 @@
         "https://github.com/vernesong/OpenClash"
       ],
       "sourceVerifiedDate": "2026-10-24",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-24",
-      "publishedDate": null
+      "publishedDate": "2026-10-24"
     }
   ],
-  "publishStatus": "pending",
-  "publishNote": "待测试、构建、链接校验与正式部署。",
-  "publishedCommit": "d4809180b226a5260dfc0daf544abece6c180707",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/39704799054"
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点页面已验证。",
+  "publishedCommit": "b9e822bcb3489cf99123e60c8805d361fc092327",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40049401815"
 }
