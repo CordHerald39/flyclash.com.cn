@@ -8,7 +8,7 @@
       "targetSite": "flyclash.com.cn",
       "url": "/articles/v2rayn-windows-config/",
       "source": "https://github.com/2dust/v2rayN",
-      "status": "planned",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "v2rayn-windows-config"
     },
@@ -18,7 +18,7 @@
       "targetSite": "flyclash.com.cn",
       "url": "/articles/clash-meta-android-install/",
       "source": "https://github.com/MetaCubeX/ClashMetaForAndroid",
-      "status": "planned",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "clash-meta-android-install"
     },
@@ -28,7 +28,7 @@
       "targetSite": "flyclash.com.cn",
       "url": "/articles/sing-box-windows-download/",
       "source": "https://github.com/SagerNet/sing-box",
-      "status": "planned",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "sing-box-windows-download"
     },
@@ -38,7 +38,7 @@
       "targetSite": "flyclash.com.cn",
       "url": "/articles/openclash-install-guide/",
       "source": "https://github.com/vernesong/OpenClash",
-      "status": "planned",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "openclash-install-guide"
     },
@@ -48,7 +48,7 @@
       "targetSite": "flyclash.com.cn",
       "url": "/articles/clash-verge-rev-update/",
       "source": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "status": "planned",
+      "status": "published",
       "publishedDate": "2026-10-07",
       "article": "clash-verge-rev-update"
     },
@@ -1199,6 +1199,7 @@
       "publishedDate": "2026-10-25"
     }
   ],
-  "publishStatus": "blocked",
-  "publishNote": "本地构建已通过；GitHub API/推送未执行成功，因无可用凭据触发交互式用户名提示后取消。保留提交 10b8e72，未确认线上发布。"
+  "publishStatus": "published",
+  "publishNote": "2026-10-25 五篇文章已通过 Git Data API 提交并完成正式 URL 核验。",
+  "publishedCommit": "21e6c913ed1b9e45cb3c88de7edd64fedee3dd79"
 }

@@ -16,7 +16,7 @@
     {"url":"https://github.com/clash-verge-rev/clash-verge-rev","status":200,"checkedAt":"2026-10-25"},
     {"url":"https://github.com/2dust/v2rayN","status":200,"checkedAt":"2026-10-25"}
   ],
-  "status": "blocked",
-  "publishAttempt": {"method":"git push via 127.0.0.1:7897","status":"failed","reason":"Git credential helper had no credential; push requested interactive username, then User cancelled dialog. No remote write confirmed.","commit":"10b8e72"},
-  "nextTodo": ["配置可用 GitHub API 或 Git 凭据后，从提交 10b8e72 继续发布。","发布后等待 Actions 并核验正式页面。"]
+  "status": "published",
+  "publishAttempt": {"method":"Git Data API","status":"success","commit":"21e6c913ed1b9e45cb3c88de7edd64fedee3dd79"},
+  "liveVerification": {"status":"passed","newArticleUrls": 5,"httpsStatus": 200}
 }
