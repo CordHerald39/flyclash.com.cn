@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-25",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "allocationReason": "默认各5篇；FlyClash 补充 sing-box DNS/规则集、Clash Verge Rev macOS/备份与 v2rayN Windows 系统代理意图。",
+  "articles": [
+    {"keyword":"sing-box DNS fallback 配置","intent":"DNS fallback 触发条件与解析失败排查","url":"/articles/sing-box-dns-fallback-config/","article":"sing-box-dns-fallback-config","source":"https://sing-box.sagernet.org/configuration/dns/","status":"published","plannedDate":"2026-10-25","publishedDate":"2026-10-25"},
+    {"keyword":"sing-box rule-set 路由规则集","intent":"规则集更新、格式与路由命中检查","url":"/articles/sing-box-route-rule-set/","article":"sing-box-route-rule-set","source":"https://sing-box.sagernet.org/configuration/rule-set/","status":"published","plannedDate":"2026-10-25","publishedDate":"2026-10-25"},
+    {"keyword":"Clash Verge Rev macOS 系统代理","intent":"macOS 系统代理、监听端口与退出恢复","url":"/articles/clash-verge-rev-macos-system-proxy/","article":"clash-verge-rev-macos-system-proxy","source":"https://github.com/clash-verge-rev/clash-verge-rev","status":"published","plannedDate":"2026-10-25","publishedDate":"2026-10-25"},
+    {"keyword":"Clash Verge Rev 配置导出备份","intent":"配置导出、隐私检查与迁移验证","url":"/articles/clash-verge-rev-profile-export/","article":"clash-verge-rev-profile-export","source":"https://github.com/clash-verge-rev/clash-verge-rev","status":"published","plannedDate":"2026-10-25","publishedDate":"2026-10-25"},
+    {"keyword":"v2rayN Windows 系统代理","intent":"Windows 系统代理设置与退出恢复","url":"/articles/v2rayn-windows-system-proxy/","article":"v2rayn-windows-system-proxy","source":"https://github.com/2dust/v2rayN","status":"published","plannedDate":"2026-10-25","publishedDate":"2026-10-25"}
+  ],
+  "sourceChecks": [
+    {"url":"https://sing-box.sagernet.org/configuration/dns/","status":200,"checkedAt":"2026-10-25"},
+    {"url":"https://sing-box.sagernet.org/configuration/rule-set/","status":200,"checkedAt":"2026-10-25"},
+    {"url":"https://github.com/clash-verge-rev/clash-verge-rev","status":200,"checkedAt":"2026-10-25"},
+    {"url":"https://github.com/2dust/v2rayN","status":200,"checkedAt":"2026-10-25"}
+  ],
+  "status": "blocked",
+  "publishAttempt": {"method":"git push via 127.0.0.1:7897","status":"failed","reason":"Git credential helper had no credential; push requested interactive username, then User cancelled dialog. No remote write confirmed.","commit":"10b8e72"},
+  "nextTodo": ["配置可用 GitHub API 或 Git 凭据后，从提交 10b8e72 继续发布。","发布后等待 Actions 并核验正式页面。"]
+}
