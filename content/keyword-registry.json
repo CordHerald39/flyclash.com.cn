@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-26",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -1197,9 +1197,74 @@
       "status": "planned",
       "plannedDate": "2026-10-25",
       "publishedDate": "2026-10-25"
+    },
+    {
+      "keyword": "sing-box route port_range 端口范围",
+      "intent": "按端口范围分流与规则命中检查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-port-range/",
+      "article": "sing-box-route-port-range",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "sources": ["https://sing-box.sagernet.org/configuration/route/rule/"],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box Android package_name 路由",
+      "intent": "Android 按应用包名分流与接管排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-package-name/",
+      "article": "sing-box-route-package-name",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "sources": ["https://sing-box.sagernet.org/configuration/route/rule/"],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box DNS strategy 配置",
+      "intent": "DNS 地址族策略与迁移检查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-strategy/",
+      "article": "sing-box-dns-strategy",
+      "source": "https://sing-box.sagernet.org/configuration/dns/",
+      "sources": ["https://sing-box.sagernet.org/configuration/dns/"],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box TLS ALPN 配置",
+      "intent": "TLS ALPN 协商与握手失败排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tls-alpn/",
+      "article": "sing-box-tls-alpn",
+      "source": "https://sing-box.sagernet.org/configuration/shared/tls/",
+      "sources": ["https://sing-box.sagernet.org/configuration/shared/tls/"],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
+    },
+    {
+      "keyword": "sing-box TUN mtu 配置",
+      "intent": "TUN 最大传输单元与分片排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tun-mtu/",
+      "article": "sing-box-tun-mtu",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/tun/",
+      "sources": ["https://sing-box.sagernet.org/configuration/inbound/tun/"],
+      "sourceVerifiedDate": "2026-10-26",
+      "status": "pending",
+      "plannedDate": "2026-10-26",
+      "publishedDate": null
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "2026-10-25 五篇文章已通过 Git Data API 提交并完成正式 URL 核验。",
-  "publishedCommit": "21e6c913ed1b9e45cb3c88de7edd64fedee3dd79"
+  "publishStatus": "pending",
+  "publishNote": "2026-10-26 五篇文章已生成并完成官方来源核验，尚未执行远程写入。",
+  "publishedCommit": null
 }
