@@ -1140,9 +1140,12 @@
       "url": "/articles/sing-box-dns-fallback-config/",
       "article": "sing-box-dns-fallback-config",
       "source": "https://sing-box.sagernet.org/configuration/dns/",
-      "sources": ["https://sing-box.sagernet.org/configuration/dns/","https://sing-box.sagernet.org/configuration/dns/server/"],
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/",
+        "https://sing-box.sagernet.org/configuration/dns/server/"
+      ],
       "sourceVerifiedDate": "2026-10-25",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-25",
       "publishedDate": "2026-10-25"
     },
@@ -1153,9 +1156,12 @@
       "url": "/articles/sing-box-route-rule-set/",
       "article": "sing-box-route-rule-set",
       "source": "https://sing-box.sagernet.org/configuration/rule-set/",
-      "sources": ["https://sing-box.sagernet.org/configuration/rule-set/","https://sing-box.sagernet.org/configuration/route/rule/"],
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/rule-set/",
+        "https://sing-box.sagernet.org/configuration/route/rule/"
+      ],
       "sourceVerifiedDate": "2026-10-25",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-25",
       "publishedDate": "2026-10-25"
     },
@@ -1166,9 +1172,11 @@
       "url": "/articles/clash-verge-rev-macos-system-proxy/",
       "article": "clash-verge-rev-macos-system-proxy",
       "source": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "sources": ["https://github.com/clash-verge-rev/clash-verge-rev"],
+      "sources": [
+        "https://github.com/clash-verge-rev/clash-verge-rev"
+      ],
       "sourceVerifiedDate": "2026-10-25",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-25",
       "publishedDate": "2026-10-25"
     },
@@ -1179,9 +1187,11 @@
       "url": "/articles/clash-verge-rev-profile-export/",
       "article": "clash-verge-rev-profile-export",
       "source": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "sources": ["https://github.com/clash-verge-rev/clash-verge-rev"],
+      "sources": [
+        "https://github.com/clash-verge-rev/clash-verge-rev"
+      ],
       "sourceVerifiedDate": "2026-10-25",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-25",
       "publishedDate": "2026-10-25"
     },
@@ -1192,9 +1202,11 @@
       "url": "/articles/v2rayn-windows-system-proxy/",
       "article": "v2rayn-windows-system-proxy",
       "source": "https://github.com/2dust/v2rayN",
-      "sources": ["https://github.com/2dust/v2rayN"],
+      "sources": [
+        "https://github.com/2dust/v2rayN"
+      ],
       "sourceVerifiedDate": "2026-10-25",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-25",
       "publishedDate": "2026-10-25"
     },
@@ -1205,11 +1217,13 @@
       "url": "/articles/sing-box-route-port-range/",
       "article": "sing-box-route-port-range",
       "source": "https://sing-box.sagernet.org/configuration/route/rule/",
-      "sources": ["https://sing-box.sagernet.org/configuration/route/rule/"],
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule/"
+      ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "sing-box Android package_name 路由",
@@ -1218,11 +1232,13 @@
       "url": "/articles/sing-box-route-package-name/",
       "article": "sing-box-route-package-name",
       "source": "https://sing-box.sagernet.org/configuration/route/rule/",
-      "sources": ["https://sing-box.sagernet.org/configuration/route/rule/"],
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule/"
+      ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "sing-box DNS strategy 配置",
@@ -1231,11 +1247,13 @@
       "url": "/articles/sing-box-dns-strategy/",
       "article": "sing-box-dns-strategy",
       "source": "https://sing-box.sagernet.org/configuration/dns/",
-      "sources": ["https://sing-box.sagernet.org/configuration/dns/"],
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/"
+      ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "sing-box TLS ALPN 配置",
@@ -1244,11 +1262,13 @@
       "url": "/articles/sing-box-tls-alpn/",
       "article": "sing-box-tls-alpn",
       "source": "https://sing-box.sagernet.org/configuration/shared/tls/",
-      "sources": ["https://sing-box.sagernet.org/configuration/shared/tls/"],
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/tls/"
+      ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "sing-box TUN mtu 配置",
@@ -1257,14 +1277,17 @@
       "url": "/articles/sing-box-tun-mtu/",
       "article": "sing-box-tun-mtu",
       "source": "https://sing-box.sagernet.org/configuration/inbound/tun/",
-      "sources": ["https://sing-box.sagernet.org/configuration/inbound/tun/"],
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/tun/"
+      ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     }
   ],
-  "publishStatus": "pending",
-  "publishNote": "2026-10-26 五篇文章已生成并完成官方来源核验，尚未执行远程写入。",
-  "publishedCommit": null
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，本轮文章及站点模板已验证。",
+  "publishedCommit": "6ab2013a70b350c2293db6a18b75191e36e37de4",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40431318248"
 }

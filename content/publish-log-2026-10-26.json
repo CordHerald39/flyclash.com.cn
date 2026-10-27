@@ -14,9 +14,9 @@
         "https://sing-box.sagernet.org/configuration/route/rule/"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "sing-box Android package_name 路由",
@@ -29,9 +29,9 @@
         "https://sing-box.sagernet.org/configuration/route/rule/"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "sing-box DNS strategy 配置",
@@ -44,9 +44,9 @@
         "https://sing-box.sagernet.org/configuration/dns/"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "sing-box TLS ALPN 配置",
@@ -59,9 +59,9 @@
         "https://sing-box.sagernet.org/configuration/shared/tls/"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     },
     {
       "keyword": "sing-box TUN mtu 配置",
@@ -74,9 +74,9 @@
         "https://sing-box.sagernet.org/configuration/inbound/tun/"
       ],
       "sourceVerifiedDate": "2026-10-26",
-      "status": "pending",
+      "status": "published",
       "plannedDate": "2026-10-26",
-      "publishedDate": null
+      "publishedDate": "2026-10-26"
     }
   ],
   "allocationReason": "默认每站 5 篇；根据已发布关键词与 URL 补充原软件配置和故障需求。",
@@ -227,10 +227,93 @@
     "remoteBaselineHashCheck": "passed"
   },
   "publish": {
-    "status": "pending",
-    "base": "0767e011e0478378f0e5fe36622b0d881fc1cc0a"
+    "status": "published-via-git-data-api",
+    "remoteSha": "6ab2013a70b350c2293db6a18b75191e36e37de4",
+    "workflowRuns": [
+      {
+        "id": 40431318248,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40431318248",
+        "head_sha": "6ab2013a70b350c2293db6a18b75191e36e37de4"
+      }
+    ]
   },
   "nextTodo": [
-    "等待 Git Data API 提交、Actions/Pages 部署与 HTTPS 验证后回写 published。"
-  ]
+    "下一轮先读取远端登记，跳过已发布关键词与 URL。",
+    "继续优先覆盖原软件专题缺口；新增软件保持独立目录。"
+  ],
+  "liveVerification": {
+    "site": "flyclash.com.cn",
+    "mode": "live",
+    "checkedAt": "2026-10-27T01:17:13.177856+00:00",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-route-port-range/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-route-package-name/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-dns-strategy/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-tls-alpn/",
+        "status": 200,
+        "errors": []
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-tun-mtu/",
+        "status": 200,
+        "errors": []
+      }
+    ],
+    "errors": [],
+    "sitemapUrls": 123,
+    "articleCount": 105,
+    "status": "passed"
+  },
+  "registryReconciliation": {
+    "date": "2026-10-25",
+    "verifiedLiveArticles": 5,
+    "articles": [
+      "clash-verge-rev-macos-system-proxy",
+      "clash-verge-rev-profile-export",
+      "sing-box-dns-fallback-config",
+      "sing-box-route-rule-set",
+      "v2rayn-windows-system-proxy"
+    ],
+    "change": "planned to published; existing article contents unchanged"
+  }
 }
