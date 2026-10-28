@@ -13,9 +13,10 @@
         "https://sing-box.sagernet.org/configuration/dns/rule_action/"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "sing-box-dns-rule-action"
+      "article": "sing-box-dns-rule-action",
+      "publishedDate": "2026-10-28"
     },
     {
       "keyword": "sing-box ip_is_private 路由规则",
@@ -27,9 +28,10 @@
         "https://sing-box.sagernet.org/configuration/route/rule/"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "sing-box-route-ip-is-private"
+      "article": "sing-box-route-ip-is-private",
+      "publishedDate": "2026-10-28"
     },
     {
       "keyword": "sing-box TLS certificate 配置",
@@ -41,9 +43,10 @@
         "https://sing-box.sagernet.org/configuration/shared/tls/"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "sing-box-tls-certificate"
+      "article": "sing-box-tls-certificate",
+      "publishedDate": "2026-10-28"
     },
     {
       "keyword": "v2rayN Windows 版本发布渠道",
@@ -55,9 +58,10 @@
         "https://github.com/2dust/v2rayN/releases"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "v2rayn-windows-release-channel"
+      "article": "v2rayn-windows-release-channel",
+      "publishedDate": "2026-10-28"
     },
     {
       "keyword": "OpenClash 配置解析失败",
@@ -69,10 +73,24 @@
         "https://github.com/vernesong/OpenClash"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "openclash-config-parse-error"
+      "article": "openclash-config-parse-error",
+      "publishedDate": "2026-10-28"
     }
   ],
-  "allocationReason": "默认每站 5 篇；依据已发布关键词与 URL 补充原软件 DNS、路由、TLS、版本和故障意图。"
+  "allocationReason": "默认每站 5 篇；依据已发布关键词与 URL 补充原软件 DNS、路由、TLS、版本和故障意图。",
+  "publish": {
+    "status": "published-via-github-contents-api",
+    "contentCommits": [
+      "b635a6b7ca103915de289c6ef9f41fb9b6d8009a",
+      "91b62c9c198cd018257b6e4adc98956a5c2fc481",
+      "eeb559d84d34d583c23776fa75702bea2a3a7d2c",
+      "718c4921941f01fb9c909b2a8bcdf5d69a2076ea",
+      "edc0f8c61fc866aa6502ce3321fa8b5430b63723",
+      "692675526b6c3b44d3dc5786ba8bf1eb2b390697",
+      "eb233d7e3ef7310ad7a9cd155c5dcb7ff593e525"
+    ],
+    "statusCommit": "abe3d54801a4eaf584a6d1ce52c008f00767787c"
+  }
 }
