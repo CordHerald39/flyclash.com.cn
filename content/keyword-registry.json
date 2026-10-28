@@ -1295,9 +1295,10 @@
         "https://sing-box.sagernet.org/configuration/dns/rule_action/"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "sing-box-dns-rule-action"
+      "article": "sing-box-dns-rule-action",
+      "publishedDate": "2026-10-28"
     },
     {
       "keyword": "sing-box ip_is_private 路由规则",
@@ -1309,9 +1310,10 @@
         "https://sing-box.sagernet.org/configuration/route/rule/"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "sing-box-route-ip-is-private"
+      "article": "sing-box-route-ip-is-private",
+      "publishedDate": "2026-10-28"
     },
     {
       "keyword": "sing-box TLS certificate 配置",
@@ -1323,9 +1325,10 @@
         "https://sing-box.sagernet.org/configuration/shared/tls/"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "sing-box-tls-certificate"
+      "article": "sing-box-tls-certificate",
+      "publishedDate": "2026-10-28"
     },
     {
       "keyword": "v2rayN Windows 版本发布渠道",
@@ -1337,9 +1340,10 @@
         "https://github.com/2dust/v2rayN/releases"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "v2rayn-windows-release-channel"
+      "article": "v2rayn-windows-release-channel",
+      "publishedDate": "2026-10-28"
     },
     {
       "keyword": "OpenClash 配置解析失败",
@@ -1351,13 +1355,14 @@
         "https://github.com/vernesong/OpenClash"
       ],
       "sourceVerifiedDate": "2026-10-28",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-28",
-      "article": "openclash-config-parse-error"
+      "article": "openclash-config-parse-error",
+      "publishedDate": "2026-10-28"
     }
   ],
-  "publishStatus": "planned",
-  "publishNote": "本轮文章已生成并待本地质量门与 Git Data API 发布。",
-  "publishedCommit": "6ab2013a70b350c2293db6a18b75191e36e37de4",
+  "publishStatus": "published",
+  "publishNote": "GitHub Contents API 逐文件提交、Actions 成功；正式页面待最终核验。",
+  "publishedCommit": "eb233d7e3ef7310ad7a9cd155c5dcb7ff593e525",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40431318248"
 }
