@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-28",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "sing-box DNS rule action 配置",
+      "intent": "DNS 规则动作与查询结果排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-rule-action/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-10-28",
+      "status": "planned",
+      "plannedDate": "2026-10-28",
+      "article": "sing-box-dns-rule-action"
+    },
+    {
+      "keyword": "sing-box ip_is_private 路由规则",
+      "intent": "私有地址分流与局域网访问",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-ip-is-private/",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule/"
+      ],
+      "sourceVerifiedDate": "2026-10-28",
+      "status": "planned",
+      "plannedDate": "2026-10-28",
+      "article": "sing-box-route-ip-is-private"
+    },
+    {
+      "keyword": "sing-box TLS certificate 配置",
+      "intent": "TLS 证书路径与握手故障",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tls-certificate/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/tls/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/tls/"
+      ],
+      "sourceVerifiedDate": "2026-10-28",
+      "status": "planned",
+      "plannedDate": "2026-10-28",
+      "article": "sing-box-tls-certificate"
+    },
+    {
+      "keyword": "v2rayN Windows 版本发布渠道",
+      "intent": "Windows 版本下载与更新",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/v2rayn-windows-release-channel/",
+      "source": "https://github.com/2dust/v2rayN/releases",
+      "sources": [
+        "https://github.com/2dust/v2rayN/releases"
+      ],
+      "sourceVerifiedDate": "2026-10-28",
+      "status": "planned",
+      "plannedDate": "2026-10-28",
+      "article": "v2rayn-windows-release-channel"
+    },
+    {
+      "keyword": "OpenClash 配置解析失败",
+      "intent": "配置解析故障与回滚",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/openclash-config-parse-error/",
+      "source": "https://github.com/vernesong/OpenClash",
+      "sources": [
+        "https://github.com/vernesong/OpenClash"
+      ],
+      "sourceVerifiedDate": "2026-10-28",
+      "status": "planned",
+      "plannedDate": "2026-10-28",
+      "article": "openclash-config-parse-error"
+    }
+  ],
+  "allocationReason": "默认每站 5 篇；依据已发布关键词与 URL 补充原软件 DNS、路由、TLS、版本和故障意图。"
+}
