@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-29",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "v2rayN Windows 配置备份",
+      "intent": "Windows 更新前配置备份与回滚",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/v2rayn-windows-config-backup/",
+      "source": "https://github.com/2dust/v2rayN",
+      "sources": [
+        "https://github.com/2dust/v2rayN"
+      ],
+      "sourceVerifiedDate": "2026-10-29",
+      "status": "planned",
+      "plannedDate": "2026-10-29",
+      "article": "v2rayn-windows-config-backup"
+    },
+    {
+      "keyword": "Clash Verge Rev Linux 配置重置",
+      "intent": "Linux 客户端配置损坏后的备份与重置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/clash-verge-rev-linux-config-reset/",
+      "source": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "sources": [
+        "https://github.com/clash-verge-rev/clash-verge-rev"
+      ],
+      "sourceVerifiedDate": "2026-10-29",
+      "status": "planned",
+      "plannedDate": "2026-10-29",
+      "article": "clash-verge-rev-linux-config-reset"
+    },
+    {
+      "keyword": "FlClash Android 订阅导入",
+      "intent": "Android 订阅地址导入与配置激活",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/flclash-android-subscription-import/",
+      "source": "https://github.com/chen08209/FlClash",
+      "sources": [
+        "https://github.com/chen08209/FlClash"
+      ],
+      "sourceVerifiedDate": "2026-10-29",
+      "status": "planned",
+      "plannedDate": "2026-10-29",
+      "article": "flclash-android-subscription-import"
+    },
+    {
+      "keyword": "OpenClash YAML 缩进检查",
+      "intent": "YAML 配置格式错误与订阅解析排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/openclash-yaml-indent-check/",
+      "source": "https://github.com/vernesong/OpenClash",
+      "sources": [
+        "https://github.com/vernesong/OpenClash"
+      ],
+      "sourceVerifiedDate": "2026-10-29",
+      "status": "planned",
+      "plannedDate": "2026-10-29",
+      "article": "openclash-yaml-indent-check"
+    },
+    {
+      "keyword": "sing-box TLS insecure 证书校验",
+      "intent": "TLS 证书校验失败与 insecure 风险排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tls-insecure-flag-check/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/tls/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/tls/"
+      ],
+      "sourceVerifiedDate": "2026-10-29",
+      "status": "planned",
+      "plannedDate": "2026-10-29",
+      "article": "sing-box-tls-insecure-flag-check"
+    }
+  ],
+  "allocationReason": "默认每站 5 篇；两站远端各 90 条已发布登记，按未覆盖的下载、配置、故障和迁移意图分配。",
+  "publish": {
+    "status": "planned",
+    "next": "完成测试、构建、API 发布和 HTTPS/Actions/Pages 核验。"
+  }
+}
