@@ -13,9 +13,10 @@
         "https://github.com/2dust/v2rayN"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "v2rayn-windows-config-backup"
+      "article": "v2rayn-windows-config-backup",
+      "publishedDate": "2026-10-29"
     },
     {
       "keyword": "Clash Verge Rev Linux 配置重置",
@@ -27,9 +28,10 @@
         "https://github.com/clash-verge-rev/clash-verge-rev"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "clash-verge-rev-linux-config-reset"
+      "article": "clash-verge-rev-linux-config-reset",
+      "publishedDate": "2026-10-29"
     },
     {
       "keyword": "FlClash Android 订阅导入",
@@ -41,9 +43,10 @@
         "https://github.com/chen08209/FlClash"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "flclash-android-subscription-import"
+      "article": "flclash-android-subscription-import",
+      "publishedDate": "2026-10-29"
     },
     {
       "keyword": "OpenClash YAML 缩进检查",
@@ -55,9 +58,10 @@
         "https://github.com/vernesong/OpenClash"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "openclash-yaml-indent-check"
+      "article": "openclash-yaml-indent-check",
+      "publishedDate": "2026-10-29"
     },
     {
       "keyword": "sing-box TLS insecure 证书校验",
@@ -69,14 +73,88 @@
         "https://sing-box.sagernet.org/configuration/shared/tls/"
       ],
       "sourceVerifiedDate": "2026-10-29",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-29",
-      "article": "sing-box-tls-insecure-flag-check"
+      "article": "sing-box-tls-insecure-flag-check",
+      "publishedDate": "2026-10-29"
     }
   ],
   "allocationReason": "默认每站 5 篇；两站远端各 90 条已发布登记，按未覆盖的下载、配置、故障和迁移意图分配。",
   "publish": {
-    "status": "planned",
-    "next": "完成测试、构建、API 发布和 HTTPS/Actions/Pages 核验。"
+    "status": "published-via-github-contents-api",
+    "contentCommits": [
+      "139d3cf5fd8f92d53178ed49577659e7e344b991",
+      "f0de2186057e4b7d67544a421e8131b6acfc30ce",
+      "7cc732cd42f4fe550719e180b2c2d7dc64c08949",
+      "c017ae87a3674f48cc9e877b042e4add3b943ab7",
+      "bdaec7e6b9bc2d180508cc6bbdd69780ff6d8d5e",
+      "f874969890540bcb5633bf67bdb98d2caff79c78",
+      "6ca9e7887535ff0ff7f2e02c638845596f964792"
+    ],
+    "statusCommit": "2ffaecf35e34d613cc605622fc0e6016e2131e2e",
+    "actions": [
+      {
+        "id": 40800403352,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40800403352",
+        "head_sha": "6ca9e7887535ff0ff7f2e02c638845596f964792"
+      }
+    ]
+  },
+  "liveVerification": {
+    "status": "passed",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "bytes": 12080
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "bytes": 20756
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "bytes": 2907
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "bytes": 68
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "bytes": 14126
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/v2rayn-windows-config-backup/",
+        "status": 200,
+        "bytes": 5874
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/clash-verge-rev-linux-config-reset/",
+        "status": 200,
+        "bytes": 6106
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/flclash-android-subscription-import/",
+        "status": 200,
+        "bytes": 6047
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/openclash-yaml-indent-check/",
+        "status": 200,
+        "bytes": 5940
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-tls-insecure-flag-check/",
+        "status": 200,
+        "bytes": 6234
+      }
+    ]
   }
 }
