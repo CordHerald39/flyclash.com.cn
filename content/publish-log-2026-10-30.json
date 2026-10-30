@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-30",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "sing-box Windows 多网卡 DNS 泄漏",
+      "intent": "Windows 多宿主 DNS 请求绕行与 strict_route 兼容性排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-windows-multihomed-dns-strict-route/",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/tun/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/tun/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-30",
+      "status": "planned",
+      "plannedDate": "2026-10-30",
+      "article": "sing-box-windows-multihomed-dns-strict-route"
+    },
+    {
+      "keyword": "sing-box UDP DNS 服务器迁移",
+      "intent": "旧 UDP DNS 地址格式迁移到 typed server 后解析超时",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-udp-dns-server-migration/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/udp/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/udp/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-30",
+      "status": "planned",
+      "plannedDate": "2026-10-30",
+      "article": "sing-box-udp-dns-server-migration"
+    },
+    {
+      "keyword": "sing-box mixed users 代理认证",
+      "intent": "HTTP 407 与 SOCKS 用户名密码认证失败排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-mixed-users-authentication/",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/mixed/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/mixed/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-30",
+      "status": "planned",
+      "plannedDate": "2026-10-30",
+      "article": "sing-box-mixed-users-authentication"
+    },
+    {
+      "keyword": "sing-box TLS 版本不匹配",
+      "intent": "min_version max_version 限制导致 TLS 握手失败",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tls-version-range-handshake/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/tls/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/tls/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-30",
+      "status": "planned",
+      "plannedDate": "2026-10-30",
+      "article": "sing-box-tls-version-range-handshake"
+    },
+    {
+      "keyword": "sing-box UDP 空闲连接超时",
+      "intent": "UDP 空闲后断流与 route-options udp_timeout 上限排查",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-options-udp-timeout/",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule_action/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-30",
+      "status": "planned",
+      "plannedDate": "2026-10-30",
+      "article": "sing-box-route-options-udp-timeout"
+    }
+  ],
+  "allocationReason": "默认5/5；按已有115篇覆盖缺口补齐Windows多网卡DNS、UDP DNS迁移、代理认证、TLS协议协商及UDP空闲断流，未引用未经核验的搜索量。",
+  "publish": {
+    "status": "planned",
+    "next": "测试、构建、API提交、Actions/Pages和正式HTTPS核验。"
+  }
+}
