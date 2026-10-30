@@ -1446,9 +1446,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "sing-box-windows-multihomed-dns-strict-route"
+      "article": "sing-box-windows-multihomed-dns-strict-route",
+      "publishedDate": "2026-10-30"
     },
     {
       "keyword": "sing-box UDP DNS 服务器迁移",
@@ -1461,9 +1462,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "sing-box-udp-dns-server-migration"
+      "article": "sing-box-udp-dns-server-migration",
+      "publishedDate": "2026-10-30"
     },
     {
       "keyword": "sing-box mixed users 代理认证",
@@ -1476,9 +1478,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "sing-box-mixed-users-authentication"
+      "article": "sing-box-mixed-users-authentication",
+      "publishedDate": "2026-10-30"
     },
     {
       "keyword": "sing-box TLS 版本不匹配",
@@ -1491,9 +1494,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "sing-box-tls-version-range-handshake"
+      "article": "sing-box-tls-version-range-handshake",
+      "publishedDate": "2026-10-30"
     },
     {
       "keyword": "sing-box UDP 空闲连接超时",
@@ -1506,13 +1510,14 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "sing-box-route-options-udp-timeout"
+      "article": "sing-box-route-options-udp-timeout",
+      "publishedDate": "2026-10-30"
     }
   ],
-  "publishStatus": "planned",
-  "publishNote": "本轮5篇已按官方字段核验，待本地测试、链接、构建和API发布核验。",
-  "publishedCommit": "6ca9e7887535ff0ff7f2e02c638845596f964792",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40800403352"
+  "publishStatus": "published",
+  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishedCommit": "ed67c5b99cdff0127adbe01f6915e103d8715242",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40984189687"
 }
