@@ -14,9 +14,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "sing-box-windows-multihomed-dns-strict-route"
+      "article": "sing-box-windows-multihomed-dns-strict-route",
+      "publishedDate": "2026-10-30"
     },
     {
       "keyword": "sing-box UDP DNS 服务器迁移",
@@ -29,9 +30,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "sing-box-udp-dns-server-migration"
+      "article": "sing-box-udp-dns-server-migration",
+      "publishedDate": "2026-10-30"
     },
     {
       "keyword": "sing-box mixed users 代理认证",
@@ -44,9 +46,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "sing-box-mixed-users-authentication"
+      "article": "sing-box-mixed-users-authentication",
+      "publishedDate": "2026-10-30"
     },
     {
       "keyword": "sing-box TLS 版本不匹配",
@@ -59,9 +62,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "sing-box-tls-version-range-handshake"
+      "article": "sing-box-tls-version-range-handshake",
+      "publishedDate": "2026-10-30"
     },
     {
       "keyword": "sing-box UDP 空闲连接超时",
@@ -74,14 +78,317 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-30",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-30",
-      "article": "sing-box-route-options-udp-timeout"
+      "article": "sing-box-route-options-udp-timeout",
+      "publishedDate": "2026-10-30"
     }
   ],
   "allocationReason": "默认5/5；按已有115篇覆盖缺口补齐Windows多网卡DNS、UDP DNS迁移、代理认证、TLS协议协商及UDP空闲断流，未引用未经核验的搜索量。",
   "publish": {
-    "status": "planned",
-    "next": "测试、构建、API提交、Actions/Pages和正式HTTPS核验。"
+    "status": "published-via-github-contents-api",
+    "contentCommits": [
+      "fbfd9aa8b325f64d0dbf013cb0ec9224e396af3f",
+      "3d061c0c19e088f371769f275995c6bd6aadea9e",
+      "bfd3a92acd78372aff8eabeed29dee854ee3b960",
+      "6dca5fd7abebe5615ff8c5abfd697329dbbb3d94",
+      "a4c72e704871ca61321c796d921a2b7f7948644e",
+      "a073158865e018e7dcf6caee7553ecb030ccd18b",
+      "ed67c5b99cdff0127adbe01f6915e103d8715242"
+    ],
+    "contentDeployment": {
+      "commit": "ed67c5b99cdff0127adbe01f6915e103d8715242",
+      "runs": [
+        {
+          "id": 40984189687,
+          "html_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40984189687",
+          "head_sha": "ed67c5b99cdff0127adbe01f6915e103d8715242",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "jobs": [
+        {
+          "id": 123831348251,
+          "name": "build",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "id": 123831470658,
+          "name": "deploy",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "deployments": [
+        {
+          "id": 7428144164,
+          "sha": "ed67c5b99cdff0127adbe01f6915e103d8715242",
+          "environment": "github-pages",
+          "statuses": [
+            {
+              "url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn/deployments/7428144164/statuses/20960212428",
+              "id": 20960212428,
+              "node_id": "DES_kwDOUh240M8AAAAE4VN1zA",
+              "state": "success",
+              "creator": {
+                "login": "CordHerald39",
+                "id": 270512509,
+                "node_id": "U_kgDOEB-xfQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/270512509?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/CordHerald39",
+                "html_url": "https://github.com/CordHerald39",
+                "followers_url": "https://api.github.com/users/CordHerald39/followers",
+                "following_url": "https://api.github.com/users/CordHerald39/following{/other_user}",
+                "gists_url": "https://api.github.com/users/CordHerald39/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/CordHerald39/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/CordHerald39/subscriptions",
+                "organizations_url": "https://api.github.com/users/CordHerald39/orgs",
+                "repos_url": "https://api.github.com/users/CordHerald39/repos",
+                "events_url": "https://api.github.com/users/CordHerald39/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/CordHerald39/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "description": "",
+              "environment": "github-pages",
+              "target_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40984189687/job/123831470658",
+              "created_at": "2026-10-30T01:11:09Z",
+              "updated_at": "2026-10-30T01:11:09Z",
+              "deployment_url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn/deployments/7428144164",
+              "repository_url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn",
+              "environment_url": "http://flyclash.com.cn/",
+              "log_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40984189687/job/123831470658",
+              "performed_via_github_app": null
+            },
+            {
+              "url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn/deployments/7428144164/statuses/20960203766",
+              "id": 20960203766,
+              "node_id": "DES_kwDOUh240M8AAAAE4VNT9g",
+              "state": "in_progress",
+              "creator": {
+                "login": "CordHerald39",
+                "id": 270512509,
+                "node_id": "U_kgDOEB-xfQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/270512509?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/CordHerald39",
+                "html_url": "https://github.com/CordHerald39",
+                "followers_url": "https://api.github.com/users/CordHerald39/followers",
+                "following_url": "https://api.github.com/users/CordHerald39/following{/other_user}",
+                "gists_url": "https://api.github.com/users/CordHerald39/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/CordHerald39/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/CordHerald39/subscriptions",
+                "organizations_url": "https://api.github.com/users/CordHerald39/orgs",
+                "repos_url": "https://api.github.com/users/CordHerald39/repos",
+                "events_url": "https://api.github.com/users/CordHerald39/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/CordHerald39/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "description": "",
+              "environment": "github-pages",
+              "target_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40984189687/job/123831470658",
+              "created_at": "2026-10-30T01:10:58Z",
+              "updated_at": "2026-10-30T01:10:58Z",
+              "deployment_url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn/deployments/7428144164",
+              "repository_url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn",
+              "environment_url": "",
+              "log_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40984189687/job/123831470658",
+              "performed_via_github_app": null
+            },
+            {
+              "url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn/deployments/7428144164/statuses/20960202378",
+              "id": 20960202378,
+              "node_id": "DES_kwDOUh240M8AAAAE4VNOig",
+              "state": "queued",
+              "creator": {
+                "login": "CordHerald39",
+                "id": 270512509,
+                "node_id": "U_kgDOEB-xfQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/270512509?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/CordHerald39",
+                "html_url": "https://github.com/CordHerald39",
+                "followers_url": "https://api.github.com/users/CordHerald39/followers",
+                "following_url": "https://api.github.com/users/CordHerald39/following{/other_user}",
+                "gists_url": "https://api.github.com/users/CordHerald39/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/CordHerald39/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/CordHerald39/subscriptions",
+                "organizations_url": "https://api.github.com/users/CordHerald39/orgs",
+                "repos_url": "https://api.github.com/users/CordHerald39/repos",
+                "events_url": "https://api.github.com/users/CordHerald39/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/CordHerald39/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "description": "",
+              "environment": "github-pages",
+              "target_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40984189687/job/123831470658",
+              "created_at": "2026-10-30T01:10:56Z",
+              "updated_at": "2026-10-30T01:10:56Z",
+              "deployment_url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn/deployments/7428144164",
+              "repository_url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn",
+              "environment_url": "",
+              "log_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40984189687/job/123831470658",
+              "performed_via_github_app": null
+            },
+            {
+              "url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn/deployments/7428144164/statuses/20960202349",
+              "id": 20960202349,
+              "node_id": "DES_kwDOUh240M8AAAAE4VNObQ",
+              "state": "queued",
+              "creator": {
+                "login": "CordHerald39",
+                "id": 270512509,
+                "node_id": "U_kgDOEB-xfQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/270512509?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/CordHerald39",
+                "html_url": "https://github.com/CordHerald39",
+                "followers_url": "https://api.github.com/users/CordHerald39/followers",
+                "following_url": "https://api.github.com/users/CordHerald39/following{/other_user}",
+                "gists_url": "https://api.github.com/users/CordHerald39/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/CordHerald39/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/CordHerald39/subscriptions",
+                "organizations_url": "https://api.github.com/users/CordHerald39/orgs",
+                "repos_url": "https://api.github.com/users/CordHerald39/repos",
+                "events_url": "https://api.github.com/users/CordHerald39/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/CordHerald39/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "description": "",
+              "environment": "github-pages",
+              "target_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40984189687/job/123831470658",
+              "created_at": "2026-10-30T01:10:55Z",
+              "updated_at": "2026-10-30T01:10:55Z",
+              "deployment_url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn/deployments/7428144164",
+              "repository_url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn",
+              "environment_url": "",
+              "log_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40984189687/job/123831470658",
+              "performed_via_github_app": null
+            },
+            {
+              "url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn/deployments/7428144164/statuses/20960201676",
+              "id": 20960201676,
+              "node_id": "DES_kwDOUh240M8AAAAE4VNLzA",
+              "state": "waiting",
+              "creator": {
+                "login": "CordHerald39",
+                "id": 270512509,
+                "node_id": "U_kgDOEB-xfQ",
+                "avatar_url": "https://avatars.githubusercontent.com/u/270512509?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/CordHerald39",
+                "html_url": "https://github.com/CordHerald39",
+                "followers_url": "https://api.github.com/users/CordHerald39/followers",
+                "following_url": "https://api.github.com/users/CordHerald39/following{/other_user}",
+                "gists_url": "https://api.github.com/users/CordHerald39/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/CordHerald39/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/CordHerald39/subscriptions",
+                "organizations_url": "https://api.github.com/users/CordHerald39/orgs",
+                "repos_url": "https://api.github.com/users/CordHerald39/repos",
+                "events_url": "https://api.github.com/users/CordHerald39/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/CordHerald39/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "description": "",
+              "environment": "github-pages",
+              "target_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40984189687/job/123831470658",
+              "created_at": "2026-10-30T01:10:55Z",
+              "updated_at": "2026-10-30T01:10:55Z",
+              "deployment_url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn/deployments/7428144164",
+              "repository_url": "https://api.github.com/repos/CordHerald39/flyclash.com.cn",
+              "environment_url": "",
+              "log_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40984189687/job/123831470658",
+              "performed_via_github_app": null
+            }
+          ]
+        }
+      ]
+    },
+    "registryCommit": "a0c767d6d9a20acc33a7d03b8dbb71aa3ed260c2"
+  },
+  "liveVerification": {
+    "status": "passed",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "bytes": 17254,
+        "sha256": "b668296f3301861635b65b87243538b8b510f65cc97c97503946e81a457f8bc2"
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "bytes": 20766,
+        "sha256": "cb1f91a53ff0a35667ea0d25f92a66fd9c67152d30b6aa80e19331e001e287f5"
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "bytes": 3000,
+        "sha256": "a506d0dde46d8a1b95fb11d87a6c6539b0bc92d3e94f685c4baa7a13bf0b0217"
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "bytes": 68,
+        "sha256": "45ce6cc7760c7f8e72e687f1caf6905293c31c4c75a17154c72fed6021888a7c"
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "bytes": 14733,
+        "sha256": "dc237c25208870d8f5319aa003399e8cf2d10504b8b277764a6a21ab4107e6fa",
+        "urlCount": 138,
+        "articleCount": 120,
+        "oldUrlsPreserved": true
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-windows-multihomed-dns-strict-route/",
+        "status": 200,
+        "bytes": 9855,
+        "sha256": "bcb4237a2bc7afb7e083062048e0026f43bd097dd73c17eb0bf0efd5b7168819",
+        "metadata": "canonical/description/Article/Breadcrumb/visible dates passed"
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-udp-dns-server-migration/",
+        "status": 200,
+        "bytes": 10028,
+        "sha256": "1d554fcfe09bd9ff4e15b567c6d83d1ddf6120853326ada0706d6d4aabf05670",
+        "metadata": "canonical/description/Article/Breadcrumb/visible dates passed"
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-mixed-users-authentication/",
+        "status": 200,
+        "bytes": 10026,
+        "sha256": "23e4b02ee4bbe5219f076b7998fcc9277d35a36f2db185692f90ccf52d731f4b",
+        "metadata": "canonical/description/Article/Breadcrumb/visible dates passed"
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-tls-version-range-handshake/",
+        "status": 200,
+        "bytes": 9903,
+        "sha256": "fce38932c7d807e3427277bb4cd16b539536a950211bdfc6e05c8af9270a7bec",
+        "metadata": "canonical/description/Article/Breadcrumb/visible dates passed"
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-route-options-udp-timeout/",
+        "status": 200,
+        "bytes": 10170,
+        "sha256": "2f254c492fe3c1f476e63a922127cd8b20f197fa46ab89784bd7baf972a3f5bb",
+        "metadata": "canonical/description/Article/Breadcrumb/visible dates passed"
+      }
+    ]
   }
 }
