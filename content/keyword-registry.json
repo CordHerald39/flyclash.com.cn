@@ -1527,9 +1527,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-31",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-31",
-      "article": "sing-box-bind-interface-outbound-check"
+      "article": "sing-box-bind-interface-outbound-check",
+      "publishedDate": "2026-10-31"
     },
     {
       "keyword": "sing-box listen 局域网连接不上",
@@ -1543,9 +1544,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-31",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-31",
-      "article": "sing-box-listen-lan-address-check"
+      "article": "sing-box-listen-lan-address-check",
+      "publishedDate": "2026-10-31"
     },
     {
       "keyword": "sing-box WebSocket path 握手失败",
@@ -1559,9 +1561,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-31",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-31",
-      "article": "sing-box-websocket-path-handshake-check"
+      "article": "sing-box-websocket-path-handshake-check",
+      "publishedDate": "2026-10-31"
     },
     {
       "keyword": "sing-box gRPC service_name 连接失败",
@@ -1575,9 +1578,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-31",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-31",
-      "article": "sing-box-grpc-service-name-check"
+      "article": "sing-box-grpc-service-name-check",
+      "publishedDate": "2026-10-31"
     },
     {
       "keyword": "sing-box Hosts DNS predefined 域名映射",
@@ -1591,13 +1595,14 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-10-31",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-10-31",
-      "article": "sing-box-hosts-dns-predefined-check"
+      "article": "sing-box-hosts-dns-predefined-check",
+      "publishedDate": "2026-10-31"
     }
   ],
-  "publishStatus": "planned",
-  "publishNote": "本轮5篇已根据官方字段与版本边界核验，待测试、构建、API发布和正式页面验证。",
-  "publishedCommit": "ed67c5b99cdff0127adbe01f6915e103d8715242",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40984189687"
+  "publishStatus": "published",
+  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishedCommit": "b9b759e5ded85059f67fb4651155e3756ae92e77",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/41154604968"
 }
