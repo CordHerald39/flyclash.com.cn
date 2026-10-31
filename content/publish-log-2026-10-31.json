@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-31",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "sing-box 出站 bind_interface 网卡绑定",
+      "intent": "多网卡或切网后出站连接失败时核对拨号接口绑定",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-bind-interface-outbound-check/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/dial/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/dial/",
+        "https://sing-box.sagernet.org/configuration/outbound/vless/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "sing-box-bind-interface-outbound-check"
+    },
+    {
+      "keyword": "sing-box listen 局域网连接不上",
+      "intent": "本机代理可用但其他局域网设备无法连接监听端口",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-listen-lan-address-check/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/listen/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/listen/",
+        "https://sing-box.sagernet.org/configuration/inbound/mixed/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "sing-box-listen-lan-address-check"
+    },
+    {
+      "keyword": "sing-box WebSocket path 握手失败",
+      "intent": "WebSocket节点TCP可连但传输握手失败时核对路径和early data",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-websocket-path-handshake-check/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/v2ray-transport/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/v2ray-transport/",
+        "https://sing-box.sagernet.org/configuration/outbound/vless/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "sing-box-websocket-path-handshake-check"
+    },
+    {
+      "keyword": "sing-box gRPC service_name 连接失败",
+      "intent": "gRPC节点连接失败时比较服务名称与传输实现差异",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-grpc-service-name-check/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/v2ray-transport/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/v2ray-transport/",
+        "https://sing-box.sagernet.org/configuration/outbound/vless/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "sing-box-grpc-service-name-check"
+    },
+    {
+      "keyword": "sing-box Hosts DNS predefined 域名映射",
+      "intent": "为指定域名配置静态DNS映射并检查服务器选择和系统hosts来源",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-hosts-dns-predefined-check/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/hosts/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/hosts/",
+        "https://sing-box.sagernet.org/configuration/dns/rule/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "sing-box-hosts-dns-predefined-check"
+    }
+  ],
+  "allocationReason": "默认5/5；按现有120篇文章覆盖缺口补齐接口绑定、局域网监听、WebSocket路径、gRPC服务名和Hosts DNS静态映射；未据此宣称搜索量。",
+  "publish": {
+    "status": "planned",
+    "next": "测试、构建前链接校验、build、API及Actions/Pages/HTTPS验证"
+  }
+}
