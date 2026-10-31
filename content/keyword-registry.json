@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -1514,10 +1514,90 @@
       "plannedDate": "2026-10-30",
       "article": "sing-box-route-options-udp-timeout",
       "publishedDate": "2026-10-30"
+    },
+    {
+      "keyword": "sing-box 出站 bind_interface 网卡绑定",
+      "intent": "多网卡或切网后出站连接失败时核对拨号接口绑定",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-bind-interface-outbound-check/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/dial/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/dial/",
+        "https://sing-box.sagernet.org/configuration/outbound/vless/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "sing-box-bind-interface-outbound-check"
+    },
+    {
+      "keyword": "sing-box listen 局域网连接不上",
+      "intent": "本机代理可用但其他局域网设备无法连接监听端口",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-listen-lan-address-check/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/listen/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/listen/",
+        "https://sing-box.sagernet.org/configuration/inbound/mixed/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "sing-box-listen-lan-address-check"
+    },
+    {
+      "keyword": "sing-box WebSocket path 握手失败",
+      "intent": "WebSocket节点TCP可连但传输握手失败时核对路径和early data",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-websocket-path-handshake-check/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/v2ray-transport/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/v2ray-transport/",
+        "https://sing-box.sagernet.org/configuration/outbound/vless/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "sing-box-websocket-path-handshake-check"
+    },
+    {
+      "keyword": "sing-box gRPC service_name 连接失败",
+      "intent": "gRPC节点连接失败时比较服务名称与传输实现差异",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-grpc-service-name-check/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/v2ray-transport/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/v2ray-transport/",
+        "https://sing-box.sagernet.org/configuration/outbound/vless/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "sing-box-grpc-service-name-check"
+    },
+    {
+      "keyword": "sing-box Hosts DNS predefined 域名映射",
+      "intent": "为指定域名配置静态DNS映射并检查服务器选择和系统hosts来源",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-hosts-dns-predefined-check/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/hosts/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/hosts/",
+        "https://sing-box.sagernet.org/configuration/dns/rule/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-10-31",
+      "status": "planned",
+      "plannedDate": "2026-10-31",
+      "article": "sing-box-hosts-dns-predefined-check"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishStatus": "planned",
+  "publishNote": "本轮5篇已根据官方字段与版本边界核验，待测试、构建、API发布和正式页面验证。",
   "publishedCommit": "ed67c5b99cdff0127adbe01f6915e103d8715242",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/40984189687"
 }
