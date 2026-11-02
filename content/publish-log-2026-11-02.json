@@ -13,9 +13,10 @@
         "https://sing-box.sagernet.org/configuration/dns/server/fakeip/"
       ],
       "sourceVerifiedDate": "2026-11-02",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-02",
-      "article": "sing-box-dns-fakeip-server-config"
+      "article": "sing-box-dns-fakeip-server-config",
+      "publishedDate": "2026-11-02"
     },
     {
       "keyword": "sing-box DNS resolve 动作配置",
@@ -28,9 +29,10 @@
         "https://sing-box.sagernet.org/configuration/dns/"
       ],
       "sourceVerifiedDate": "2026-11-02",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-02",
-      "article": "sing-box-dns-rule-resolve-action"
+      "article": "sing-box-dns-rule-resolve-action",
+      "publishedDate": "2026-11-02"
     },
     {
       "keyword": "sing-box DNS hijack-dns 动作",
@@ -43,9 +45,10 @@
         "https://sing-box.sagernet.org/configuration/inbound/tun/"
       ],
       "sourceVerifiedDate": "2026-11-02",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-02",
-      "article": "sing-box-dns-rule-hijack-dns"
+      "article": "sing-box-dns-rule-hijack-dns",
+      "publishedDate": "2026-11-02"
     },
     {
       "keyword": "sing-box route sniff 动作",
@@ -58,9 +61,10 @@
         "https://sing-box.sagernet.org/configuration/route/"
       ],
       "sourceVerifiedDate": "2026-11-02",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-02",
-      "article": "sing-box-route-rule-action-sniff"
+      "article": "sing-box-route-rule-action-sniff",
+      "publishedDate": "2026-11-02"
     },
     {
       "keyword": "sing-box direct 出站 bind_interface",
@@ -73,13 +77,98 @@
         "https://sing-box.sagernet.org/configuration/shared/dial/"
       ],
       "sourceVerifiedDate": "2026-11-02",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-02",
-      "article": "sing-box-direct-outbound-bind-interface"
+      "article": "sing-box-direct-outbound-bind-interface",
+      "publishedDate": "2026-11-02"
     }
   ],
   "allocationReason": "默认两站各5篇；按现有覆盖补齐代理入站、节点出站、DNS动作与路由动作，未据此宣称搜索量或实机测试。",
   "publish": {
-    "status": "planned"
+    "status": "published-via-github-contents-api",
+    "contentCommits": [
+      "57244cf20c9aa8684e80a14e1cf7ad8a63bed503",
+      "632d24a825867992caae34465cd0171a488a6438",
+      "267327e7de21fbea537a5e402a597298f322d5ab",
+      "e8fe6a1ebe2328930d235210cca08c72fb036b13",
+      "fe573a02784a05ec52ebf572eec5595d30ae5bc8",
+      "782489e86e2c5d387b00f52a69dad7af1c702768",
+      "446a6733b197e29c58107f5a4f8c4a4c7c63acaf"
+    ],
+    "statusCommit": "ff93195b8d00df442cf2850527d48a509428cf6b",
+    "contentActions": [
+      {
+        "id": 41373060855,
+        "html_url": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/41373060855",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "446a6733b197e29c58107f5a4f8c4a4c7c63acaf"
+      }
+    ]
+  },
+  "liveVerification": {
+    "status": "passed",
+    "pages": [
+      {
+        "url": "https://flyclash.com.cn/",
+        "status": 200,
+        "bytes": 17129,
+        "sha256": "5ad580224ac6fdbf41b54a20d5db87a1eadddf8d22836229c64499924be96ab9"
+      },
+      {
+        "url": "https://flyclash.com.cn/style.css",
+        "status": 200,
+        "bytes": 20766,
+        "sha256": "cb1f91a53ff0a35667ea0d25f92a66fd9c67152d30b6aa80e19331e001e287f5"
+      },
+      {
+        "url": "https://flyclash.com.cn/site.js",
+        "status": 200,
+        "bytes": 3000,
+        "sha256": "a506d0dde46d8a1b95fb11d87a6c6539b0bc92d3e94f685c4baa7a13bf0b0217"
+      },
+      {
+        "url": "https://flyclash.com.cn/robots.txt",
+        "status": 200,
+        "bytes": 68,
+        "sha256": "45ce6cc7760c7f8e72e687f1caf6905293c31c4c75a17154c72fed6021888a7c"
+      },
+      {
+        "url": "https://flyclash.com.cn/sitemap.xml",
+        "status": 200,
+        "bytes": 15924,
+        "sha256": "866c5dea34eabcbfd8523923abce8c3c04fef9541542f71eb440ecb36557434c"
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-dns-fakeip-server-config/",
+        "status": 200,
+        "bytes": 7789,
+        "sha256": "61c07de6ab679c7a14aa9acbe2b0ee85ff75566e84afa701944db12c570c6825"
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-dns-rule-resolve-action/",
+        "status": 200,
+        "bytes": 7816,
+        "sha256": "59f2ab1c6d41fae90ac59a7506fb2b89c2c522b593bf03b19c4efb4c51c7e5fc"
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-dns-rule-hijack-dns/",
+        "status": 200,
+        "bytes": 7782,
+        "sha256": "a9887722e60a0dbe8182c3eb4cd556053f78f8de2b71c555f02b7f3060dec2f6"
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-route-rule-action-sniff/",
+        "status": 200,
+        "bytes": 7812,
+        "sha256": "1aaf3ab63603655b4015d2b7a3dc87a835fa4aa4471339a40e9e140067fa7b0b"
+      },
+      {
+        "url": "https://flyclash.com.cn/articles/sing-box-direct-outbound-bind-interface/",
+        "status": 200,
+        "bytes": 7890,
+        "sha256": "2fa2caf37ee8f2fd164d8e7c823e48d0ffb55cb146bc81b38ecb36ebd96b01b9"
+      }
+    ]
   }
 }
