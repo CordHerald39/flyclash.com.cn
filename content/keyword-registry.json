@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-02",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -1599,10 +1599,84 @@
       "plannedDate": "2026-10-31",
       "article": "sing-box-hosts-dns-predefined-check",
       "publishedDate": "2026-10-31"
+    },
+    {
+      "keyword": "sing-box DNS fakeip 服务器配置",
+      "intent": "配置 fakeip DNS 服务器时核对地址池、排除域名和规则选择",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-fakeip-server-config/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/fakeip/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/fakeip/"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "sing-box-dns-fakeip-server-config"
+    },
+    {
+      "keyword": "sing-box DNS resolve 动作配置",
+      "intent": "DNS 规则需要主动解析域名时核对 resolve action 与服务器选择",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-rule-resolve-action/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/",
+        "https://sing-box.sagernet.org/configuration/dns/"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "sing-box-dns-rule-resolve-action"
+    },
+    {
+      "keyword": "sing-box DNS hijack-dns 动作",
+      "intent": "透明代理中 DNS 请求没有进入 sing-box 时核对 hijack-dns 动作",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-rule-hijack-dns/",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule_action/",
+        "https://sing-box.sagernet.org/configuration/inbound/tun/"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "sing-box-dns-rule-hijack-dns"
+    },
+    {
+      "keyword": "sing-box route sniff 动作",
+      "intent": "路由规则需要识别协议时核对 sniff 动作与协议条件",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-rule-action-sniff/",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule_action/",
+        "https://sing-box.sagernet.org/configuration/route/"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "sing-box-route-rule-action-sniff"
+    },
+    {
+      "keyword": "sing-box direct 出站 bind_interface",
+      "intent": "直连出站需要固定网卡时核对 bind_interface 与路由可达性",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-direct-outbound-bind-interface/",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/direct/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/direct/",
+        "https://sing-box.sagernet.org/configuration/shared/dial/"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "sing-box-direct-outbound-bind-interface"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishStatus": "planned",
+  "publishNote": "本轮5篇依据官方文档字段核对，待测试、构建、API发布和正式页面核验。",
   "publishedCommit": "b9b759e5ded85059f67fb4651155e3756ae92e77",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/41154604968"
 }
