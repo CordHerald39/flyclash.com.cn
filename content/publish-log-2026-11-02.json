@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-02",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "sing-box DNS fakeip 服务器配置",
+      "intent": "配置 fakeip DNS 服务器时核对地址池、排除域名和规则选择",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-fakeip-server-config/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/fakeip/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/fakeip/"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "sing-box-dns-fakeip-server-config"
+    },
+    {
+      "keyword": "sing-box DNS resolve 动作配置",
+      "intent": "DNS 规则需要主动解析域名时核对 resolve action 与服务器选择",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-rule-resolve-action/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/",
+        "https://sing-box.sagernet.org/configuration/dns/"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "sing-box-dns-rule-resolve-action"
+    },
+    {
+      "keyword": "sing-box DNS hijack-dns 动作",
+      "intent": "透明代理中 DNS 请求没有进入 sing-box 时核对 hijack-dns 动作",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-rule-hijack-dns/",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule_action/",
+        "https://sing-box.sagernet.org/configuration/inbound/tun/"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "sing-box-dns-rule-hijack-dns"
+    },
+    {
+      "keyword": "sing-box route sniff 动作",
+      "intent": "路由规则需要识别协议时核对 sniff 动作与协议条件",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-rule-action-sniff/",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule_action/",
+        "https://sing-box.sagernet.org/configuration/route/"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "sing-box-route-rule-action-sniff"
+    },
+    {
+      "keyword": "sing-box direct 出站 bind_interface",
+      "intent": "直连出站需要固定网卡时核对 bind_interface 与路由可达性",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-direct-outbound-bind-interface/",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/direct/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/direct/",
+        "https://sing-box.sagernet.org/configuration/shared/dial/"
+      ],
+      "sourceVerifiedDate": "2026-11-02",
+      "status": "planned",
+      "plannedDate": "2026-11-02",
+      "article": "sing-box-direct-outbound-bind-interface"
+    }
+  ],
+  "allocationReason": "默认两站各5篇；按现有覆盖补齐代理入站、节点出站、DNS动作与路由动作，未据此宣称搜索量或实机测试。",
+  "publish": {
+    "status": "planned"
+  }
+}
