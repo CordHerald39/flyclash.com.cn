@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -1678,10 +1678,80 @@
       "plannedDate": "2026-11-02",
       "article": "sing-box-direct-outbound-bind-interface",
       "publishedDate": "2026-11-02"
+    },
+    {
+      "keyword": "sing-box TLS disable_sni 配置",
+      "intent": "关闭 SNI 后核对虚拟主机与证书验证行为",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tls-disable-sni-check/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/tls/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/tls/"
+      ],
+      "sourceVerifiedDate": "2026-11-03",
+      "status": "planned",
+      "plannedDate": "2026-11-03",
+      "article": "sing-box-tls-disable-sni-check"
+    },
+    {
+      "keyword": "sing-box tcp_fast_open 配置",
+      "intent": "开启 TCP Fast Open 后用单变量回退定位连接兼容性",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dial-tcp-fast-open-check/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/dial/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/dial/"
+      ],
+      "sourceVerifiedDate": "2026-11-03",
+      "status": "planned",
+      "plannedDate": "2026-11-03",
+      "article": "sing-box-dial-tcp-fast-open-check"
+    },
+    {
+      "keyword": "sing-box tcp_multi_path 配置",
+      "intent": "确认多路径 TCP 的运行环境与出站字段兼容性",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dial-tcp-multi-path-check/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/dial/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/dial/"
+      ],
+      "sourceVerifiedDate": "2026-11-03",
+      "status": "planned",
+      "plannedDate": "2026-11-03",
+      "article": "sing-box-dial-tcp-multi-path-check"
+    },
+    {
+      "keyword": "sing-box udp_fragment 配置",
+      "intent": "UDP 大报文失败时区分分片、路由和协议转发能力",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dial-udp-fragment-check/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/dial/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/dial/"
+      ],
+      "sourceVerifiedDate": "2026-11-03",
+      "status": "planned",
+      "plannedDate": "2026-11-03",
+      "article": "sing-box-dial-udp-fragment-check"
+    },
+    {
+      "keyword": "sing-box tcp_keep_alive 配置",
+      "intent": "长连接空闲断开时核对 TCP keepalive 字段与应用心跳区别",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dial-tcp-keep-alive-check/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/dial/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/dial/"
+      ],
+      "sourceVerifiedDate": "2026-11-03",
+      "status": "planned",
+      "plannedDate": "2026-11-03",
+      "article": "sing-box-dial-tcp-keep-alive-check"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和正式 HTTPS 页面核验通过。",
+  "publishStatus": "planned",
+  "publishNote": "本轮5篇依据官方文档字段核对，待测试、构建、API发布和正式页面核验。",
   "publishedCommit": "446a6733b197e29c58107f5a4f8c4a4c7c63acaf",
   "deploymentUrl": "446a6733b197e29c58107f5a4f8c4a4c7c63acaf"
 }
