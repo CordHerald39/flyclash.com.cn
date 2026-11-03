@@ -1689,9 +1689,10 @@
         "https://sing-box.sagernet.org/configuration/shared/tls/"
       ],
       "sourceVerifiedDate": "2026-11-03",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-03",
-      "article": "sing-box-tls-disable-sni-check"
+      "article": "sing-box-tls-disable-sni-check",
+      "publishedDate": "2026-11-03"
     },
     {
       "keyword": "sing-box tcp_fast_open 配置",
@@ -1703,9 +1704,10 @@
         "https://sing-box.sagernet.org/configuration/shared/dial/"
       ],
       "sourceVerifiedDate": "2026-11-03",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-03",
-      "article": "sing-box-dial-tcp-fast-open-check"
+      "article": "sing-box-dial-tcp-fast-open-check",
+      "publishedDate": "2026-11-03"
     },
     {
       "keyword": "sing-box tcp_multi_path 配置",
@@ -1717,9 +1719,10 @@
         "https://sing-box.sagernet.org/configuration/shared/dial/"
       ],
       "sourceVerifiedDate": "2026-11-03",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-03",
-      "article": "sing-box-dial-tcp-multi-path-check"
+      "article": "sing-box-dial-tcp-multi-path-check",
+      "publishedDate": "2026-11-03"
     },
     {
       "keyword": "sing-box udp_fragment 配置",
@@ -1731,9 +1734,10 @@
         "https://sing-box.sagernet.org/configuration/shared/dial/"
       ],
       "sourceVerifiedDate": "2026-11-03",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-03",
-      "article": "sing-box-dial-udp-fragment-check"
+      "article": "sing-box-dial-udp-fragment-check",
+      "publishedDate": "2026-11-03"
     },
     {
       "keyword": "sing-box tcp_keep_alive 配置",
@@ -1745,13 +1749,14 @@
         "https://sing-box.sagernet.org/configuration/shared/dial/"
       ],
       "sourceVerifiedDate": "2026-11-03",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-03",
-      "article": "sing-box-dial-tcp-keep-alive-check"
+      "article": "sing-box-dial-tcp-keep-alive-check",
+      "publishedDate": "2026-11-03"
     }
   ],
-  "publishStatus": "planned",
-  "publishNote": "本轮5篇依据官方文档字段核对，待测试、构建、API发布和正式页面核验。",
-  "publishedCommit": "446a6733b197e29c58107f5a4f8c4a4c7c63acaf",
-  "deploymentUrl": "446a6733b197e29c58107f5a4f8c4a4c7c63acaf"
+  "publishStatus": "published",
+  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishedCommit": "7e6673f4747b69c1ae16dc2b7d8dac8ed0f7326b",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/41558410676"
 }
