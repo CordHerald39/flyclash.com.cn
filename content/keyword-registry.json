@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -1753,10 +1753,80 @@
       "plannedDate": "2026-11-03",
       "article": "sing-box-dial-tcp-keep-alive-check",
       "publishedDate": "2026-11-03"
+    },
+    {
+      "keyword": "sing-box DNS DHCP 服务器配置",
+      "intent": "局域网 DNS 需要跟随系统分配时核对 DHCP 服务器与解析规则",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-dhcp-server-config/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/dhcp/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/dhcp/"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "sing-box-dns-dhcp-server-config"
+    },
+    {
+      "keyword": "sing-box DNS QUIC 服务器配置",
+      "intent": "使用 QUIC DNS 时核对地址、TLS 主机名与出站 detour",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-quic-server-config/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/quic/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/quic/"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "sing-box-dns-quic-server-config"
+    },
+    {
+      "keyword": "sing-box selector 出站手动切换",
+      "intent": "手动代理组切换后连接仍走旧节点时核对 selected 与路由引用",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-selector-outbound-manual/",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/selector/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/selector/"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "sing-box-selector-outbound-manual"
+    },
+    {
+      "keyword": "sing-box route final 出站动作",
+      "intent": "兜底流量没有按预期出站时核对 final 与前置规则命中",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-final-outbound-action/",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "sing-box-route-final-outbound-action"
+    },
+    {
+      "keyword": "sing-box TUN strict_route",
+      "intent": "多网卡 TUN 环境中核对 strict_route、默认路由与 DNS 接管",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tun-strict-route/",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/tun/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/tun/"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "sing-box-tun-strict-route"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishStatus": "planned",
+  "publishNote": "本轮10篇依据官方文档字段核对，待测试、构建、API发布和正式页面核验。",
   "publishedCommit": "7e6673f4747b69c1ae16dc2b7d8dac8ed0f7326b",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/41558410676"
 }
