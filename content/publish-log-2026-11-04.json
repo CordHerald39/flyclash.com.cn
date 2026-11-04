@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-04",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "sing-box DNS DHCP 服务器配置",
+      "intent": "局域网 DNS 需要跟随系统分配时核对 DHCP 服务器与解析规则",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-dhcp-server-config/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/dhcp/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/dhcp/"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "sing-box-dns-dhcp-server-config"
+    },
+    {
+      "keyword": "sing-box DNS QUIC 服务器配置",
+      "intent": "使用 QUIC DNS 时核对地址、TLS 主机名与出站 detour",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-quic-server-config/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/quic/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/quic/"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "sing-box-dns-quic-server-config"
+    },
+    {
+      "keyword": "sing-box selector 出站手动切换",
+      "intent": "手动代理组切换后连接仍走旧节点时核对 selected 与路由引用",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-selector-outbound-manual/",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/selector/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/selector/"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "sing-box-selector-outbound-manual"
+    },
+    {
+      "keyword": "sing-box route final 出站动作",
+      "intent": "兜底流量没有按预期出站时核对 final 与前置规则命中",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-route-final-outbound-action/",
+      "source": "https://sing-box.sagernet.org/configuration/route/rule_action/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/route/rule_action/"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "sing-box-route-final-outbound-action"
+    },
+    {
+      "keyword": "sing-box TUN strict_route",
+      "intent": "多网卡 TUN 环境中核对 strict_route、默认路由与 DNS 接管",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tun-strict-route/",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/tun/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/tun/"
+      ],
+      "sourceVerifiedDate": "2026-11-04",
+      "status": "planned",
+      "plannedDate": "2026-11-04",
+      "article": "sing-box-tun-strict-route"
+    }
+  ],
+  "allocationReason": "默认两站各5篇；按现有覆盖补齐 mihomo/Xray 与 sing-box 的配置、路由和故障排查意图，未据此宣称搜索量或实机测试。",
+  "publish": {
+    "status": "planned"
+  }
+}
