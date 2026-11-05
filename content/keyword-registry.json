@@ -1841,9 +1841,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-05",
-      "article": "sing-box-dns-tcp-server-config"
+      "article": "sing-box-dns-tcp-server-config",
+      "publishedDate": "2026-11-05"
     },
     {
       "keyword": "sing-box DNS TLS 服务器配置",
@@ -1858,9 +1859,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-05",
-      "article": "sing-box-dns-tls-server-config"
+      "article": "sing-box-dns-tls-server-config",
+      "publishedDate": "2026-11-05"
     },
     {
       "keyword": "sing-box TLS ECH 配置",
@@ -1873,9 +1875,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-05",
-      "article": "sing-box-tls-ech-config"
+      "article": "sing-box-tls-ech-config",
+      "publishedDate": "2026-11-05"
     },
     {
       "keyword": "sing-box SOCKS udp_over_tcp 配置",
@@ -1889,9 +1892,10 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-05",
-      "article": "sing-box-socks-udp-over-tcp"
+      "article": "sing-box-socks-udp-over-tcp",
+      "publishedDate": "2026-11-05"
     },
     {
       "keyword": "sing-box TLS handshake_timeout 配置",
@@ -1905,13 +1909,14 @@
         "https://sing-box.sagernet.org/configuration/"
       ],
       "sourceVerifiedDate": "2026-11-05",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-05",
-      "article": "sing-box-tls-handshake-timeout"
+      "article": "sing-box-tls-handshake-timeout",
+      "publishedDate": "2026-11-05"
     }
   ],
-  "publishStatus": "planned",
-  "publishNote": "本轮最终5篇已按官方正文重写，待测试构建、API发布和正式验证。",
-  "publishedCommit": "4f9ccb3b9fc7dd446d43dc3b8aea325f2193e0ac",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/41754750087"
+  "publishStatus": "published",
+  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishedCommit": "3869412dace0ba224ba205e3375c0601eabe4158",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/41948815328"
 }
