@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-05",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "sing-box DNS TCP 服务器配置",
+      "intent": "UDP解析不稳定或迁移旧TCP服务器时核对TCP DNS端口、引导解析和出站路径",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-tcp-server-config/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/tcp/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/tcp/",
+        "https://sing-box.sagernet.org/configuration/shared/dial/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-11-05",
+      "status": "planned",
+      "plannedDate": "2026-11-05",
+      "article": "sing-box-dns-tcp-server-config"
+    },
+    {
+      "keyword": "sing-box DNS TLS 服务器配置",
+      "intent": "DoT解析失败时分离TCP建连、TLS证书主机名和DNS规则选择",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-dns-tls-server-config/",
+      "source": "https://sing-box.sagernet.org/configuration/dns/server/tls/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/dns/server/tls/",
+        "https://sing-box.sagernet.org/configuration/shared/tls/",
+        "https://sing-box.sagernet.org/configuration/shared/dial/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-11-05",
+      "status": "planned",
+      "plannedDate": "2026-11-05",
+      "article": "sing-box-dns-tls-server-config"
+    },
+    {
+      "keyword": "sing-box TLS ECH 配置",
+      "intent": "ECH启用后握手失败时核对客户端config、DNS HTTPS记录和服务端key的边界",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tls-ech-config/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/tls/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/tls/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-11-05",
+      "status": "planned",
+      "plannedDate": "2026-11-05",
+      "article": "sing-box-tls-ech-config"
+    },
+    {
+      "keyword": "sing-box SOCKS udp_over_tcp 配置",
+      "intent": "UDP经SOCKS不通时确认上游支持SagerNet UoT协议及双方版本一致",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-socks-udp-over-tcp/",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/socks/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/socks/",
+        "https://sing-box.sagernet.org/configuration/shared/udp-over-tcp/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-11-05",
+      "status": "planned",
+      "plannedDate": "2026-11-05",
+      "article": "sing-box-socks-udp-over-tcp"
+    },
+    {
+      "keyword": "sing-box TLS handshake_timeout 配置",
+      "intent": "TCP已建连但TLS长时间等待时区分handshake_timeout与connect_timeout",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tls-handshake-timeout/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/tls/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/tls/",
+        "https://sing-box.sagernet.org/configuration/shared/dial/",
+        "https://sing-box.sagernet.org/configuration/"
+      ],
+      "sourceVerifiedDate": "2026-11-05",
+      "status": "planned",
+      "plannedDate": "2026-11-05",
+      "article": "sing-box-tls-handshake-timeout"
+    }
+  ],
+  "allocationReason": "默认5/5；补齐TCP DNS、DoT、ECH、UoT互通与TLS握手超时意图，主题复核后替换重复初稿；没有搜索量或实机性能声明。",
+  "publish": {
+    "status": "planned"
+  }
+}
