@@ -1925,9 +1925,10 @@
         "https://sing-box.sagernet.org/configuration/shared/tls/"
       ],
       "sourceVerifiedDate": "2026-11-06",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-06",
-      "article": "sing-box-vless-outbound-config"
+      "article": "sing-box-vless-outbound-config",
+      "publishedDate": "2026-11-06"
     },
     {
       "keyword": "sing-box Trojan 出站配置",
@@ -1940,9 +1941,10 @@
         "https://sing-box.sagernet.org/configuration/shared/tls/"
       ],
       "sourceVerifiedDate": "2026-11-06",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-06",
-      "article": "sing-box-trojan-outbound-config"
+      "article": "sing-box-trojan-outbound-config",
+      "publishedDate": "2026-11-06"
     },
     {
       "keyword": "sing-box Shadowsocks 出站配置",
@@ -1954,9 +1956,10 @@
         "https://sing-box.sagernet.org/configuration/outbound/shadowsocks/"
       ],
       "sourceVerifiedDate": "2026-11-06",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-06",
-      "article": "sing-box-shadowsocks-outbound-config"
+      "article": "sing-box-shadowsocks-outbound-config",
+      "publishedDate": "2026-11-06"
     },
     {
       "keyword": "sing-box multiplex 出站配置",
@@ -1968,9 +1971,10 @@
         "https://sing-box.sagernet.org/configuration/shared/multiplex/"
       ],
       "sourceVerifiedDate": "2026-11-06",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-06",
-      "article": "sing-box-multiplex-outbound-config"
+      "article": "sing-box-multiplex-outbound-config",
+      "publishedDate": "2026-11-06"
     },
     {
       "keyword": "sing-box TLS key_log 配置",
@@ -1982,13 +1986,14 @@
         "https://sing-box.sagernet.org/configuration/shared/tls/"
       ],
       "sourceVerifiedDate": "2026-11-06",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-06",
-      "article": "sing-box-tls-key-log-config"
+      "article": "sing-box-tls-key-log-config",
+      "publishedDate": "2026-11-06"
     }
   ],
-  "publishStatus": "planned",
-  "publishNote": "本轮10篇依据官方文档字段核对，待测试、构建、API发布和正式页面核验。",
-  "publishedCommit": "3869412dace0ba224ba205e3375c0601eabe4158",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/41948815328"
+  "publishStatus": "published",
+  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishedCommit": "ff405cb3e1569c4e9829b2fdf3fb7baf7745593f",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/42145253437"
 }
