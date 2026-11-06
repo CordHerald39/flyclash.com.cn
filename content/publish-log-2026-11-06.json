@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-06",
+  "site": "flyclash.com.cn",
+  "articlesAdded": 5,
+  "articles": [
+    {
+      "keyword": "sing-box VLESS 出站配置",
+      "intent": "VLESS 出站无法连接时核对 server、uuid、flow 与 TLS 传输层",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-vless-outbound-config/",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/vless/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/vless/",
+        "https://sing-box.sagernet.org/configuration/shared/tls/"
+      ],
+      "sourceVerifiedDate": "2026-11-06",
+      "status": "planned",
+      "plannedDate": "2026-11-06",
+      "article": "sing-box-vless-outbound-config"
+    },
+    {
+      "keyword": "sing-box Trojan 出站配置",
+      "intent": "Trojan 出站握手失败时核对 password、server_name 与证书校验",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-trojan-outbound-config/",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/trojan/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/trojan/",
+        "https://sing-box.sagernet.org/configuration/shared/tls/"
+      ],
+      "sourceVerifiedDate": "2026-11-06",
+      "status": "planned",
+      "plannedDate": "2026-11-06",
+      "article": "sing-box-trojan-outbound-config"
+    },
+    {
+      "keyword": "sing-box Shadowsocks 出站配置",
+      "intent": "Shadowsocks 出站无法握手时核对 method、password、server 与 UDP 能力",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-shadowsocks-outbound-config/",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/shadowsocks/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/shadowsocks/"
+      ],
+      "sourceVerifiedDate": "2026-11-06",
+      "status": "planned",
+      "plannedDate": "2026-11-06",
+      "article": "sing-box-shadowsocks-outbound-config"
+    },
+    {
+      "keyword": "sing-box multiplex 出站配置",
+      "intent": "需要复用多条连接时核对 multiplex.enabled、协议与并发边界",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-multiplex-outbound-config/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/multiplex/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/multiplex/"
+      ],
+      "sourceVerifiedDate": "2026-11-06",
+      "status": "planned",
+      "plannedDate": "2026-11-06",
+      "article": "sing-box-multiplex-outbound-config"
+    },
+    {
+      "keyword": "sing-box TLS key_log 配置",
+      "intent": "仅在受控调试环境导出 TLS 会话密钥时核对 key_path 与敏感信息边界",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-tls-key-log-config/",
+      "source": "https://sing-box.sagernet.org/configuration/shared/tls/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/shared/tls/"
+      ],
+      "sourceVerifiedDate": "2026-11-06",
+      "status": "planned",
+      "plannedDate": "2026-11-06",
+      "article": "sing-box-tls-key-log-config"
+    }
+  ],
+  "allocationReason": "默认两站各5篇；按已有覆盖补齐 Xray 管理/策略/统计、mihomo DNS 规则，以及 sing-box 多种出站与 TLS 调试意图；未据此宣称搜索量或实机测试。",
+  "publish": {
+    "status": "planned"
+  }
+}
