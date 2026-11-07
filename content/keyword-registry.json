@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "site": "flyclash.com.cn",
   "entries": [
     {
@@ -1990,10 +1990,80 @@
       "plannedDate": "2026-11-06",
       "article": "sing-box-tls-key-log-config",
       "publishedDate": "2026-11-06"
+    },
+    {
+      "keyword": "sing-box HTTP 代理出站配置",
+      "intent": "HTTP 出站配置与认证排错",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-http-proxy-outbound-check/",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/http/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/http/"
+      ],
+      "sourceVerifiedDate": "2026-11-07",
+      "status": "planned",
+      "plannedDate": "2026-11-07",
+      "article": "sing-box-http-proxy-outbound-check"
+    },
+    {
+      "keyword": "sing-box ShadowTLS 出站配置",
+      "intent": "ShadowTLS 出站配置与 TLS 排错",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-shadowtls-outbound-config/",
+      "source": "https://sing-box.sagernet.org/configuration/outbound/shadowtls/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/outbound/shadowtls/"
+      ],
+      "sourceVerifiedDate": "2026-11-07",
+      "status": "planned",
+      "plannedDate": "2026-11-07",
+      "article": "sing-box-shadowtls-outbound-config"
+    },
+    {
+      "keyword": "sing-box Hysteria2 入站配置",
+      "intent": "Hysteria2 入站监听与认证配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-hysteria2-inbound-config/",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/hysteria2/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/hysteria2/"
+      ],
+      "sourceVerifiedDate": "2026-11-07",
+      "status": "planned",
+      "plannedDate": "2026-11-07",
+      "article": "sing-box-hysteria2-inbound-config"
+    },
+    {
+      "keyword": "sing-box redirect 入站配置",
+      "intent": "redirect 入站监听与路由配置",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/sing-box-redirect-inbound-config/",
+      "source": "https://sing-box.sagernet.org/configuration/inbound/redirect/",
+      "sources": [
+        "https://sing-box.sagernet.org/configuration/inbound/redirect/"
+      ],
+      "sourceVerifiedDate": "2026-11-07",
+      "status": "planned",
+      "plannedDate": "2026-11-07",
+      "article": "sing-box-redirect-inbound-config"
+    },
+    {
+      "keyword": "OpenClash 规则提供者更新失败",
+      "intent": "规则提供者更新故障",
+      "targetSite": "flyclash.com.cn",
+      "url": "/articles/openclash-rule-provider-update-failed/",
+      "source": "https://github.com/vernesong/OpenClash",
+      "sources": [
+        "https://github.com/vernesong/OpenClash"
+      ],
+      "sourceVerifiedDate": "2026-11-07",
+      "status": "planned",
+      "plannedDate": "2026-11-07",
+      "article": "openclash-rule-provider-update-failed"
     }
   ],
-  "publishStatus": "published",
-  "publishNote": "GitHub Contents API、最终 Actions build/deploy 和 Pages deployment 成功，正式 HTTPS 及全部新文章核验通过。",
+  "publishStatus": "planned",
+  "publishNote": "本轮 10 篇依据官方文档字段核对，待测试、构建、API 发布和正式页面核验。",
   "publishedCommit": "ff405cb3e1569c4e9829b2fdf3fb7baf7745593f",
   "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/42145253437"
 }
