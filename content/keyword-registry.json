@@ -2001,9 +2001,10 @@
         "https://sing-box.sagernet.org/configuration/outbound/http/"
       ],
       "sourceVerifiedDate": "2026-11-07",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-07",
-      "article": "sing-box-http-proxy-outbound-check"
+      "article": "sing-box-http-proxy-outbound-check",
+      "publishedDate": "2026-11-07"
     },
     {
       "keyword": "sing-box ShadowTLS 出站配置",
@@ -2015,9 +2016,10 @@
         "https://sing-box.sagernet.org/configuration/outbound/shadowtls/"
       ],
       "sourceVerifiedDate": "2026-11-07",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-07",
-      "article": "sing-box-shadowtls-outbound-config"
+      "article": "sing-box-shadowtls-outbound-config",
+      "publishedDate": "2026-11-07"
     },
     {
       "keyword": "sing-box Hysteria2 入站配置",
@@ -2029,9 +2031,10 @@
         "https://sing-box.sagernet.org/configuration/inbound/hysteria2/"
       ],
       "sourceVerifiedDate": "2026-11-07",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-07",
-      "article": "sing-box-hysteria2-inbound-config"
+      "article": "sing-box-hysteria2-inbound-config",
+      "publishedDate": "2026-11-07"
     },
     {
       "keyword": "sing-box redirect 入站配置",
@@ -2043,9 +2046,10 @@
         "https://sing-box.sagernet.org/configuration/inbound/redirect/"
       ],
       "sourceVerifiedDate": "2026-11-07",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-07",
-      "article": "sing-box-redirect-inbound-config"
+      "article": "sing-box-redirect-inbound-config",
+      "publishedDate": "2026-11-07"
     },
     {
       "keyword": "OpenClash 规则提供者更新失败",
@@ -2057,13 +2061,14 @@
         "https://github.com/vernesong/OpenClash"
       ],
       "sourceVerifiedDate": "2026-11-07",
-      "status": "planned",
+      "status": "published",
       "plannedDate": "2026-11-07",
-      "article": "openclash-rule-provider-update-failed"
+      "article": "openclash-rule-provider-update-failed",
+      "publishedDate": "2026-11-07"
     }
   ],
-  "publishStatus": "planned",
-  "publishNote": "本轮 10 篇依据官方文档字段核对，待测试、构建、API 发布和正式页面核验。",
-  "publishedCommit": "ff405cb3e1569c4e9829b2fdf3fb7baf7745593f",
-  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/42145253437"
+  "publishStatus": "published",
+  "publishNote": "Git Data API 提交、Actions/Pages 成功，正式 HTTPS 页面已核验。",
+  "publishedCommit": "010d016d5a900480c71d21f533fbd9d68f77c5cc",
+  "deploymentUrl": "https://github.com/CordHerald39/flyclash.com.cn/actions/runs/42322878150"
 }
